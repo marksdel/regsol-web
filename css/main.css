@@ -1,0 +1,120 @@
+.gdpr{
+	background-image: url("../images/pexels-photo-glasses-computers.jpeg");
+	background-color: pale-gray;
+	background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	width: 100%;
+}
+
+.aml{
+	background-image: url("../images/pexels-photo-windows-london.jpg");
+	background-color: pale-gray;
+	background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	width: 100%;
+}
+
+.box-item-tmp {
+	border-top: 1px solid black; 
+	border-bottom: 1px solid black;			
+}
+
+.box-item {
+  background-image: linear-gradient(gray, #D3D3D3),
+					linear-gradient(black, black);
+  background-repeat: no-repeat;
+
+  /* First sizing pair (4px 50%) will define the size of the border i.e border
+     will be of having 4px width and 50% height. */
+  /* 2nd pair will define the size of stretched background image. */
+  background-size: 90% 90%, 75% 94%;
+
+  /* Similar to size, first pair will define the position of the border
+     and 2nd one for the container background */
+  background-position: center center, center center;
+}
+
+
+.demo{
+	background-color: pale-gray;
+	background: #D3D3D3 !important;	
+}
+
+.use-cases{
+	background-image: url("../images/SYDNEY_BILLBOARD_04a.jpg");
+	background-color: blue;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.regsol-navbar{
+	background-color: pale-gray;
+	background: #D3D3D3 !important;	
+}
+
+
+
+
+.navbar_regsol {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar_regsol a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown_regsol {
+    float: left;
+    overflow: relative;
+	margin-bottom:-15px;
+	text-align:center;
+}
+
+.dropdown_regsol .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar_regsol a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
