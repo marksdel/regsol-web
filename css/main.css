@@ -1,3 +1,12 @@
+.consulting-landing{
+	background-image: url("../images/pexels-photo-woodpanel-colours.jpeg");
+	background-color: pale-gray;
+	background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	width: 100%;
+}
+
 .gdpr{
 	background-image: url("../images/pexels-photo-glasses-computers.jpeg");
 	background-color: pale-gray;
@@ -22,31 +31,30 @@
 }
 
 .box-item {
-  background-image: linear-gradient(gray, #D3D3D3),
+  background-image: linear-gradient(#F8F8FF, #F8F8FF),
 					linear-gradient(black, black);
   background-repeat: no-repeat;
 
   /* First sizing pair (4px 50%) will define the size of the border i.e border
      will be of having 4px width and 50% height. */
   /* 2nd pair will define the size of stretched background image. */
-  background-size: 90% 90%, 75% 94%;
+  background-size: 75% 90%, 75% 93%;
 
   /* Similar to size, first pair will define the position of the border
      and 2nd one for the container background */
   background-position: center center, center center;
+  
 }
 
 
 .demo{
 	background-color: pale-gray;
 	background: #D3D3D3 !important;	
-}
-
-.use-cases{
-	background-image: url("../images/SYDNEY_BILLBOARD_04a.jpg");
-	background-color: blue;
-	background-repeat: no-repeat;
-    background-size: cover;
+	display: flex;
+	align-self: center;	
+	text-align: center;
+	border: 1px solid gray; 
+	
 }
 
 .regsol-navbar{
