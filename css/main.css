@@ -57,6 +57,11 @@
 	
 }
 
+.authorizations{
+	background-image: linear-gradient(gray, #F8F8FF),
+					linear-gradient(black, black);
+}
+
 .regsol-navbar{
 	background-color: pale-gray;
 	background: #D3D3D3 !important;	

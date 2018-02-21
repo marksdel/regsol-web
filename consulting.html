@@ -60,7 +60,8 @@
 						<li><a href="consulting.html">Consulting</a></li>
 						<div class="dropdown-content">
 							<a href="consulting.html#AML">AML</a>
-							<a href="consulting.html#GDPR">GDPR</a>							
+							<a href="consulting.html#authorizations">Authorizations</a>		
+							<a href="consulting.html#GDPR">GDPR</a>	
 						</div>
 					</div>
 							
@@ -99,8 +100,7 @@
 			<br><br>
 		</div>		
 		<div class="container centered-column"  >
-			<div class="col-sm-12 col-xs-12 centered-column" >
-				<p><br>Our consultancy services cover a wide range of compliance needs and are designed to offer practical Solutions to your Regulatory compliance problems. The experience and expertise of our consultants has allowed us to develop tailored solutions to ensure compliance with Central Bank of Ireland Codes and Regulations, Anti-Money Laundering legislation and Data Protection legislation in particular. We also provide advice on every interaction with regulators and supervisory authorities within those areas including AML Inspections, PRISM Inspections, responding to RMP's, Data Protection Audits, completion of Individual Questionnaires, etc.        </p>
+			<div class="col-sm-12 col-xs-12 centered-column" >thry interaction with regulators and supervisory authorities within those areas including AML Inspections, PRISM Inspections, responding to RMP's, Data Protection Audits, completion of Individual Questionnaires, etc.        </p>
 			</div>			
 		</div>
 		        
@@ -121,9 +121,7 @@
 	
 	<!-- SECTION -->
 	<section id="AML" class="pale-gray">
-		<div class="col-sm-12 col-xs-12">			
-			<p><br><br>&nbsp;</p>									
-		</div>
+		<<br><br>&nbsp;
 		<div class="container centered-column aml">
 			<div class="col-sm-12 col-xs-12">				
 				<h2>Anti-Money Laundering</h2>				
@@ -134,7 +132,7 @@
 		</div>		
 		<div class="container centered-column">
 			<div class="col-sm-12 col-xs-12 centered-column" >
-				<p><br>The 4th EU AML Directive raised the bar again on Anti-Money Laundering and Countering Terrorist Financing compliance. This ever evolving area will change again with the impending 5th AML Directive. Tap into the expertise of our Consultants and benefit from our range of AML compliant services such as draft procedures, risk assessments and AML testing.   </p>
+				<p><br>With agreement on the content of a 5th EU AML Directive, Anti-Money laundering remains a constantly developing area of regulatory compliance for Designated Persons. As experts in AML compliance in Ireland we provide a large range of compliance services to ensure your AML/CFT & Financial Sanctions processes are up to date.    </p>
 			</div>			
 		</div>
 		        
@@ -156,11 +154,33 @@
 		</div>	
 	</section>
 
-	<!-- SECTION -->
-	<section id="GDPR" class="pale-gray">		
+		<!-- SECTION -->
+	<section id="authorizations" class="medium-gray lower-section authorizations">		
 		<div class="col-sm-12 col-xs-12">			
 			<br><br>&nbsp;
 		</div>
+		<div class="container centered-column">
+			<div class="col-sm-12 col-xs-12">				
+				<h2>Authorizations</h2>				
+			</div>
+			<div class="col-sm-12 col-xs-12 centered-column">
+				<p><br>As specialists in Broker authorisations, we have developed an efficient client centred process that takes you from initial introductory meeting to authorisation decision stage. 
+						Whether you wish to provide Insurance, Investment and/or Mortgage intermediary services, we can advise you on every aspect of your application and ease the burden of meeting application requirements. 
+				</p>
+				<p>
+					This includes providing template structures for necessary documents and assist in drafting tailored content while project managing the process from beginning to end. Having completed a signifcant number of successful authorisations, we have developed a full understanding of Central Bank expectations which means we can help you meet them. With our transparent fee structure you will also have certainty of costs from the outset.   
+				</p>
+			</div>		
+			<div class="col-sm-12 col-xs-12 centered-row" >
+				<img src="images/document-agreement-documents-sign-75.jpg" >
+			</div>
+		</div>				
+			
+	</section>	
+	
+	
+	<!-- SECTION -->
+	<section id="GDPR" class="pale-gray">		
 		<div class="container centered-column gdpr">
 			<div class="col-sm-12 col-xs-12">				
 				<h2>General Data Protection Regulation</h2>				
@@ -169,12 +189,47 @@
 				<p><a href="mailto:regsolireland@gmail.com">Request a Demo</a></p>	
 			</div>							
 		</div>				
-		<div class="col-sm-12 col-xs-12">
-			<p><br>Take our GDPR Questionnaire to document your Company's current compliance status (Free report on completion)</p>
-		</div>				
+		<div class="container centered-column">
+			<div class="col-sm-12 col-xs-12">
+				<p><br>With the impending effective date of the General Data Protection Rgulations, it is important to be ready. GDPR requires an ability not just to comply but for Data Controllers and Data Processors to be able to demonstrate that compliance. Our range of Data Protection services are designed to help you do that through onsite audits, roadmaps for required actions, updated procedures and ongoing advice and training. If you are not sure where to start or what assistance you require, take our short questionnaire today and receive a GDPR Readiness Report with recommended actions.  </p>
+			</div>
+		</div>
 	</section>	
 	
-	
+    <script>
+        (function($, win) {
+            $.fn.inViewport = function(cb) {
+                return this.each(function(i,el){
+                function visPx(){
+                    var H = $(this).height(),
+                        r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
+                    return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  
+                } visPx();
+                $(win).on("resize scroll", visPx);
+                });
+            };
+        }(jQuery, window));
+
+        $(".sketch-img").inViewport(function(px){
+            if(px) {
+                $(this).removeClass("app-hidden");
+                $(this).addClass("app-visible");
+            }
+        });
+        $(".lower-section").inViewport(function(px){
+            if(px) {
+                $(this).removeClass("section-hidden");
+                $(this).addClass("section-visible");
+            }
+        });
+        $(document).scroll(function() {
+            if($(window).scrollTop() > 30) {
+                $(".navbar").css('padding', '0px 15px');
+            } else {
+                $(".navbar").css('padding', '15px 15px');
+            }
+        });
+    </script>	
    
 </body>
 </html>
