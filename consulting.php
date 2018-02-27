@@ -14,14 +14,7 @@
     
     <link rel="icon" href="images/regsol_logo_black_yellow.png">
 	
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/style.css">
-	
-    <script src="https://lndr.io/js/jquery/jquery.min.js"></script>
-    <script src="https://lndr.io/js/bootstrap.min.js"></script>
-    <script src="https://lndr.io/js/html5shiv.min.js"></script>
+    <?php include 'header-common.php';?>
 
     
 </head>
@@ -155,41 +148,8 @@
 			</div>
 		</div>
 	</section>	
-	
-    <script>
-        (function($, win) {
-            $.fn.inViewport = function(cb) {
-                return this.each(function(i,el){
-                function visPx(){
-                    var H = $(this).height(),
-                        r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
-                    return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  
-                } visPx();
-                $(win).on("resize scroll", visPx);
-                });
-            };
-        }(jQuery, window));
+	<?php include 'resize-menu.php';?>
 
-        $(".sketch-img").inViewport(function(px){
-            if(px) {
-                $(this).removeClass("app-hidden");
-                $(this).addClass("app-visible");
-            }
-        });
-        $(".lower-section").inViewport(function(px){
-            if(px) {
-                $(this).removeClass("section-hidden");
-                $(this).addClass("section-visible");
-            }
-        });
-        $(document).scroll(function() {
-            if($(window).scrollTop() > 30) {
-                $(".navbar").css('padding', '0px 15px');
-            } else {
-                $(".navbar").css('padding', '15px 15px');
-            }
-        });
-    </script>	
    
 </body>
 </html>

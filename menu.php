@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#home"><span><img height="700px" src="images/regsol_logo_black_yellow.png"></span></a>
+                <a class="navbar-brand" href="index.php"><span><img height="700px" src="images/regsol_logo_black_yellow.png"></span></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -19,7 +19,7 @@
 						<li><a href="index.php">Home</a></li>
 					</div>
 					<div class="dropdown nav navbar-left">
-						<li><a href="training.html">Training</a></li>
+						<li><a href="training.php">Training</a></li>
 					</div>
 						
 					<div class="dropdown nav navbar-left">

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
     <meta name="keywords" content="regulatory">
-    <meta name="author" content="DW">
+    <meta name="author" content="RegSol">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">

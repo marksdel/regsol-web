@@ -25,6 +25,21 @@
 	width: 100%;
 }
 
+.training{
+	background-image: url("../images/pexels-photo-classroom-chairs-low.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	color: black;
+	width: 100%;
+}
+
+.training-insert{
+	background-color:#D3D3D3;
+	opacity: 0.9;
+	font-size: 17px;
+}
+
 .box-item-tmp {
 	border-top: 1px solid black; 
 	border-bottom: 1px solid black;			
@@ -61,6 +76,7 @@
 	background-image: linear-gradient(gray, #F8F8FF),
 					linear-gradient(black, black);
 }
+
 
 .regsol-navbar{
 	background-color: pale-gray;
