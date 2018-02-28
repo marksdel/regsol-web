@@ -42,33 +42,49 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 		</div>
+		<h2> Training</h2>
 		<div class="container training-insert">
-			<div class="col-sm-12 col-sm-12 text-left">		
-				<h2>Training</h2>
+			<div class="col-sm-12 text-left training-insert">						
 				Whether you require flexible online training or face to face delivery, we have the content and the format to suit your needs. We have developed a range of course to meet annual AML training requirements for Designated Persons and the regular training needs of Data Controllers and Processors. Every course on our comprehensive training timetable and course list is adaptable to in house delivery and can be tailored to meet your firm's specific needs.				
 			</div>
 		</div>
-		<div class="container">
-			<div class="col-sm-12 col-sm-12">
-				<br>
-			</div>
-		</div>
+		<br>
 		<div class="container training-insert">
-			<div class="col-sm-8 col-sm-8 text-left">	
+			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h3 class="text-left">Online Self-Paced</h3>
 				Access our large range of online courses at a time that suits you via our online portal. Our course listing sets out each of the topics covered with various length courses all borken down into manageable modules for completion in your own time. Like the content but have multiple staff or teams to train? We can adapt any of our online courses to be delivered via existing internal staff training systems - contact us today for a solution that works for you. 
 				<br><br>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/pexels-photo-laptop-training.jpeg">
+			</div>
+		</div>
+		<br>
+		<div class="container training-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">		
 				<h3 class="text-left">Live Webinar-Based</h3>
 				Our scheduled training is designed to take place at the times/dates set out in our training timetable. Focusing on those topics that require more indepth discussion we have a range of half and full day courses hosted at different locations thoruhgout the year. You have a choice of attending face to face or accessing a live stream through our webinar facilities. Either way you are free to ask questions and free from distraction with these scheduled training events. 
-				<br><br>
+				
+			</div>	
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/man-coffee-cup-pen-training-webinar.jpg">
+			</div>
+			
+		</div>
+		<br>
+		<div class="container training-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">
 				<h3 class="text-left">In-House Delivery</h3>
 				Our experienced trainers are available to you to present in house training on any of the topics we cover. These face to face sessions are ideal for group (e.g. Board) training requirements and we provide attendence/CPD certificates for all attendees. All in house sessions are preceded by a call to disucss company requirements so that apporpriate content and length of training can be agreed that meet your needs. 
-			</div>
-			<div class="col-sm-4 col-sm-4">
-				<br><br>
-				<img width="225px" src="images/pexels-photo-people-laptop.jpg">
-			</div>
+			</div>		
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/pexels-photo-people-laptop.jpg">
+			</div>			
 		</div>		
+		<br><br>
 		
 	</section>
 	

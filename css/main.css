@@ -30,14 +30,16 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
     background-size: cover;
-	color: black;
 	width: 100%;
+	color: white;
 }
 
 .training-insert{
 	background-color:#D3D3D3;
 	opacity: 0.9;
 	font-size: 17px;
+	color: black;
+	margin-top: 0px;
 }
 
 .box-item-tmp {
