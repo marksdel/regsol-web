@@ -33,11 +33,11 @@
 							
                     
 					<div class="dropdown nav navbar-left">
-						<li><a href="about_us.html">About Us</a></li>
+						<li><a href="about.php">About Us</a></li>
 						<div class="dropdown-content">
-							<a href="about_us.html#our_story">Our Story</a>
-							<a href="about_us.html#contact">Contact Us</a>		
-							<a href="about_us.html#privacy">Privacy</a>
+							<a href="about.php#our_story">Our Story</a>
+							<a href="about.php#contact">Contact Us</a>		
+							<a href="about.php#privacy">Privacy</a>
 						</div>
 					</div>							
                 </ul>

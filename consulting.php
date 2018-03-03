@@ -83,7 +83,7 @@
 		</div>		
 		<div class="container centered-column">
 			<div class="col-sm-12 col-xs-12 centered-column" >
-				<p><br>With agreement on the content of a 5th EU AML Directive, Anti-Money laundering remains a constantly developing area of regulatory compliance for Designated Persons. As experts in AML compliance in Ireland we provide a large range of compliance services to ensure your AML/CFT & Financial Sanctions processes are up to date.    </p>
+				<p><br>With agreement on the content of a 5th EU AML Directive, Anti-Money laundering remains a constantly developing area of regulatory compliance for Designated Persons. As experts in AML compliance in Ireland, we provide a large range of compliance services to ensure your AML/CFT & Financial Sanctions processes are up to date.    </p>
 			</div>			
 		</div>
 		        
@@ -106,7 +106,7 @@
 	</section>
 
 		<!-- SECTION -->
-	<section id="authorizations" class="medium-gray lower-section authorizations">		
+	<section id="authorizations" class="medium-gray lower-section grey-scale">		
 		<div class="col-sm-12 col-xs-12">			
 			<br><br>&nbsp;
 		</div>
@@ -115,7 +115,7 @@
 				<h2>Authorizations</h2>				
 			</div>
 			<div class="col-sm-12 col-xs-12 centered-column">
-				<p><br>As specialists in Broker authorisations, we have developed an efficient client centred process that takes you from initial introductory meeting to authorisation decision stage. 
+				<p><br>As specialists in Broker authorisations, we have developed an efficient client-centred process that takes you from initial introductory meeting to authorization decision stage. 
 						Whether you wish to provide Insurance, Investment and/or Mortgage intermediary services, we can advise you on every aspect of your application and ease the burden of meeting application requirements. 
 				</p>
 				<p>
@@ -148,6 +148,7 @@
 			</div>
 		</div>
 	</section>	
+	
 	<?php include 'resize-menu.php';?>
 
    

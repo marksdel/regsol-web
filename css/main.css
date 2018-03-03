@@ -25,6 +25,17 @@
 	width: 100%;
 }
 
+.contact{
+	background-image: url("../images/pexels-pattern-wood-triangles.jpg");
+	background-color: pale-gray;
+	background-repeat: no-repeat;
+    background-size: cover;
+	width: 100%;
+	font-size: 18px;
+	color: black;
+}
+
+
 .training{
 	background-image: url("../images/pexels-photo-classroom-chairs-low.jpeg");
 	background-repeat: no-repeat;
@@ -63,7 +74,6 @@
   
 }
 
-
 .demo{
 	background-color: pale-gray;
 	background: #D3D3D3 !important;	
@@ -74,7 +84,7 @@
 	
 }
 
-.authorizations{
+.grey-scale{
 	background-image: linear-gradient(gray, #F8F8FF),
 					linear-gradient(black, black);
 }
