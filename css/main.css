@@ -26,6 +26,13 @@
 }
 
 .contact{
+	background-image: linear-gradient(gray, #F8F8FF),
+					linear-gradient(black, black);
+	font-size: 18px;
+	color: black;
+}
+
+.story{
 	background-image: url("../images/pexels-pattern-wood-triangles.jpg");
 	background-color: pale-gray;
 	background-repeat: no-repeat;
@@ -35,6 +42,12 @@
 	color: black;
 }
 
+.quote{	
+	font-size: 29px;
+	border: 1px;
+	color: black;
+	
+}
 
 .training{
 	background-image: url("../images/pexels-photo-classroom-chairs-low.jpeg");
@@ -51,11 +64,6 @@
 	font-size: 17px;
 	color: black;
 	margin-top: 0px;
-}
-
-.box-item-tmp {
-	border-top: 1px solid black; 
-	border-bottom: 1px solid black;			
 }
 
 .box-item {

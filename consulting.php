@@ -61,7 +61,7 @@
 			</div>
 			
 			<div class="col-md-4 box-item">                    
-                <p>Authorizations<br>&nbsp;</p>
+                <p>Authorisations<br>&nbsp;</p>
             </div>			
 			    <div class="col-md-4 box-item">
 				<p>General Data<br>Protection Regulation<br></p>                						
@@ -78,7 +78,7 @@
 				<h2>Anti-Money Laundering</h2>				
 			</div>
 			<div class="col-sm-2 col-xs-2 centered-column demo">
-				<p><a href="mailto:regsolireland@gmail.com">Request a Demo</a></p>	
+				<p><a href="mailto:info@regsol.ie?subject=AML Info">Contact Us</a></p>	
 			</div>							
 		</div>		
 		<div class="container centered-column">
@@ -89,33 +89,33 @@
 		        
 		<div class="container">
             <div class="col-md-3 box-item">
-				<p>Audit Preparation<br></p>                						
+				<p>Drafting and Reviewing Policies and Procedures<br></p>                						
 			</div>
 			
 			<div class="col-md-3 box-item">                    
-                <p>Classification of systems</p>
+                <p>Compliance plans, on site sample reviews</p>
             </div>			
 			    <div class="col-md-3 box-item">
-				<p>What is money laundering?<br></p>                						
+				<p>AML/CFT, FS and RMP Responses<br></p>                						
 			</div>
 			
 			<div class="col-md-3 box-item">                    
-                <p>Item number 4</p>
+                <p>Completion of REQ's, etc.<br><br></p>
             </div>		
 		</div>	
 	</section>
-
+	
 		<!-- SECTION -->
-	<section id="authorizations" class="medium-gray lower-section grey-scale">		
+	<section id="authorisations" class="medium-gray lower-section grey-scale">		
 		<div class="col-sm-12 col-xs-12">			
 			<br><br>&nbsp;
 		</div>
 		<div class="container centered-column">
 			<div class="col-sm-12 col-xs-12">				
-				<h2>Authorizations</h2>				
+				<h2>Authorisations</h2>				
 			</div>
 			<div class="col-sm-12 col-xs-12 centered-column">
-				<p><br>As specialists in Broker authorisations, we have developed an efficient client-centred process that takes you from initial introductory meeting to authorization decision stage. 
+				<p><br>As specialists in Broker authorisations, we have developed an efficient client-centred process that takes you from initial introductory meeting to authorisation decision stage. 
 						Whether you wish to provide Insurance, Investment and/or Mortgage intermediary services, we can advise you on every aspect of your application and ease the burden of meeting application requirements. 
 				</p>
 				<p>
@@ -137,7 +137,7 @@
 				<h2>General Data Protection Regulation</h2>				
 			</div>
 			<div class="col-sm-2 col-xs-2 centered-column demo">
-				<p><a href="mailto:regsolireland@gmail.com">Request a Demo</a></p>	
+				<p><a href="mailto:info@regsol.ie?subject=GDPR Info">Request Info</a></p>	
 			</div>							
 		</div>				
 		<div class="container centered-column">

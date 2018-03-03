@@ -26,7 +26,7 @@
 						<li><a href="consulting.php">Consulting</a></li>
 						<div class="dropdown-content">
 							<a href="consulting.php#AML">AML</a>
-							<a href="consulting.php#authorizations">Authorizations</a>		
+							<a href="consulting.php#authorisations">Authorisations</a>		
 							<a href="consulting.php#GDPR">GDPR</a>							
 						</div>
 					</div>

@@ -14,7 +14,8 @@
 		$human = intval($_POST['human']);
 		$from = 'info@regsol.ie'; 
 		$to = 'info@regsol.ie'; 
-		$subject = 'Message from $name';
+		$subject = 'Message from ' . $name;
+		$temp = $_GET['subject'];
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
  
@@ -83,7 +84,7 @@
     <?php include 'menu.php';?>
 
 	<!-- SECTION -->
-	<section id="our_story" class="grey-scale">
+	<section id="our_story" class="story">
 		<script>
             $('#first-splash-image').on('load', function() {
                 $('#loading-screen').addClass('loading-slide-up');
@@ -97,20 +98,34 @@
 			<p>&nbsp;</p>
 		</div>
 		
-		<div class="container training-insert">
-			<div class="col-sm-12 text-left training-insert">						
+		<div class="container centered-column">
+			<div class="col-sm-10 text-left centered-column">						
 				<h2>Welcome to RegSol - Your Regulatory Advisors</h2>
-				<p>Combining over twenty years of regulatory, compliance, IT, and financial services experience, our consultants excel at finding workable solutions for your compliance needs. Our training and consultancy services are specifically designed to ease the burden of constantly expanding compliance requirements. We take the stress out of meeting compliance and regulatory obligations, allowing you to focus on building your business.</p>
+				<br>
+				<h3> <b>Mission Statement - </b> Our aim is to take the hassle out of regulations and compliance for our clients, so they can focus on servicing their clients. </h3>
+								
 			</div>
 		</div>
-		<br>
-		
 		<div class="container">
-			<div class="col-sm-12 col-sm-12 text-left ">				
-				<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;" src="//www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=403020970396367715&ineditor=0&control=3&width=auto&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=15&long=-6.260309699999993&lat=53.3498053&domain=www&point=1&align=1&reseller=false"></iframe>
-			</div>						
-		</div>		
-		<br><br>		
+			<div class="col-sm-1">
+				&nbsp;
+			</div>
+			<div class="col-sm-6 text-left">
+				<p class="text-left">Combining over twenty years of regulatory, compliance, IT, and financial services experience, our consultants excel at finding workable solutions for your compliance needs. Our training and consultancy services are specifically designed to ease the burden of constantly expanding compliance requirements. We take the stress out of meeting compliance and regulatory obligations, allowing you to focus on building your business.</p>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="quote">
+					<p class="quote"> 
+						"If you think compliance is expensive <br>- try non-compliance"</h2>
+					</p>
+				</div>
+				
+				-Former US Deputy Attorney General Paul McNulty
+			</div>
+		</div>
+		<br><br>
+		
 	</section>
 
 	<!-- SECTION -->	

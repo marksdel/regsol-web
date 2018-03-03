@@ -52,7 +52,7 @@
 		<div class="container training-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h3 class="text-left">Online Self-Paced</h3>
-				Access our large range of online courses at a time that suits you via our online portal. Our course listing sets out each of the topics covered with various length courses all borken down into manageable modules for completion in your own time. Like the content but have multiple staff or teams to train? We can adapt any of our online courses to be delivered via existing internal staff training systems - contact us today for a solution that works for you. 
+				Access our large range of online courses at a time that suits you via our online portal. Our course listing sets out each of the topics covered with various length courses all broken down into manageable modules for completion in your own time. Like the content but have multiple staff or teams to train? We can adapt any of our online courses to be delivered via existing internal staff training systems - contact us today for a solution that works for you. 
 				<br><br>
 			</div>
 			<div class="col-sm-4 col-sm-4 centered-column">
