@@ -48,7 +48,6 @@
 		}
 	} 
 		
-		
 	
 ?>	
 
@@ -102,6 +101,8 @@
 			<div class="col-sm-10 text-left centered-column">						
 				<h2>Welcome to RegSol - Your Regulatory Advisors</h2>
 				<br>
+			</div>
+			<div class="col-sm-10 text-left centered-column grey-insert">
 				<h3> <b>Mission Statement - </b> Our aim is to take the hassle out of regulations and compliance for our clients, so they can focus on servicing their clients. </h3>
 								
 			</div>
@@ -115,7 +116,7 @@
 			</div>
 			
 			<div class="col-sm-4">
-				<div class="quote">
+				<div>
 					<p class="quote"> 
 						"If you think compliance is expensive <br>- try non-compliance"</h2>
 					</p>
@@ -125,6 +126,10 @@
 			</div>
 		</div>
 		<br><br>
+		<div>
+			<br><br><br><br><br>
+			
+		</div>
 		
 	</section>
 
@@ -195,8 +200,86 @@
 				<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;" src="//www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=403020970396367715&ineditor=0&control=3&width=auto&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=15&long=-6.260309699999993&lat=53.3498053&domain=www&point=1&align=1&reseller=false"></iframe>
 			</div>
 		</div>		
-	</section>
+		<?php include 'footer.php';?>		
+	</section>	
 	
+	<!--SECTION-->
+	<section id="privacy" class="privacy">
+		<div class="container centered-column">
+			<div class="col-sm-12 text-left centered-column">	
+				<h1>Privacy Statement</h1>
+				<h2 class="text-left">1. Who We Are</h2>
+				<p class="text-left">
+					Réiteach Consultancy Limited trading as RegSol and RegSol Ireland is a company limited by shares
+					registered in Ireland with CRO Number 618712.
+					In this privacy statement “we” or “our” or “RegSol’ and RegSol.ie means Réiteach Consultancy
+					Limited.
+					You can contact us by email - info@regsol.ie or Phone – 01 539 4884 or by writing to our registered
+					office.
+				</p>
+				<h2 class="text-left">2. How and Why We Process Personal Data</h2>
+				<p class="text-left">
+					We comply with the current Irish and European law on data protection. You do not have to supply us
+					with any of your data if you choose not to.
+					We obtain, store and process information about our clients in the context of our business for the
+					purpose of providing our consultancy and training services. Information on clients is obtained via
+					email, phone, writing and sign up via our website for training courses. The legal basis for processing
+					in this context is contractual. In most cases we will retain the information which we store about you
+					or your business for 6 years after the end of our working relationship or where appropriate 6 years
+					from the completion of a project.
+				</p>				
+				<p class="text-left">
+					You can also provide us with your name and email address via our website for the sole purpose of
+					receiving our newsletter and information about our services. The legal basis for processing in this
+					context is consent and you can withdraw your consent by clicking unsubscribe on any of those
+					communications. We will retain your details unless or until you indicate to us that you no longer
+					wish to receive our newsletter or other information in this context. Clicking unsubscribe will
+					automatically delete your information from our database.
+				</p>				
+				<p class="text-left">	
+					We do not disclose your personal data to anyone outside of RegSol without your consent other than
+					in the situations below:
+					<ul>
+						<li>Where the proper handling of your work or provision of our services to you requires disclosure						<
+						<li> on a confidential basis to auditors where they may make random checks of our files;
+						<li> to our professional indemnity insurers;
+						<li> where compelled by professional regulations (including Your regulators) or by law, such as a
+						court order.
+						<li> Where we engage services providers to assist us in providing our services, we will always
+						ensure that they are complaint with Irish and European Data Protection law and subject to a
+						written agreement that includes adequate protection of your data.
+						
+					</ul>
+				</p>				
+				<p class="text-left">	
+					We do not transfer personal data of our clients or subscribers to destinations outside of the European Union.
+
+					Rèiteach Consultancy Limited trading as RegSol and RegSol Ireland (CRO 618712)
+					Directors: Derek Whelan (Irish) and Ailbhe O’Nolan (Irish) (Company Secretary: Derek Whelan)
+					Registered Office: HARVEST, 40a St. John’s Drive, Clondalkin, Dublin 22.
+					Our website does not use Cookies.
+				</p>
+				<h2 class="text-left">3. Your Rights</h2>
+				<p class="text-left">
+				
+					Applicable data protection laws may give you the right to control how we process your personal
+					data. These include the right (i) to request access to and a copy of your personal information, (ii) to
+					object to processing of your personal information, or to request rectification or erasure of your
+					personal information; (iii) to restrict processing of your personal information; and (iv) to data
+					portability. Where we are using your personal information with your consent, you also have the right
+					to withdraw your consent at any time, though this will not affect our uses of your personal
+					information prior to the withdrawal of your consent.
+				</p>
+				<p class="text-left">	
+					If you wish to exercise any of these rights please contact us via email – info@RegSol.ie or in writing
+					to our registered office and we will endeavor to respond as soon as possible.
+					You also have the right to complain to your national Data Protection Authority at any time.
+				</p>
+			</div>
+		</div>
+		<?php include 'footer.php';?>
+	</section>
+		
 
 	<?php include 'resize-menu.php';?>
 

@@ -147,6 +147,8 @@
 				<p>Our range of Data Protection services are designed to help you do that through onsite audits, roadmaps for required actions, updated procedures and ongoing advice and training. If you are not sure where to start or what assistance you require, contact us today to setup a consultation via phone or in person.  </p>
 			</div>
 		</div>
+		<br><br><br><br><br><br><br><br>
+		<?php include 'footer.php';?>
 	</section>	
 	
 	<?php include 'resize-menu.php';?>

@@ -44,9 +44,15 @@
 
 .quote{	
 	font-size: 29px;
-	border: 1px;
 	color: black;
+	line-height: 120%;
+
 	
+}
+
+.footer{
+	font-size: 12px;
+
 }
 
 .training{
@@ -55,10 +61,9 @@
 	background-attachment: fixed;
     background-size: cover;
 	width: 100%;
-	color: white;
 }
 
-.training-insert{
+.grey-insert{
 	background-color:#D3D3D3;
 	opacity: 0.9;
 	font-size: 17px;
