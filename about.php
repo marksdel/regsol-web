@@ -200,6 +200,9 @@
 				<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;" src="//www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=403020970396367715&ineditor=0&control=3&width=auto&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=15&long=-6.260309699999993&lat=53.3498053&domain=www&point=1&align=1&reseller=false"></iframe>
 			</div>
 		</div>		
+		<div class="hidden-sm">
+			<br><br><br><br>
+		</div>
 		<?php include 'footer.php';?>		
 	</section>	
 	
@@ -252,11 +255,10 @@
 					</ul>
 				</p>				
 				<p class="text-left">	
-					We do not transfer personal data of our clients or subscribers to destinations outside of the European Union.
-
-					Rèiteach Consultancy Limited trading as RegSol and RegSol Ireland (CRO 618712)
-					Directors: Derek Whelan (Irish) and Ailbhe O’Nolan (Irish) (Company Secretary: Derek Whelan)
-					Registered Office: HARVEST, 40a St. John’s Drive, Clondalkin, Dublin 22.
+					We do not transfer personal data of our clients or subscribers to destinations outside of the European Union.				
+					
+				</p>
+				<p class="text-left">
 					Our website does not use Cookies.
 				</p>
 				<h2 class="text-left">3. Your Rights</h2>
@@ -278,8 +280,7 @@
 			</div>
 		</div>
 		<?php include 'footer.php';?>
-	</section>
-		
+	</section>		
 
 	<?php include 'resize-menu.php';?>
 
