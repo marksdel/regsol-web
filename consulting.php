@@ -36,7 +36,7 @@
             });
             setTimeout(function() {
                 $('#loading-screen').addClass('loading-slide-up');
-            }, 2000)
+            }, 500)
         </script>
 
 		<div class="container centered-column consulting-landing">

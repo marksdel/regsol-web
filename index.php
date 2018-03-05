@@ -63,7 +63,7 @@
                         });
                         setTimeout(function() {
                             $('#loading-screen').addClass('loading-slide-up');
-                        }, 3000)
+                        }, 1000)
                     </script>
 					
                     <!-- Loading Script -->

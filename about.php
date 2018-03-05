@@ -90,7 +90,7 @@
             });
             setTimeout(function() {
                 $('#loading-screen').addClass('loading-slide-up');
-            }, 1000)
+            }, 500)
         </script>
 		<div class="centered-column">
 			<p>&nbsp;</p>
