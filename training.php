@@ -11,9 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
-    
-    <link rel="icon" href="images/regsol_logo_black_yellow.png">
-	
+
     <?php include 'header-common.php';?>
 
     

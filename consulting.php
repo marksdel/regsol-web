@@ -12,8 +12,6 @@
     <meta property="og:title" content="RegSol">
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
     
-    <link rel="icon" href="images/regsol_logo_black_yellow.png">
-	
     <?php include 'header-common.php';?>
 
     
@@ -45,7 +43,7 @@
 				<h2>Consulting</h2>				
 			</div>
 			<div class="col-sm-2 centered-column centered-column demo">
-				<p><a href="aboutus#contact">Contact Us</a></p>					
+				<p><a href="about.php#contact">Contact Us</a></p>					
 			</div>
 			<br><br>
 		</div>		
