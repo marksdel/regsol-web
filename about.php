@@ -101,7 +101,7 @@
 				<br>
 			</div>
 			<div class="col-sm-10 text-left centered-column grey-insert">
-				<h3> <b>Mission Statement - </b> Our aim is to take the hassle out of regulations and compliance for our clients, so they can focus on servicing their clients. </h3>
+				<h3> <b>Mission Statement - </b> Our aim is to minimize the overhead of regulatory compliance for our clients, so that they can focus on doing the things they are good at. We ensure thoroughness, so that you don't have to.</h3>
 								
 			</div>
 		</div>

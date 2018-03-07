@@ -1,4 +1,4 @@
-    <link rel="icon" href="images/RS_icon.png">
+    <link rel="icon" href="images/RS_icon.png" type="image/png">
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
     <link rel="stylesheet" href="css/bootstrap.min.css">
