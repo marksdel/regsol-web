@@ -101,7 +101,7 @@
 				<br>
 			</div>
 			<div class="col-sm-10 text-left centered-column grey-insert">
-				<h3> <b>Mission Statement - </b> Our aim is to minimize the overhead of regulatory compliance for our clients, so that they can focus on doing the things they are good at. We ensure thoroughness, so that you don't have to.</h3>
+				<h3> <b>Mission Statement - </b>We aim to minimise the overhead of regulatory compliance for our clients, in a thorough and efficient manner.</h3>
 								
 			</div>
 		</div>
