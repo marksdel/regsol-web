@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-    <title>Regulatory Solutions</title>
+    <title>RegSol - Consulting</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
@@ -12,8 +12,6 @@
     <meta property="og:title" content="RegSol">
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
 	
-    	<link rel="icon" href="images/RS_icon.png" type="image/png">
-		
     <?php include 'header-common.php';?>
 	
 
@@ -58,14 +56,14 @@
 		        
 		<div class="container">
             <div class="col-md-4 box-item">
-				<p>Anti-Money <br>Laundering   </p>           						
+				<p><a href="#AML">Anti-Money <br>Laundering</a>   </p>           						
 			</div>
 			
 			<div class="col-md-4 box-item">                    
-                <p>Authorisations<br>&nbsp;</p>
+                <p><a href="#authorisations">Authorisations</a><br>&nbsp;</p>
             </div>			
 			    <div class="col-md-4 box-item">
-				<p>General Data<br>Protection Regulation<br></p>                						
+				<p><a href="#GDPR">General Data<br>Protection Regulation</a><br></p>                						
 			</div>				
 		</div>	
 	</section>
@@ -132,9 +130,11 @@
 	
 	
 	<!-- SECTION -->
-	<section id="GDPR" class="pale-gray">		
+	<section id="GDPR" class="pale-gray">	
+		<br><br>
 		<div class="container centered-column gdpr">
-			<div class="col-sm-12 col-xs-12">				
+			<div class="col-sm-12 col-xs-12">
+				
 				<h2>General Data Protection Regulation</h2>				
 			</div>
 			<div class="col-sm-2 col-xs-2 centered-column demo">
@@ -143,9 +143,16 @@
 		</div>				
 		<div class="container centered-column">
 			<div class="col-sm-12 col-xs-12">
-				<p><br>With the impending effective date of the General Data Protection Rgulations, it is important to be ready. GDPR requires an ability not just to comply but for Data Controllers and Data Processors to be able to demonstrate that compliance. </p>
+				<h2>What is the GDPR?</h2> 
+				<p class="text-left">The GDPR is the <a href="https://www.eugdpr.org/">European Union&rsquo;s General Data Protection Regulation</a>. Its purpose is to &ldquo;harmonize data privacy laws across Europe, to protect and empower all EU residents&rsquo; data privacy, and to reshape the way organizations across the region approach data privacy for EU residents wherever they work in the world.&rdquo;</p> 
 				
-				<p>Our range of Data Protection services are designed to help you do that through onsite audits, roadmaps for required actions, updated procedures and ongoing advice and training. If you are not sure where to start or what assistance you require, contact us today to setup a consultation via phone or in person.  </p>
+				<h2>Who is covered by the GDPR?</h2> 
+				<p class="text-left">The law applies to any organization conducting business in the EU as well as to organizations outside the EU that collect, process, or store information on EU citizens as well as on non-citizens while they reside in the EU.</p> <ul> <li>Non-EU companies that employ EU citizens (regardless of location)</li> <li>Non-EU companies that collect, process, or store data on EU citizens and/or residents (even, for example, an IP address for a single individual)</li> </ul> 
+				
+				<h2>What should you do?</h2>
+				<p class="text-left">With the impending effective date of GDPR, it is important to be ready. GDPR requires an ability not just to comply but for Data Controllers and Data Processors to be able to demonstrate that compliance. </p>
+				
+				<p class="text-left">Our range of Data Protection services are designed to help you do that through onsite audits, roadmaps for required actions, updated procedures and ongoing advice and training. If you are not sure where to start or what assistance you require, <a href="about.php#contact">contact us</a> today to setup a consultation via phone or in person.  </p>
 			</div>
 		</div>
 		<div class="hidden-sm">

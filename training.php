@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-    <title>Regulatory Solutions</title>
+    <title>RegSol - Training</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
@@ -55,7 +55,7 @@
 			</div>
 			<div class="col-sm-4 col-sm-4 centered-column">
 				<br>
-				<img width="295px" src="images/pexels-photo-laptop-training.jpeg">
+				<img width="295px" src="images/man-coffee-cup-pen-training-webinar.jpg">
 			</div>
 		</div>
 		<br>
@@ -67,7 +67,7 @@
 			</div>	
 			<div class="col-sm-4 col-sm-4 centered-column">
 				<br>
-				<img width="295px" src="images/man-coffee-cup-pen-training-webinar.jpg">
+				<img width="295px" src="images/classroom-training-web.jpg">
 			</div>
 			
 		</div>

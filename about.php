@@ -56,7 +56,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-    <title>Regulatory Solutions</title>
+    <title>RegSol - About Us</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for Irish and other European firms">

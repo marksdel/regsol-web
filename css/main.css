@@ -87,6 +87,14 @@
   
 }
 
+.gdpr-answer{
+	background-color: #D3D3D3;
+	border: 1px solid black; 
+	font-size: 16px;
+	padding-left: 25px;
+}
+
+
 .demo{
 	background-color: pale-gray;
 	background: #D3D3D3 !important;	
