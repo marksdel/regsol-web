@@ -50,6 +50,10 @@
 	
 }
 
+.hide {
+ display:none;
+}
+
 .footer{
 	font-size: 12px;
 
@@ -115,8 +119,6 @@
 	background-color: pale-gray;
 	background: #D3D3D3 !important;	
 }
-
-
 
 
 .navbar_regsol {
