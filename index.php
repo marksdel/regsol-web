@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
+	<?php include 'js/gtag.js'; ?>
     <title>Regulatory Solutions</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,8 +24,6 @@
         </div>
     </div>
 	
-
-
 
     <!-- NAVBAR -->
     <?php include 'menu.php';?>
@@ -67,7 +66,8 @@
                     <div class="item">
                         <img src="images/pexels-photo-boxes-hand.jpg">
                         <div class="splash-text-holder">
-                            <h3 class="splash-text">GDPR Solutions that work for your Business </h3>
+                            <h3 class="splash-text">GDPR Solutions that work for your Business</h3>
+							 
                         </div>
                     </div>
                 </div>
@@ -89,9 +89,8 @@
                 </script>
             </div>
         </div>
+		
     </section>
-	
 
-       
 </body>
 </html>

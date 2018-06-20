@@ -24,6 +24,7 @@
 			
 	</script>
 	<head>
+		<?php include 'js/gtag.js'; ?>
 		<title>RegSol - GDPR Questionnaire</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,25 +47,26 @@
 			</div>
 			<hr>
 		</div>
-		<div class="container">
-			<div class="col-sm-3 text-right">
-				<label for="name" > Name (optional)</label>
-			</div>
-			<div class="col-sm-4">
-				<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-			</div>
-		</div>
-		<div class="container text-right">
-			<div class="col-sm-3">
-				<label for="name"> Company (optional)</label>
-			</div>
-			<div class="col-sm-4">
-				<input type="text" class="form-control" id="company" name="company"  placeholder="Company">
-			</div>
-		</div>
-		<br><br><br>
+
 		
 		<form class="form-horizontal" role="form" method="post" action="process-gdpr-questionnaire.php">
+			<div class="container">
+				<div class="col-sm-3 text-right">
+					<label for="name" > Name (optional)</label>
+				</div>
+				<div class="col-sm-4">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+				</div>
+			</div>
+			<div class="container text-right">
+				<div class="col-sm-3">
+					<label for="name"> Company (optional)</label>
+				</div>
+				<div class="col-sm-4">
+					<input type="text" class="form-control" id="company" name="company"  placeholder="Company">
+				</div>
+			</div>
+			<br><br><br>
 			<div class="container">
 				<label for="name" class="col-sm-8 control-label"> 1. Have all staff been made aware of what GDPR entails and how it may impact?</label>
 				<div class="col-sm-4 gdpr-answer">

@@ -18,6 +18,12 @@
 		if (isset($_REQUEST['staff_training'])) {
 
 			/* Sanitize input. Trust *nothing* sent by the client. Escape your input: use htmlspecialchars to avoid most obvious XSS attacks.*/
+			$name=preg_replace('/[^a-zA-Z0-9\ ]/','',$_REQUEST['name']);
+			$name=htmlspecialchars($name);
+			
+			$company=preg_replace('/[^a-zA-Z0-9\ ]/','',$_REQUEST['company']);
+			$company=htmlspecialchars($company);
+			
 			$staff_training=preg_replace('/[^a-zA-Z0-9\ ]/','',$_REQUEST['staff_training']);
 			$staff_training=htmlspecialchars($staff_training);
 			
@@ -74,12 +80,8 @@
 			$secure_measures=preg_replace('/[^a-zA-Z0-9\ ]/','',$_REQUEST['secure_measures']);
 			$secure_measures=htmlspecialchars($secure_measures);
 			
+			include 'dbdetails.php';
 			
-			// Define MySQL connection and credentials
-			$pdo_dsn='mysql:dbname=regsol;host=localhost';
-			$pdo_user='root';     
-			$pdo_password='';  
-
 			try {
 				// Establish connection to database
 				$conn = new PDO($pdo_dsn, $pdo_user, $pdo_password);
@@ -89,12 +91,12 @@
 
 				// Use prepared statements to mitigate SQL injection attacks.
 				// See https://stackoverflow.com/questions/60174/how-can-i-prevent-sql-injection-in-php for more details
-				$qry=$conn->prepare('INSERT INTO gdprresultsindex (ts) VALUES (now())');
+				$qry=$conn->prepare('INSERT INTO GDPRResultsIndex (ts) VALUES (now())');
 				
 				// Execute the prepared statement using user supplied data.
 				$qry->execute();				
 				
-				$con1=mysqli_connect("localhost","root","","regsol");
+				$con1=mysqli_connect("localhost",$pdo_user,$pdo_password,$pdo_dbname);
 				// Check connection
 				if (mysqli_connect_errno()){
 				  echo "Failed to connect to MySQL: " . mysqli_connect_error();				  
@@ -111,6 +113,8 @@
 				
 				//insert questions and answers using index
 				$qry=$conn->prepare("INSERT INTO GDPRResults (id, question, answer) values 
+				($index, 'name','$name'),
+				($index, 'company','$company'),
 				($index, 'staff_training','$staff_training'),
 				($index, 'dpo', '$dpo'),
 				($index, 'popup_dpo', '$popup_dpo'),

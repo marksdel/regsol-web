@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
+	<?php include 'js/gtag.js'; ?>
     <title>RegSol - Consulting</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -141,8 +142,9 @@
 				<p><a href="mailto:info@regsol.ie?subject=GDPR Info">Request Info</a></p>	
 			</div>							
 		</div>				
-		<div class="container centered-column">
+		<div class="container centered-column">		 
 			<div class="col-sm-12 col-xs-12">
+				<h2> Try our <a href="gdpr-questionnaire.php" target="_new">GDPR Questionnaire</a> to assess your readiness</a>
 				<h2>What is the GDPR?</h2> 
 				<p class="text-left">The GDPR is the <a href="https://www.eugdpr.org/">European Union&rsquo;s General Data Protection Regulation</a>. Its purpose is to &ldquo;harmonize data privacy laws across Europe, to protect and empower all EU residents&rsquo; data privacy, and to reshape the way organizations across the region approach data privacy for EU residents wherever they work in the world.&rdquo;</p> 
 				

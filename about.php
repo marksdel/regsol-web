@@ -56,6 +56,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
+	<?php include 'js/gtag.js'; ?>
     <title>RegSol - About Us</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -192,10 +193,10 @@
 					<div class="container">
 							<b>Telephone :</b> +353 1 539 4884<br>
 							<b>Email : </b><a href="mailto:info@regsol.ie">info@regsol.ie</a> <br>							
-							<b>Address : </b> Harvest, 40A St John's Drive, D22 ET97<br>
+							<b>Address : </b> Harvest, 40A St John's Drive, D22 ET97
 					</div>					
 				</div>
-				<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 10px;" src="//www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=403020970396367715&ineditor=0&control=3&width=auto&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=15&long=-6.260309699999993&lat=53.3498053&domain=www&point=1&align=1&reseller=false"></iframe>
+				<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 350px; margin-top: 10px; margin-bottom: 10px;" src="https://www.google.com/maps/d/u/0/embed?mid=1Wd6e5AbI4qrQ35KGIc2NRdsRxBHtX6U0" ></iframe>
 			</div>
 		</div>		
 		<div class="hidden-sm">
@@ -256,10 +257,13 @@
 					We do not transfer personal data of our clients or subscribers to destinations outside of the European Union.				
 					
 				</p>
+				<h2 class="text-left">3. Cookie Policy</h2>
 				<p class="text-left">
-					Our website does not use Cookies.
+					By using this website, you are consenting to the use of cookies from third-party partners such as Google to analyze user activity in order to help improve the website. For example, 
+					if we notice that a certain section of our website is not being accessed regularly we may try to make it more prominent. We use these analytics to help improve 
+					the functionality and user experience of the website.
 				</p>
-				<h2 class="text-left">3. Your Rights</h2>
+				<h2 class="text-left">4. Your Rights</h2>
 				<p class="text-left">
 				
 					Applicable data protection laws may give you the right to control how we process your personal
