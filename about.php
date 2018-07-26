@@ -137,7 +137,7 @@
 		<div class="container">
 			<div class="col-sm-6 col-sm-6 text-left ">	
 				<div class="centered-column">
-					<h2>Request a Consultation</h2>
+					<h2>Contact Form</h2>
 			
 				</div>
 				<br><br>
