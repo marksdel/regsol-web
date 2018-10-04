@@ -8,17 +8,22 @@
 		$errHuman='';
 		$result='';
 	if (isset($_POST["submit"])) {
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$message = $_POST['message'];
+				
+		$name=preg_replace('/[^a-zA-Z0-9\ ]/','',$_POST['name']);
+		$name=htmlspecialchars($name);
+		
+		$email=filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+				
+		$message=preg_replace('/[^a-zA-Z0-9\ ]/','',$_POST['message']);
+		$message=htmlspecialchars($message);
+		
 		$human = intval($_POST['human']);
 		$from = 'info@regsol.ie'; 
 		$to = 'info@regsol.ie'; 
 		$subject = 'Message from ' . $name;
-		$temp = $_GET['subject'];
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
- 
+
 		// Check if name has been entered
 		if (!$_POST['name']) {
 			$errName = 'Please enter your name';
@@ -116,7 +121,7 @@
 			<div class="col-sm-4">
 				<div>
 					<p class="quote"> 
-						"If you think compliance is expensive <br>- try non-compliance"</h2>
+						"If you think compliance is expensive <br>- try non-compliance"
 					</p>
 				</div>
 				

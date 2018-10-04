@@ -185,9 +185,9 @@
 				<?php if($dpo=="yes") { ?>
 					You have a DPO. To ensure compliance:
 						<ul>
-							<li>Make sure the appointed individual is adequately qualified or trained;
-							<li>ensure there are appropriate reporting mechanisms in place between the DPO and senior management;
-							<li>register the details of your DPO with the DPC (when the relevant portal becomes active).
+							<li>Make sure the appointed individual is adequately qualified or trained;</li>
+							<li>ensure there are appropriate reporting mechanisms in place between the DPO and senior management;</li>
+							<li>register the details of your DPO with the DPC (when the relevant portal becomes active).</li>
 						</ul>
 
 				<?php } elseif($dpo=="no") { ?>
@@ -195,22 +195,22 @@
 					<?php if($popup_dpo=="yesneeded") { ?>
 						You have determined your Firm needs a DPO. To ensure compliance:
 						<ul>
-							<li>You now have to appoint a DPO. Make sure the appointed individual is adequately qualified or trained;
-							<li>ensure there are appropriate reporting mechanisms in place between the DPO and senior management;
-							<li>register the details of your DPO with the DPC (when the relevant portal becomes active).
+							<li>You now have to appoint a DPO. Make sure the appointed individual is adequately qualified or trained;</li>
+							<li>ensure there are appropriate reporting mechanisms in place between the DPO and senior management;</li>
+							<li>register the details of your DPO with the DPC (when the relevant portal becomes active).</li>
 						</ul>
 
 					<?php } elseif($popup_dpo=="yesnotneeded") { ?>
 						You have determined your Firm does NOT need a DPO. To ensure ongoing compliance it is recommended that you:
 						<ul>
-							<li>designate responsibility for data protection compliance to a suitable individual or data champions within your Firm.
+							<li>designate responsibility for data protection compliance to a suitable individual or data champions within your Firm.</li>
 						</ul>
 
 					<?php } elseif($dpo=="notassessed") { ?>
 						You have yet to assess whether your Firm requires a DPO. It is recommended that: 
 						<ul>
-							<li>You document the internal analysis carried out to determine whether or not a DPO is to be appointed, unless it is obvious that your organisation is not required to designate a DPO.
-							<li>This analysis should include consideration of factors such as the number of data subjects (i.e. how many customers, staff, etc.), the depth of processing (i.e. the amount of personal data processed) and the geographical reach of your processing operations.  
+							<li>You document the internal analysis carried out to determine whether or not a DPO is to be appointed, unless it is obvious that your organisation is not required to designate a DPO.</li>
+							<li>This analysis should include consideration of factors such as the number of data subjects (i.e. how many customers, staff, etc.), the depth of processing (i.e. the amount of personal data processed) and the geographical reach of your processing operations.  </li>
 						</ul>
 					<?php } ?>
 				<?php } elseif($dpo=="unsure") { ?>
@@ -224,22 +224,22 @@
 				<?php if($audit=="recently") { ?>
 					You have had a Data Protection Audit conducted recently, which is positive. To ensure ongoing compliance, it is recommended:
 					<ul>
-							<li>That any identified gaps are being addressed. 
+							<li>That any identified gaps are being addressed. </li>
 					</ul>
 
 				<?php } elseif($audit=="notin12months") { ?>
 					You have had a Data Protection audit in the past but not recently. It is recommended that: 
 						<ul>
-							<li>You organise an updated information audit across your business or within particular business areas to identify the data that you process and how it flows into, through and out of your business;
-							<li>identify and document any gaps or risks that are identified.
+							<li>You organise an updated information audit across your business or within particular business areas to identify the data that you process and how it flows into, through and out of your business;</li>
+							<li>identify and document any gaps or risks that are identified.</li>
 						</ul>
 
 				<?php } elseif($dpo=="no") { ?>
 					You have yet to conduct a Data Protection Audit. It is recommended that:
 					<ul>
-							<li>You organise an information audit across your business or within particular business areas to identify the data that you process and how it flows into, through and out of your business;
-							<li>ensure this is conducted by someone with in-depth knowledge of your working practices; and
-							<li>identify and document any gaps or risks you find, for example in a risk register.
+							<li>You organise an information audit across your business or within particular business areas to identify the data that you process and how it flows into, through and out of your business;</li>
+							<li>ensure this is conducted by someone with in-depth knowledge of your working practices; and</li>
+							<li>identify and document any gaps or risks you find, for example in a risk register.</li>
 					</ul>
 
 				<?php } ?>
@@ -250,7 +250,7 @@
 				<?php if($register=="yes") { ?>
 					You have created a Data Asset register/Data Inventory, which is positive. To ensure ongoing compliance it is recommended that:
 					<ul>
-							<li>The document is maintained as a living document and amendments made where changes to processes occur. 
+							<li>The document is maintained as a living document and amendments made where changes to processes occur. </li>
 					</ul>
 
 				<?php } elseif($register=="no") { ?>

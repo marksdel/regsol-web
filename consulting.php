@@ -14,7 +14,7 @@
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
 	
     <?php include 'header-common.php';?>
-	
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>
 
     
 </head>
@@ -41,20 +41,18 @@
 
 		<div class="container centered-column consulting-landing">
 			<div class="col-sm-12 col-xs-12">			
-				<br><br><br><br><br>
+				<br><br>
 				<h2>Consulting</h2>				
 			</div>
 			<div class="col-sm-2 centered-column centered-column demo">
 				<p><a href="about.php#contact">Contact Us</a></p>					
 			</div>
-			<br><br>
 		</div>		
-		<div class="container centered-column consulting-body"  >
-			<div class="col-sm-12 col-xs-12 text-left" >
-			Our consultancy services cover a wide range of compliance needs and are designed to offer practical solutions to your regulatory compliance problems. We can also offer assistance on additional areas, please <a href="about.php#contact">contact us</a> with any enquiries.
-			</div>			
-		</div>
 		<div class="container consulting-body">
+			<div class="col-sm-12 col-xs-12 text-left" >
+				Our consultancy services cover a wide range of compliance needs and are designed to offer practical solutions to your regulatory compliance problems. We can also offer assistance with additional areas, please <a href="about.php#contact">contact us</a> with any enquiries.
+				<br><br><br>
+			</div>
 			<div class="col-sm-6">
 				<div align="center">
 					<b>Areas of Expertise</b><br><br>
@@ -62,20 +60,20 @@
 				<ul>				
 					<li>Central Bank of Ireland Codes and Regulations</li>
 					<li>Anti-Money Laundering Legislation </li>
-					<li>Data Protection Legislation </li>
+					<li>Data Protection Legislation and Audits</li>
 					<li>Various Authorisations (e.g. CBI)</li>
 					<li>Interaction with Regulators and Supervisory Authorities</li>
 					<li>Inspections (AML, PRISM, etc)</li>
 					<li>Responding to RMPs</li>
-					<li>Data Protection Audits</li>
 					<li> Data Protection Officer (DPO) Services</li>
-					<li>Completion of Individual Questionnaires</li>
 				</ul>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-6">
 				<div align="center">
 					<b>Industries Covered</b><br><br>
 				</div>
+			</div>
+			<div class="col-sm-3">
 				<ul>
 					<li>Insurance</li>
 					<li>Retail</li>
@@ -88,8 +86,7 @@
 					<li>Recruitment Agent</li>
 				</ul>				
 			</div>
-			<div class="col-sm-3">
-				<br><br>
+			<div class="col-sm-3">				
 				<ul>
 					<li>Telecommunication</li>
 					<li>Hospitality</li>
@@ -101,8 +98,7 @@
 					<li>Pharmaceutical</li>
 				</ul>				
 			</div>
-		</div>
-		        
+		</div>		        
 		<div class="container">
             <div class="col-md-4 box-item">
 				<p><a href="#AML">Anti-Money <br>Laundering</a>   </p>           						
@@ -192,7 +188,7 @@
 		</div>				
 		<div class="container centered-column">		 
 			<div class="col-sm-12 col-xs-12">
-				<h2> **Try our <a href="gdpr-questionnaire.php" target="_new">GDPR Questionnaire</a> to assess your readiness**</a>
+				<h2> **Try our <a href="gdpr-questionnaire.php" target="_new">GDPR Questionnaire</a> to assess your readiness**</a></h2>
 				<h2>What is the GDPR?</h2> 
 				<p class="text-left">The GDPR is the <a href="https://www.eugdpr.org/">European Union&rsquo;s General Data Protection Regulation</a>. Its purpose is to &ldquo;harmonize data privacy laws across Europe, to protect and empower all EU residents&rsquo; data privacy, and to reshape the way organizations across the region approach data privacy for EU residents wherever they work in the world.&rdquo;</p> 
 				
