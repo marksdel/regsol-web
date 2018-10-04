@@ -14,7 +14,7 @@
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
 
     <?php include 'header-common.php';?>
-
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>
     
 </head>
 <body class="training">
@@ -63,7 +63,7 @@
 		<div class="container grey-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">		
 				<h3 class="text-left">Instructor-led</h3>
-				Our scheduled training is designed to take place at the times/dates set out in our training timetable. Focusing on those topics that require more in-depth discussion, we have a range of half and full day courses hosted at different locations throughout the year. Attendees have a choice of either attending in-person at one of our training facilities, or online via a live-stream webinar . In both cases, these instructor-led sessions help attendees to focus on the content and ask questions interactively as it is being delivered. 
+				Our scheduled training is designed to take place at the times/dates set out in our <a href="public-training-schedule.php">training timetable</a>. Focusing on those topics that require more in-depth discussion, we have a range of half and full day courses hosted at different locations throughout the year. Attendees have a choice of either attending in-person at one of our training facilities, or online via a live-stream webinar . In both cases, these instructor-led sessions help attendees to focus on the content and ask questions interactively as it is being delivered. 
 				
 			</div>	
 			<div class="col-sm-4 col-sm-4 centered-column">

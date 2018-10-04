@@ -20,6 +20,10 @@
 					</div>
 					<div class="dropdown nav navbar-left">
 						<li><a href="training.php">Training</a></li>
+						<div class="dropdown-content">
+							<a href="training.php">Overview</a>
+							<a href="public-training-schedule.php">Public Courses</a>						
+						</div>
 					</div>
 						
 					<div class="dropdown nav navbar-left">

@@ -68,8 +68,7 @@
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
 	
     <?php include 'header-common.php';?>
-
-    
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>
 </head>
 <body>
     <div id="loading-screen" class="centered-column">
@@ -126,7 +125,7 @@
 		</div>
 		<br><br>
 		<div>
-			<br><br><br><br><br>
+			<br><br><br><br><br><br>
 			
 		</div>
 		
@@ -179,29 +178,44 @@
 						<div class="col-sm-9 col-sm-offset-3">
 							<?php echo $result; ?>	
 						</div>
-					</div>
+					</div>					
 				</form> 
+				
 			</div>
 			<div class="col-sm-1 col-sm-1 text-left ">	
 				<div class="centered-column">
 					&nbsp;
+					
 				</div>				
 			</div>
 			<div class="col-sm-5 col-sm-5 text-left ">	
 				<div class="text-left">
-					<h2>Contact Details</h2>
+					<h2 class="text-left">Contact Details</h2>
 					<div class="container">
-							<b>Telephone :</b> +353 1 539 4884<br>
-							<b>Email : </b><a href="mailto:info@regsol.ie">info@regsol.ie</a> <br>							
-							<b>Address : </b> Harvest, 40A St John's Drive, D22 ET97
+						<a href="https://twitter.com/regsolireland?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @regsolireland</a>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						&nbsp;
+						<script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+						<script type="IN/FollowCompany" data-id="11508145"></script>
+						<br><br>
+						<b>Telephone :</b> <a href="tel:+35315394884">+353 1 539 4884</a><br>
+						<b>Email : </b><a href="mailto:info@regsol.ie">info@regsol.ie</a> 						
+						<br><br>
+						<b>Dublin Office : </b> <br>Unit 23, <br>Trinity Technology & Enterprise Campus, <br>Pearse Street, <br>Dublin 2, <br>D02 WR66<br><br>
+						<b>Regional Office : </b> <br>Unit J1A, <br>Naas Enterprise Park, <br>Naas, <br>Co. Kildare
+
 					</div>					
 				</div>
-				<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; height: 350px; margin-top: 10px; margin-bottom: 10px;" src="https://www.google.com/maps/d/u/0/embed?mid=1Wd6e5AbI4qrQ35KGIc2NRdsRxBHtX6U0" ></iframe>
+				
 			</div>
+			
 		</div>		
+
 		<div class="hidden-sm">
-			<br><br><br><br>
+			<br><br><br>
 		</div>
+		
+		
 		<?php include 'footer.php';?>		
 	</section>	
 	

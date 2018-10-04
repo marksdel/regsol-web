@@ -67,6 +67,24 @@
 	width: 100%;
 }
 
+.public-training{
+	background-image: url("../images/chairs	.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
+	width: 100%;
+	
+
+}
+
+.white-insert{
+	background-color:white;
+	opacity: 0.9;
+	font-size: 17px;
+	color: black;
+	margin-top: 0px;
+}
+
 .grey-insert{
 	background-color:#D3D3D3;
 	opacity: 0.9;
@@ -91,9 +109,53 @@
   
 }
 
+
+.blog-item {
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+padding: 2px;
+
+  
+}
+
 .consulting-body{
 	font-size: 18px;
 }
+
+
+.public-training-body{
+	background-color:#D3D3D3;
+}
+
+.title-row {
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #303030;
+	color: white;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.table-even-row{
+	background-color: #F5F5F5;
+    margin-left: -15px;
+	margin-right: -15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.table-odd-row{
+	background-color: white;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
 .gdpr-answer{
 	background-color: #D3D3D3;
 	border: 1px solid black; 
