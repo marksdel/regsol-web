@@ -63,7 +63,7 @@
 				<div class="col-sm-2 text-left ">The Harbour Hotel, Galway</div>
 				<div class="col-sm-3 text-left ">Wednesday, 17th October 2018</div>
 				<div class="col-sm-2 text-left ">09:00 - 16:30</div>
-				<div class="col-sm-2 text-left "><a href="http://regulatory-compliance-essentials-regsol-galway.eventbrite.ie" target="_new">Book this course now</a></div>		
+				<div class="col-sm-2 text-left ">SOLD OUT</div>		
 			</div>
 			<div class="row table-odd-row">
 				<div class="col-sm-3 text-left "><a href="http://regulatory-compliance-essentials-regsol-naas.eventbrite.ie" target="_new">Regulatory Compliance Essentials (AML, GDPR, Ethics)</a></div>
@@ -72,7 +72,30 @@
 				<div class="col-sm-2 text-left ">09:00 - 16:30</div>
 				<div class="col-sm-2 text-left "><a href="http://regulatory-compliance-essentials-regsol-naas.eventbrite.ie" target="_new">Book this course now</a></div>		
 			</div>
-		
+			<div class="row table-even-row">
+				<div class="col-sm-3 text-left "><a href="https://regulatory-compliance-essentials-regsol-nov18.eventbrite.ie" target="_new">Regulatory Compliance Essentials (AML, GDPR, Ethics)</a></div>
+				<div class="col-sm-2 text-left ">The Harbour Hotel, Galway</div>
+				<div class="col-sm-3 text-left ">Wednesday, 7th November 2018</div>
+				<div class="col-sm-2 text-left ">09:00 - 16:30</div>
+				<div class="col-sm-2 text-left ">
+					<a href="https://regulatory-compliance-essentials-regsol-nov18.eventbrite.ie" target="_new">Book Full Day</a><br>
+					<a href="https://anti-money-laundering-regsol-galway-nov18.eventbrite.ie" target="_new">Book AML Session</a><br>				
+					<a href="https://ethics-regsol-galway-nov18.eventbrite.ie" target="_new">Book Ethics Session</a><br>
+					<a href="https://gdpr-regsol-galway-nov18.eventbrite.ie" target="_new">Book GDPR Session</a><br>
+				</div>		
+			</div>
+			<div class="row table-odd-row">
+				<div class="col-sm-3 text-left "><a href="https://compliance-essentials-regsol-donegal-nov18.eventbrite.ie" target="_new">Regulatory Compliance Essentials (AML, GDPR, Ethics)</a></div>
+				<div class="col-sm-2 text-left ">Harvey's Point, Donegal</div>
+				<div class="col-sm-3 text-left ">Wednesday 21st November 2018</div>
+				<div class="col-sm-2 text-left ">09:00 - 16:30</div>
+				<div class="col-sm-2 text-left ">
+					<a href="https://compliance-essentials-regsol-donegal-nov18.eventbrite.ie" target="_new">Book Full Day</a><br>
+					<a href="https://anti-money-laundering-regsol-donegal-nov18.eventbrite.ie" target="_new">Book AML session</a><br>
+					<a href="https://ethics-regsol-donegal-nov18.eventbrite.ie" target="_new">Book Ethics session</a><br>
+					<a href="https://gdpr-regsol-donegal-nov18.eventbrite.ie" target="_new">Book GDPR session</a><br>				
+				</div>				
+			</div>		
 		</div>
 		
 		<br><br><br><br><br><br><br><br>
