@@ -57,21 +57,7 @@
 				<div class="col-sm-3 text-left ">Date</div>
 				<div class="col-sm-2 text-left ">Time</div>
 				<div class="col-sm-2 text-left ">Booking Details</div>
-			</div>
-			<div class="row table-even-row">
-				<div class="col-sm-3 text-left "><a href="http://regulatory-compliance-essentials-regsol-galway.eventbrite.ie" target="_new">Regulatory Compliance Essentials (AML, GDPR, Ethics)</a></div>
-				<div class="col-sm-2 text-left ">The Harbour Hotel, Galway</div>
-				<div class="col-sm-3 text-left ">Wednesday, 17th October 2018</div>
-				<div class="col-sm-2 text-left ">09:00 - 16:30</div>
-				<div class="col-sm-2 text-left ">SOLD OUT</div>		
-			</div>
-			<div class="row table-odd-row">
-				<div class="col-sm-3 text-left "><a href="http://regulatory-compliance-essentials-regsol-naas.eventbrite.ie" target="_new">Regulatory Compliance Essentials (AML, GDPR, Ethics)</a></div>
-				<div class="col-sm-2 text-left ">The Osprey Hotel, Naas</div>
-				<div class="col-sm-3 text-left ">Thursday, 25th October 2018</div>
-				<div class="col-sm-2 text-left ">09:00 - 16:30</div>
-				<div class="col-sm-2 text-left "><a href="http://regulatory-compliance-essentials-regsol-naas.eventbrite.ie" target="_new">Book this course now</a></div>		
-			</div>
+			</div>		
 			<div class="row table-even-row">
 				<div class="col-sm-3 text-left "><a href="https://regulatory-compliance-essentials-regsol-nov18.eventbrite.ie" target="_new">Regulatory Compliance Essentials (AML, GDPR, Ethics)</a></div>
 				<div class="col-sm-2 text-left ">The Harbour Hotel, Galway</div>
@@ -95,7 +81,14 @@
 					<a href="https://ethics-regsol-donegal-nov18.eventbrite.ie" target="_new">Book Ethics session</a><br>
 					<a href="https://gdpr-regsol-donegal-nov18.eventbrite.ie" target="_new">Book GDPR session</a><br>				
 				</div>				
-			</div>		
+			</div>
+			<div class="row table-even-row">
+				<div class="col-sm-3 text-left "><a href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie/?aff=RegsolWeb" target="_new">Seminar - Anti-Money Laundering and Counter Terrorist Financing : Recent Observations</a></div>
+				<div class="col-sm-2 text-left ">The Harbour Hotel, Galway</div>
+				<div class="col-sm-3 text-left ">Thursday, 6th December 2018</div>
+				<div class="col-sm-2 text-left ">09:30 - 12:00</div>
+				<div class="col-sm-2 text-left "><a href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie/?aff=RegsolWeb" target="_new">Book this seminar now</a></div>		
+			</div>			
 		</div>
 		
 		<br><br><br><br><br><br><br><br>

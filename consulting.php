@@ -151,9 +151,8 @@
 	
 		<!-- SECTION -->
 	<section id="authorisations" class="medium-gray lower-section grey-scale">		
-		<div class="col-sm-12 col-xs-12">			
 			<br><br>&nbsp;
-		</div>
+		
 		<div class="container centered-column">
 			<div class="col-sm-12 col-xs-12">				
 				<h2>Authorisations</h2>				
@@ -166,7 +165,7 @@
 					This includes providing template structures for necessary documents and assist in drafting tailored content while project managing the process from beginning to end. Having completed a signifcant number of successful authorisations, we have developed a full understanding of Central Bank expectations which means we can help you meet them. With our transparent fee structure you will also have certainty of costs from the outset.   
 				</p>
 			</div>		
-			<div class="col-sm-12 col-xs-12 centered-row" >
+			<div class="col-sm-12 hidden-xs centered-row" >
 				<img src="images/document-agreement-documents-sign-75.jpg" >
 			</div>
 		</div>				

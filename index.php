@@ -31,20 +31,28 @@
     <!--SECTION-->
     <section id="home" class="medium-gray">
         <div class="container centered-column home-text">			
-            <div class="centered-column col-xs-12 splash-header">			
-                <h1 class="centered-row">					
-                    <span>“  R e g S o l  ”</span>
-                </h1>
+            <div class="centered-column hidden-xs col-sm-12 splash-header">			
+                <h1 class="centered-column">					
+                    <span>“  Tailored Regulatory Solutions  ”</span>
+                </h1>			
+				
             </div>
+			<div class="centered-column col-sm-3 home-training"><a href="training.php">TRAINING</a></div>
+			
+			<div class="centered-column col-sm-3 home-consulting"><a href="consulting.php">CONSULTING</a></div>
+			
         </div>
+		
         <div class="centered-column">
             <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img id="first-splash-image" src="images/people-woman-coffee-meeting.jpg">
-                        <div class="splash-text-holder">
-                            <h3 class="splash-text">Specialists in Broker Authorisation applications</h3>
+						<img id="first-splash-image" src="images/people-woman-coffee-meeting.jpg">
+						<div class="splash-text-holder">						
+                            <a href="consulting.php#authorisations" class="white-link-text"><h3 class="splash-text">Specialists in Broker Authorisation applications</h3></a>
                         </div>
+                        
+                        
                     </div>
                     <!-- Loading Script -->
                     <script>
@@ -60,13 +68,13 @@
                     <div class="item">
                         <img src="images/pexels-photo-401684.jpeg">
                         <div class="splash-text-holder">
-                            <h3 class="splash-text">AML Expertise at your fingertips</h3>
+                            <a href="consulting.php#AML" class="white-link-text"><h3 class="splash-text">AML Expertise at your fingertips</h3></a>
                         </div>
                     </div>
                     <div class="item">
                         <img src="images/pexels-photo-boxes-hand.jpg">
                         <div class="splash-text-holder">
-                            <h3 class="splash-text">GDPR Solutions that work for your Business</h3>
+                            <a href="consulting.php#GDPR" class="white-link-text"><h3 class="splash-text">GDPR Solutions that work for your Business</h3></a>
 							 
                         </div>
                     </div>

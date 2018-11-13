@@ -7,6 +7,30 @@
 	width: 100%;
 }
 
+.blog-landing{
+	background-image: url("../images/boat_sea.png");
+	background-color: pale-gray;
+	background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	width: 100%;
+}
+
+.blog-item {
+	border-top: 1px solid gray;
+	/*border-bottom: 1px solid gray;*/
+	padding: 2px;
+}
+
+.menu-contact {
+	float:left;	
+	padding-top:12px;
+}
+
+.blog-title{
+	font-size: 18px;
+}
+
 .gdpr{
 	background-image: url("../images/pexels-photo-glasses-computers.jpeg");
 	background-color: pale-gray;
@@ -34,7 +58,8 @@
 
 .story{
 	background-image: url("../images/pexels-pattern-wood-triangles.jpg");
-	background-color: pale-gray;
+
+	background-color: black;
 	background-repeat: no-repeat;
     background-size: cover;
 	width: 100%;
@@ -93,6 +118,57 @@
 	margin-top: 0px;
 }
 
+.home-training{
+	background-image: linear-gradient(gray, #F8F8FF),
+					linear-gradient(black, black);
+	opacity: 0.9;
+	font-size: 30px;
+	color: #282828;
+	padding: 0px;
+	text-align:center;
+	line-height:100px;
+	position:absolute;
+	top:360px;
+	min-width: 300px;
+}
+
+.home-training a { color:black; text-decoration:none }
+.home-training a:hover { 
+	color:white; 
+	text-decoration:none;
+	background-image: linear-gradient(#F8F8FF, gray),
+					linear-gradient(black, black);
+	
+	}
+
+.home-consulting{
+	background-image: linear-gradient(#F8F8FF, 	#480000 ),
+					linear-gradient(black, black);
+	opacity: 0.9;
+	font-size: 30px;
+	color: #282828;
+	padding: 0px;
+	text-align:center;
+	line-height:100px;
+	position:absolute;
+	top:500px;
+	min-width:300px;
+}
+
+.home-consulting a { color:black; text-decoration:none }
+.home-consulting a:hover { 
+	text-decoration:none;
+	background-image: linear-gradient(#480000 , #F8F8FF),
+					linear-gradient(black, black);
+	}
+
+.white-link-text {
+	color:white!important;
+}
+.white-link-text a {
+	color:white!important;
+}
+
 .box-item {
   background-image: linear-gradient(#F8F8FF, #F8F8FF),
 					linear-gradient(black, black);
@@ -110,13 +186,7 @@
 }
 
 
-.blog-item {
-border-top: 1px solid gray;
-border-bottom: 1px solid gray;
-padding: 2px;
 
-  
-}
 
 .consulting-body{
 	font-size: 18px;
