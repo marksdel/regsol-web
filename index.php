@@ -30,16 +30,26 @@
 
     <!--SECTION-->
     <section id="home" class="medium-gray">
-        <div class="container centered-column home-text">			
-            <div class="centered-column hidden-xs col-sm-12 splash-header">			
-                <h1 class="centered-column">					
-                    <span>“  Tailored Regulatory Solutions  ”</span>
-                </h1>			
+        <div class="container centered-column home-text">	
+		
+            <!--Desktop-->			
+            <div class="centered-column hidden-xs col-sm-12 splash-header">    		
+					<div class="centered-column">
+						<a href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie"><img src="images/aml-seminar-galway-small.png"><br>
+						<a class="centered white-link-text" href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie">Click here for <br>info and tickets</a>
+						
+					</div>         			
 				
             </div>
-			<div class="centered-column col-sm-3 home-training"><a href="training.php">TRAINING</a></div>
+			<!--Mobile-->
+			<div class="centered-column visible-xs col-sm-12 splash-header">    
+				<a href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie"><img width="100%" src="images/aml-seminar-galway-small.png"><br>
+				<a class="white-link-text mobile-text" href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie">Click here for info and tickets</a>
+			</div>
 			
-			<div class="centered-column col-sm-3 home-consulting"><a href="consulting.php">CONSULTING</a></div>
+			<!--div class="centered-column col-sm-3 home-training"><a href="training.php">TRAINING</a></div>
+			
+			<div class="centered-column col-sm-3 home-consulting"><a href="consulting.php">CONSULTING</a></div-->
 			
         </div>
 		
