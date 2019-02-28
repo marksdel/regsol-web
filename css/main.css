@@ -92,6 +92,15 @@
 	width: 100%;
 }
 
+.careers{
+	background-image: url("../images/careers_background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	width: 100%;
+	color: white;
+}
+
 .public-training{
 	background-image: url("../images/chairs	.png");
 	background-repeat: no-repeat;
@@ -219,6 +228,15 @@
 	background-color:#D3D3D3;
 }
 
+.date {
+	display:none;
+}
+
+.highlight {
+	color:red;
+	font-weight:bold;
+}
+
 .title-row {
 	font-weight: bold;
 	font-size: 18px;
@@ -271,6 +289,12 @@
 	background-image: linear-gradient(gray, #F8F8FF),
 					linear-gradient(black, black);
 }
+
+.blue-scale{
+	background-image: linear-gradient(#E6E6FA, #F8F8FF),
+					linear-gradient(black, black);
+}
+
 
 
 .regsol-navbar{

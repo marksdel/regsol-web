@@ -150,24 +150,31 @@
 	</section>
 	
 		<!-- SECTION -->
-	<section id="authorisations" class="medium-gray lower-section grey-scale">		
+	<section id="authorisations" class="lower-section blue-scale">		
 			<br><br>&nbsp;
 		
 		<div class="container centered-column">
 			<div class="col-sm-12 col-xs-12">				
-				<h2>Authorisations</h2>				
+				<h2>Broker Authorisations</h2>				
+			</div>
+<div class="col-sm-2 col-xs-2 centered-column demo">
+				<p><a href="about.php#contact">Contact Us</a></p>	
 			</div>
 			<div class="col-sm-12 col-xs-12 centered-column">
-				<p><br>As specialists in Broker authorisations, we have developed an efficient client-centred process that takes you from initial introductory meeting to authorisation decision stage. 
+				<video controls autoplay="autoplay">
+					<source src="video/RegSol_Broker_Authorisation_Oct_2018.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+			<div class="col-sm-12 col-xs-12 centered-column">
+				<p><br>If you wish to trade as a retail intermediary in Ireland (insurance, mortgage, etc) you will need to be authorised by the Central Bank of Ireland. As specialists in Broker authorisations, we have developed an efficient client-centred process that takes you from initial introductory meeting to authorisation decision stage. 
 						Whether you wish to provide Insurance, Investment and/or Mortgage intermediary services, we can advise you on every aspect of your application and ease the burden of meeting application requirements. 
 				</p>
 				<p>
 					This includes providing template structures for necessary documents and assist in drafting tailored content while project managing the process from beginning to end. Having completed a signifcant number of successful authorisations, we have developed a full understanding of Central Bank expectations which means we can help you meet them. With our transparent fee structure you will also have certainty of costs from the outset.   
 				</p>
 			</div>		
-			<div class="col-sm-12 hidden-xs centered-row" >
-				<img src="images/document-agreement-documents-sign-75.jpg" >
-			</div>
+			
 		</div>				
 			
 	</section>	
