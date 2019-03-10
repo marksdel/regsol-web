@@ -6,12 +6,11 @@
     <title>RegSol - Consulting</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Regulatory and compliance solutions for European firms">
-    <meta name="keywords" content="regulatory">
+    <meta name="description" content="RegSol Compliance Consulting Solutions">
+    <meta name="keywords" content="regulatory brexit compliance authorisation gdpr aml Ireland">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="RegSol">
-	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
+
 	
     <?php include 'header-common.php';?>
 	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>

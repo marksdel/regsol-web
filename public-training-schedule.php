@@ -72,68 +72,13 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<th>Regulatory Compliance Essentials - GDPR, Ethics, AML (Full Day)</th>
-						<th>Dublin, Red Cow Hotel</th>
-						<th><span class="date">20190131</span>31st Jan 2019</th>
-						<th>09:00-16:30</th>
-						<th><a href="https://www.eventbrite.ie/e/regulatory-compliance-essentials-gdpr-aml-ethics-dublin-tickets-54656412802?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>&emsp; Anti-Money Laundering Update (2hr)</th>
-						<th>Dublin, Red Cow Hotel</th>
-						<th><span class="date">20190131</span>31st Jan 2019</th>
-						<th>09:30-11:30</th>
-						<th><a href="https://www.eventbrite.com/e/anti-money-laundering-updates-training-course-dublin-tickets-54692190815?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>&emsp; Ethics Fundamentals (1hr)</th>
-						<th>Dublin, Red Cow Hotel</th>
-						<th><span class="date">20190131</span>31st Jan 2019</th>
-						<th>12:00-13:00</th>
-						<th><a href="https://www.eventbrite.com/e/ethics-fundamentals-in-financial-services-dublin-tickets-54692464634?aff=Website" >Book this course</a></th>
-					</tr>	
-					<tr>
-						<th>&emsp; GDPR Essentials (2hr)</th>
-						<th>Dublin, Red Cow Hotel</th>
-						<th><span class="date">20190131</span>31st Jan 2019</th>
-						<th>14:15-16:15</th>
-						<th><a href="https://www.eventbrite.com/e/gdpr-essentials-dublin-tickets-54656806981?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>Regulatory Compliance Essentials - GDPR, Ethics, AML (Full Day)</th>
-						<th>Donegal, Harvey's Point</th>
-						<th><span class="date">20190207</span>7th Feb 2019</th>
-						<th>09:00-16:30</th>
-						<th><a href="https://www.eventbrite.com/e/regulatory-compliance-essentials-aml-gdpr-ethics-donegal-tickets-54652648543?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>&emsp; Anti-Money Laundering Update (2hr)</th>
-						<th>Donegal, Harvey's Point</th>
-						<th><span class="date">20190207</span>7th Feb 2019</th>
-						<th>09:30-11:30</th>
-						<th><a href="https://www.eventbrite.com/e/anti-money-laundering-updates-training-course-donegal-tickets-54692739456?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>&emsp; Ethics Fundamentals (1hr)</th>
-						<th>Donegal, Harvey's Point</th>
-						<th><span class="date">20190207</span>7th Feb 2019</th>
-						<th>12:00-13:00</th>
-						<th><a href="https://www.eventbrite.com/e/ethics-fundamentals-in-financial-services-donegal-tickets-54692799636?aff=Website" >Book this course</a></th>
-					</tr>	
-					<tr>
-						<th>&emsp; GDPR Essentials (2hr)</th>
-						<th>Donegal, Harvey's Point</th>
-						<th><span class="date">20190207</span>7th Feb 2019</th>
-						<th>14:15-16:15</th>
-						<th><a href="https://www.eventbrite.com/e/gdpr-essentials-donegal-tickets-54692911972?aff=Website" >Book this course</a></th>
-					</tr>
+					
 					<tr>
 						<th>IDR - Insurance Distribution Regulations (2hr) <span class="highlight"> - NEW</span></th>
 						<th>Galway, Harbour Hotel</th>
 						<th><span class="date">20190221</span>21st Feb 2019</th>
-						<th>10:00-12:00</th>
-						<th><a href="mailto:info@regsol.ie?subject=IDR 2hr Session-Donegal&body=<Please add detail about any courses you may be interested in plus suggestions on location if you have any>" >Register your interest</a></th>
+						<th>09:00-13:00</th>
+						<th><a href="https://www.eventbrite.com/e/insurance-distribution-regulations-idr-galway-tickets-55856203408?aff=Website" >Book this course</a></th>
 					</tr>
 					<tr>
 						<th>GDPR Essentials (2hr)</th>
@@ -147,7 +92,7 @@
 						<th>Galway, Harbour Hotel</th>
 						<th><span class="date">20190314</span>14th Mar 2019</th>
 						<th>09:00-13:00</th>
-						<th><a href="mailto:info@regsol.ie?subject=Risk-Based - Galway&body=<Please add detail about any courses you may be interested in plus suggestions on location if you have any>" >Register your interest</a></th>
+						<th><a href="https://www.eventbrite.com/e/risk-based-compliance-workshop-galway-tickets-55856598590?aff=Website" >Book this course</a></th>
 					</tr>
 					<tr>
 						<th>Anti-Money Laundering Update (2hr)</th>
@@ -157,14 +102,42 @@
 						<th><a href="https://www.eventbrite.com/e/anti-money-laundering-updates-training-course-galway-tickets-54653449940?aff=Website" >Book this course</a></th>
 					</tr>
 					<tr>
+						<th>Regulatory Compliance Essentials (AML, GDPR, Ethics) (Full day)</th>
+						<th>Dublin, Grand Canal Hotel</th>
+						<th><span class="date">20190404</span>4th Apr 2019</th>
+						<th>09:00-16:15</th>
+						<th><a href="https://regulatory-compliance-essentials-regsol-dublin.eventbrite.com/?aff=Website" >Book this course</a></th>
+					</tr>
+					<tr>
+						<th>&emsp;&emsp;Anti-Money Laundering Update</th>
+						<th>Dublin, Grand Canal Hotel</th>
+						<th><span class="date">20190404</span>4th Apr 2019</th>
+						<th>09:15-11:30</th>
+						<th><a href="https://aml-regsol-dublin.eventbrite.com/?aff=website" >Book this course</a></th>
+					</tr>
+					<tr>
+						<th>&emsp;&emsp;Ethics Fundamentals (1hr)</th>
+						<th>Dublin, Grand Canal Hotel</th>
+						<th><span class="date">20190404</span>4th Apr 2019</th>
+						<th>11:50-13:00</th>
+						<th><a href="https://ethics-regsol-dublin.eventbrite.com/?aff=website" >Book this course</a></th>
+					</tr>
+					<tr>
+						<th>&emsp;&emsp;	GDPR Essentials (2hr)</th>
+						<th>Dublin, Grand Canal Hotel</th>
+						<th><span class="date">20190404</span>4th Apr 2019</th>
+						<th>14:00-16:15</th>
+						<th><a href="https://gdpr-essentials-dublin-regsol.eventbrite.com/?aff=website" >Book this course</a></th>
+					</tr>					
+					<tr>
 						<th>Fitness and Probity & MCC (Half Day) <span class="highlight"> - NEW</span></th>
 						<th>Galway, Harbour Hotel</th>
 						<th><span class="date">20190411</span>11th Apr 2019</th>
 						<th>09:00-13:00</th>
-						<th><a href="mailto:info@regsol.ie?subject=Fitness & Probity - Galway&body=<Please add detail about any courses you may be interested in plus suggestions on location if you have any>" >Register your interest</a></th>
+						<th><a href="https://www.eventbrite.com/e/fitness-and-probity-inc-mcc-galway-tickets-55856950643?aff=Website" >Book this course</a></th>
 					</tr>
 					<tr>
-						<th>Ethics Fundamentals (1hr))</th>
+						<th>Ethics Fundamentals (1hr)</th>
 						<th>Galway, Harbour Hotel</th>
 						<th><span class="date">20190411</span>11th Apr 2019</th>
 						<th>14:15-16:15</th>

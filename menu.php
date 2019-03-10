@@ -13,7 +13,7 @@
 				
             </div>
 			<div class="menu-contact" >
-						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Tel : <a href="tel:+35315394664">+353 1 539 4664</a>
+						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Tel : <a href="tel:+35315394664">+353 1 539 4884</a>
 						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Email : <a href="mailto:info@regsol.ie">info@regsol.ie</a>
 			</div>
 				
@@ -47,7 +47,8 @@
 						<li><a href="about.php">About Us</a></li>
 						<div class="dropdown-content">
 							<a href="about.php#our_story">Our Story</a>
-							<a href="about.php#contact">Contact Us</a>		
+							<a href="about.php#contact">Contact Us</a>	
+							<a href="careers.php">Careers</a>	
 							<a href="about.php#privacy">Privacy</a>
 						</div>
 					</div>							

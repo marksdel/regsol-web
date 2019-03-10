@@ -1,14 +1,51 @@
    <?php
+		
+		require_once "recaptcha/src/autoload.php";
+		
+		// your secret key
+		$secret = "6LfFHoIUAAAAAOIWZNYB_OEz7fmnz_fM8AKl50Kf";
+ 
+		// empty response
+		$response = null;
+ 
+		// check secret key
+		$reCaptcha = new \ReCaptcha\ReCaptcha($secret);
+		
+		//setup variables
 		$name='';
 		$email='';
 		$message = '';
 		$errMessage='';
 		$errName='';
 		$errEmail='';
-		$errHuman='';
+		$errRecaptcha='need to check';
 		$result='';
+		$resp='';
+		
 	if (isset($_POST["submit"])) {
-				
+			
+		// if submitted check recaptcha
+		
+		
+		
+		if ($_POST["g-recaptcha-response"]) {
+			$resp = $reCaptcha->setExpectedHostname($_SERVER['SERVER_NAME'])
+                      ->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+			if ($resp->isSuccess()) {
+				$errRecaptcha = '';
+			} else {
+				$errRecaptcha = 'Problem verifying, please retry';
+			}		
+		}
+		
+		/*
+		echo '<p><strong>' . $response .':</strong> '.'</p>';
+		if ($response != null && $response->success) {
+				//do nothing
+		} else {
+			$errRecaptcha = 'Problem verifying, please retry';
+		}
+		*/		
 		$name=preg_replace('/[^a-zA-Z0-9\ ]/','',$_POST['name']);
 		$name=htmlspecialchars($name);
 		
@@ -17,7 +54,6 @@
 		$message=preg_replace('/[^a-zA-Z0-9\ ]/','',$_POST['message']);
 		$message=htmlspecialchars($message);
 		
-		$human = intval($_POST['human']);
 		$from = 'info@regsol.ie'; 
 		$to = 'info@regsol.ie'; 
 		$subject = 'Message from ' . $name;
@@ -38,17 +74,14 @@
 		if (!$_POST['message']) {
 			$errMessage = 'Please enter your message';
 		}
-		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
-			$errHuman = 'Your anti-spam is incorrect';
-		}
- 
-// If there are no errors, send the email
-		if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+				
+		
+		// If there are no errors, send the email
+		if (!$errName && !$errEmail && !$errMessage && !$errRecaptcha) {
 			if (mail ($to, $subject, $body, $from)) {
 				$result='<div class="alert alert-success">Thank You! One of our consultants will contact you shortly</div>';
 			} else {
-				$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
+				$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again</div>';
 			}
 		}
 	} 
@@ -86,7 +119,7 @@
     <?php include 'menu.php';?>
 
 	<!-- SECTION -->
-	<section id="our_story" class="story">
+	<section id="our_story">
 		<script>
             $('#first-splash-image').on('load', function() {
                 $('#loading-screen').addClass('loading-slide-up');
@@ -95,44 +128,44 @@
                 $('#loading-screen').addClass('loading-slide-up');
             }, 500)
         </script>
-		<div class="centered-column">
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-		</div>
 		
-		<div class="container centered-column">
-			<div class="col-sm-10 text-left centered-column">						
-				<h2>Welcome to RegSol - Your Regulatory Advisors</h2>
-				<br>
+		<video autoplay muted loop id="myVideo">
+			<source src="video/dublin_traffic.mp4" type="video/mp4">
+		</video>
+		<div class="content">
+			<div class="container centered-column ">
+				<div class="col-sm-10 text-left centered-column">	
+					<br><br>
+					<h2>Welcome to RegSol - Your Regulatory Advisors</h2>
+					<br>
+				</div>
+				<div class="col-sm-10 text-left centered-column white-insert">
+					<h3> <b>Mission Statement - </b>We aim to help take the pain out of regulatory compliance for our clients.</h3>
+									
+				</div>
 			</div>
-			<div class="col-sm-10 text-left centered-column grey-insert">
-				<h3> <b>Mission Statement - </b>We aim to minimise the overhead of regulatory compliance for our clients, in a thorough and efficient manner.</h3>
-								
-			</div>
-		</div>
-		<div class="container">
-			<div class="col-sm-1">
-				&nbsp;
-			</div>
-			<div class="col-sm-6 text-left">
-				<p class="text-left">Combining over twenty years of regulatory, compliance, IT, and financial services experience, our consultants excel at finding workable solutions for your compliance needs. Our training and consultancy services are specifically designed to ease the burden of constantly expanding compliance requirements. We take the stress out of meeting compliance and regulatory obligations, allowing you to focus on building your business.</p>
-			</div>
-			
-			<div class="col-sm-4">
-				<div>
-					<p class="quote"> 
-						"If you think compliance is expensive <br>- try non-compliance"
-					</p>
+			<div class="container">
+				<div class="col-sm-1">
+					&nbsp;
+				</div>
+				<div class="col-sm-6 text-left">
+					<p class="text-left content-relative">Combining over twenty years of regulatory, compliance, IT, and financial services experience, our consultants excel at finding workable solutions for your compliance needs. Our training and consultancy services are specifically designed to ease the burden of constantly expanding compliance requirements. We take the stress out of meeting compliance and regulatory obligations, allowing you to focus on building your business.<br><br><br></p>
+					
 				</div>
 				
-				-Former US Deputy Attorney General Paul McNulty
+				<div class="col-sm-4">
+					<div>
+						<p class="quote"> 
+							"If you think compliance is expensive <br>- try non-compliance"
+						</p>
+					</div>
+					
+					-Former US Deputy Attorney General Paul McNulty
+				</div>
 			</div>
-		</div>
-		<br><br>
-		<div>
 			<br><br><br><br><br><br>
-			
 		</div>
+		
 		
 	</section>
 
@@ -168,11 +201,9 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="human" class="col-sm-3 control-label">2 + 3 = ? *</label>
-						<div class="col-sm-9">
-							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-							<?php echo "<p class='text-danger'>$errHuman</p>";?>
-						</div>
+						<label for="message" class="col-sm-3 control-label">Verification</label>
+						<div class="col-sm-9 centered-column g-recaptcha" data-sitekey="6LfFHoIUAAAAAITuM_uCD4ZABFc3TDlP9YpujrCP"></div>
+						<?php echo "<p class='text-danger'>$errRecaptcha</p>";?>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-9 col-sm-offset-3">

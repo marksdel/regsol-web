@@ -7,14 +7,15 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
-    <meta name="keywords" content="regulatory">
+    <meta name="keywords" content="regulatory brexit compliance authorisation training Ireland">
     <meta name="author" content="RegSol">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="RegSol">
-	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
+
     	
     <?php include 'header-common.php';?>
 
+	<!-- for google G suite-->
+	<meta name="google-site-verification" content="LQ05Jtwk7zF6fQJYUbksMOIWBAGfJV9uqo2_DlWxdTE" />
     
 </head>
 <body>
@@ -32,7 +33,8 @@
     <section id="home" class="medium-gray">
         <div class="container centered-column home-text">	
 		
-            <!--Desktop-->			
+			<!--PLACEHOLDER FOR EVENTS SPLASH-->
+            <!--Desktop>			
             <div class="centered-column hidden-xs col-sm-12 splash-header">    		
 					<div class="centered-column">
 						<a href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie"><img src="images/aml-seminar-galway-small.png"><br>
@@ -41,15 +43,15 @@
 					</div>         			
 				
             </div>
-			<!--Mobile-->
+			<!--Mobile>
 			<div class="centered-column visible-xs col-sm-12 splash-header">    
 				<a href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie"><img width="100%" src="images/aml-seminar-galway-small.png"><br>
 				<a class="white-link-text mobile-text" href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie">Click here for info and tickets</a>
-			</div>
+			</div-->
 			
-			<!--div class="centered-column col-sm-3 home-training"><a href="training.php">TRAINING</a></div>
+			<div class="centered-column col-sm-3 home-training"><a href="training.php">TRAINING</a></div>
 			
-			<div class="centered-column col-sm-3 home-consulting"><a href="consulting.php">CONSULTING</a></div-->
+			<div class="centered-column col-sm-3 home-consulting"><a href="consulting.php">CONSULTING</a></div>
 			
         </div>
 		
@@ -71,7 +73,7 @@
                         });
                         setTimeout(function() {
                             $('#loading-screen').addClass('loading-slide-up');
-                        }, 1000)
+                        }, 100)
                     </script>
 					
                     <!-- Loading Script -->
