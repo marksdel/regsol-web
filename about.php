@@ -135,17 +135,19 @@
 		<div class="content">
 			<div class="container centered-column ">
 				<div class="col-sm-10 text-left centered-column">	
-					<br><br>
+					<div class="hidden-xs">
+						<br><br>
+					</div>
 					<h2>Welcome to RegSol - Your Regulatory Advisors</h2>
 					<br>
 				</div>
-				<div class="col-sm-10 text-left centered-column white-insert">
+				<div class="col-sm-10 text-left centered-column white-insert hidden-xs">
 					<h3> <b>Mission Statement - </b>We aim to help take the pain out of regulatory compliance for our clients.</h3>
 									
 				</div>
 			</div>
 			<div class="container">
-				<div class="col-sm-1">
+				<div class="col-sm-1 hidden-xs">
 					&nbsp;
 				</div>
 				<div class="col-sm-6 text-left">
@@ -153,7 +155,7 @@
 					
 				</div>
 				
-				<div class="col-sm-4">
+				<div class="col-md-4 hidden-xs">
 					<div>
 						<p class="quote"> 
 							"If you think compliance is expensive <br>- try non-compliance"
@@ -163,7 +165,9 @@
 					-Former US Deputy Attorney General Paul McNulty
 				</div>
 			</div>
-			<br><br><br><br><br><br>
+			<div class="col-md-12 hidden-xs">
+				<br><br><br><br><br><br><br><br><br><br><br><br><br>
+			</div>
 		</div>
 		
 		

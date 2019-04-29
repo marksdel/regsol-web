@@ -6,12 +6,12 @@
     <title>RegSol - Training</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Regulatory and compliance solutions for European firms">
-    <meta name="keywords" content="regulatory">
+    <meta name="description" content="Regulatory Compliance Training Solutions">
+    <meta name="keywords" content="regulatory compliance ireland dublin training e-learning gdpr aml">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">
-	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
+	<meta property="og:description" content="Regulatory Compliance Training Solutions">
 
     <?php include 'header-common.php';?>
 	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>
@@ -44,14 +44,14 @@
 		<h2> Training</h2>
 		<div class="container grey-insert">
 			<div class="col-sm-12 text-left grey-insert">						
-				Whether you require flexible online training or face-to-face delivery, we have the content and the format to suit your needs. We have developed a range of courses to meet annual AML training requirements for Designated Persons and the regular training needs of Data Controllers and Processors. Every course on our comprehensive training timetable and course list is adaptable to in-house delivery and can be tailored to meet your firm's specific needs.				
+				Whether you require flexible online training or face-to-face delivery, we have the content and the format to suit your needs. We have developed a range of courses to meet annual AML training requirements for Designated Persons and the regular training needs of Data Controllers and Processors. Every module on our <a href="training-courses.php">course list</a> is adaptable to in-house delivery and can be tailored to meet your firm's specific needs.				
 			</div>
 		</div>
 		<br>
 		<div class="container grey-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h3 class="text-left">Online Self-Paced</h3>
-				Access our large range of online courses at a time that suits you via our online portal. Our course listing sets out each of the topics covered with various length courses all broken down into manageable modules for completion in your own time. Like the content but have multiple staff or teams to train? We can adapt any of our online courses to be delivered via existing internal staff training systems - contact us today for a solution that works for you. 
+				Access our large range of e-learning modules at a time that suits you via our online portal. Our course listing sets out each of the topics covered with various length courses all broken down into manageable modules for completion in your own time. Like the content but have multiple staff or teams to train? We can adapt any of our online courses to be delivered via existing internal staff training systems - contact us today for a solution that works for you. 
 				<br><br>
 			</div>
 			<div class="col-sm-4 col-sm-4 centered-column">
@@ -69,6 +69,7 @@
 			<div class="col-sm-4 col-sm-4 centered-column">
 				<br>
 				<img width="295px" src="images/classroom-training-web.jpg">
+				
 			</div>
 			
 		</div>

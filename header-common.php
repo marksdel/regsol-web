@@ -8,8 +8,13 @@
 	
     <script src="js/jquery/jquery.min.js"></script>
 	<script src="js/jquery/jquery.cookiesdirective.js"></script>
+	<script src="js/jquery/query-3.3.1.js"></script>
+	<script src="js/jquery/jquery.dataTables.min.js"></script>
+	<script src="js/jquery/dataTables.bootstrap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/html5shiv.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
 	
 		
 	<!-- Cookie Notice-->

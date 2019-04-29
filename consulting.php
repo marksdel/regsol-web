@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="RegSol Compliance Consulting Solutions">
-    <meta name="keywords" content="regulatory brexit compliance authorisation gdpr aml Ireland">
+    <meta name="keywords" content="reg sol regulatory brexit compliance authorisation gdpr aml Ireland">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -120,8 +120,8 @@
 			<div class="col-sm-12 col-xs-12">				
 				<h2>Anti-Money Laundering</h2>				
 			</div>
-			<div class="col-sm-2 col-xs-2 centered-column demo">
-				<p><a href="mailto:info@regsol.ie?subject=AML Info">Contact Us</a></p>	
+			<div class="col-sm-2 centered-column centered-column demo">
+				<p><a href="about.php#contact">Contact Us</a></p>				
 			</div>							
 		</div>		
 		<div class="container centered-column">
@@ -156,11 +156,11 @@
 			<div class="col-sm-12 col-xs-12">				
 				<h2>Broker Authorisations</h2>				
 			</div>
-<div class="col-sm-2 col-xs-2 centered-column demo">
-				<p><a href="about.php#contact">Contact Us</a></p>	
+			<div class="col-sm-2 centered-column centered-column demo">
+				<p><a href="about.php#contact">Contact Us</a></p>				
 			</div>
 			<div class="col-sm-12 col-xs-12 centered-column">
-				<video controls autoplay="autoplay">
+				<video controls autoplay="autoplay" muted>
 					<source src="video/RegSol_Broker_Authorisation_Oct_2018.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
@@ -187,7 +187,7 @@
 				
 				<h2>General Data Protection Regulation</h2>				
 			</div>
-			<div class="col-sm-2 col-xs-2 centered-column demo">
+			<div class="col-sm-2 centered-column centered-column demo">
 				<p><a href="mailto:info@regsol.ie?subject=GDPR Info">Request Info</a></p>	
 			</div>							
 		</div>				

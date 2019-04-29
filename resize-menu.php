@@ -27,8 +27,11 @@
         $(document).scroll(function() {
             if($(window).scrollTop() > 30) {
                 $(".navbar").css('padding', '0px 15px');
+
             } else {
                 $(".navbar").css('padding', '15px 15px');
+
+
             }
         });
     </script>	

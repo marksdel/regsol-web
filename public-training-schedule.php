@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
-    <meta name="keywords" content="regulatory">
+    <meta name="keywords" content="regulatory training courses dublin galway ireland compliance aml gdpr">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">
@@ -36,7 +36,7 @@
     <?php include 'menu.php';?>
 
 	<!-- SECTION -->
-	<section id="Schedule"" >
+	<section id="Schedule">
 		<script>
             $('#first-splash-image').on('load', function() {
                 $('#loading-screen').addClass('loading-slide-up');
@@ -72,21 +72,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					
-					<tr>
-						<th>IDR - Insurance Distribution Regulations (2hr) <span class="highlight"> - NEW</span></th>
-						<th>Galway, Harbour Hotel</th>
-						<th><span class="date">20190221</span>21st Feb 2019</th>
-						<th>09:00-13:00</th>
-						<th><a href="https://www.eventbrite.com/e/insurance-distribution-regulations-idr-galway-tickets-55856203408?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>GDPR Essentials (2hr)</th>
-						<th>Galway, Harbour Hotel</th>
-						<th><span class="date">20190221</span>21st Feb 2019</th>
-						<th>14:00-16:00</th>
-						<th><a href="https://www.eventbrite.com/e/gdpr-essentials-galway-tickets-54652975521?aff=Website" >Book this course</a></th>
-					</tr>
+
 					<tr>
 						<th>Risk-Based Compliance (Half day) <span class="highlight"> - NEW</span></th>
 						<th>Galway, Harbour Hotel</th>
@@ -130,20 +116,12 @@
 						<th><a href="https://gdpr-essentials-dublin-regsol.eventbrite.com/?aff=website" >Book this course</a></th>
 					</tr>					
 					<tr>
-						<th>Fitness and Probity & MCC (Half Day) <span class="highlight"> - NEW</span></th>
-						<th>Galway, Harbour Hotel</th>
-						<th><span class="date">20190411</span>11th Apr 2019</th>
+						<th>IDR - Insurance Distribution Regulations (2hr) <span class="highlight"> - NEW</span></th>
+						<th>Dublin, RegSol offices</th>
+						<th><span class="date">20190425</span>25th Apr 2019</th>
 						<th>09:00-13:00</th>
-						<th><a href="https://www.eventbrite.com/e/fitness-and-probity-inc-mcc-galway-tickets-55856950643?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>Ethics Fundamentals (1hr)</th>
-						<th>Galway, Harbour Hotel</th>
-						<th><span class="date">20190411</span>11th Apr 2019</th>
-						<th>14:15-16:15</th>
-						<th><a href="https://www.eventbrite.com/e/gdpr-essentials-galway-tickets-54652975521?aff=Website" >Book this course</a></th>
-					</tr>
-					
+						<th><a href="https://www.eventbrite.ie/e/insurance-distribution-regulations-idr-dublin-tickets-57621075187">Book this course</a></th>
+					</tr>					
 										
 										
 				</tbody>
