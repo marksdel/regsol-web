@@ -15,12 +15,12 @@
 	
     <?php include 'header-common.php';?>
 	<script type= "text/javascript">
-				$(document).ready(function () {
-				$('#public_training').DataTable({
-"order": [[ 2, "asc" ]]
-});
-				$('.dataTables_length').addClass('bs-select');
-				});
+		$(document).ready(function () {
+		$('#public_training').DataTable({
+			"order": [[ 2, "asc" ]]
+		});
+		$('.dataTables_length').addClass('bs-select');
+		});
 	</script>
 
     
@@ -72,8 +72,55 @@
 					</tr>
 				</thead>
 				<tbody>
-
+				<?php 
+					include 'dbdetails.php';
 					
+					try {
+						// Establish connection to database
+						$conn = new PDO($pdo_dsn, $pdo_user, $pdo_password);
+
+						// Throw exceptions in case of error.
+						$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);								
+						
+						$con1=mysqli_connect("localhost",$pdo_user,$pdo_password,$pdo_dbname);
+						// Check connection
+						if (mysqli_connect_errno()){
+						  echo "Failed to connect to MySQL: " . mysqli_connect_error();				  
+						}
+						$result = mysqli_query($con1,"select Title, Location, Date, DATE_FORMAT(Date,'%a %D %b %Y') Date, Time, BookingText, BookingLink from PublicTrainingSchedule order by Date asc");										
+						if (!$result) {
+							echo 'Could not run query: ' . mysql_error();
+							exit;
+						}					
+					
+					    /* fetch object array */
+						while ($row = $result->fetch_row()) {
+							echo "<tr>\n";
+							echo "<th>".$row[0]."</th>\n";
+							echo "<th>".$row[1]."</th>\n";
+							echo "<th><span class='date'>".$row[2]."</span>".$row[3]."</th>\n";
+							echo "<th>".$row[4]."</th>\n";
+							echo "<th><a target='_NEW' href='".$row[6]."'>".$row[5]."</a></th>";
+							echo "</tr>\n";
+							
+						}
+
+						/* free result set */
+						$result->close();
+
+						/* close connection */
+						$con1->close();					
+						
+					
+					} catch (PDOException $e) {
+						echo 'Error: ' . $e->getMessage() . " file: " . $e->getFile() . " line: " . $e->getLine();
+						exit;
+					} catch (Exception $e) {
+						echo 'Error: ' . $e->getMessage() . " file: " . $e->getFile() . " line: " . $e->getLine();
+						exit;
+					}
+
+				?>
 					<tr>
 						<th>Anti-Money Laundering Update (2hr)</th>
 						<th>Galway, Harbour Hotel</th>
@@ -81,41 +128,7 @@
 						<th>14:15-16:15</th>
 						<th><a href="https://www.eventbrite.com/e/anti-money-laundering-updates-training-course-galway-tickets-54653449940?aff=Website" >Book this course</a></th>
 					</tr>
-					<tr>
-						<th>Regulatory Compliance Essentials (AML, GDPR, Ethics) (Full day)</th>
-						<th>Dublin, Grand Canal Hotel</th>
-						<th><span class="date">20190404</span>4th Apr 2019</th>
-						<th>09:00-16:15</th>
-						<th><a href="https://regulatory-compliance-essentials-regsol-dublin.eventbrite.com/?aff=Website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>&emsp;&emsp;Anti-Money Laundering Update</th>
-						<th>Dublin, Grand Canal Hotel</th>
-						<th><span class="date">20190404</span>4th Apr 2019</th>
-						<th>09:15-11:30</th>
-						<th><a href="https://aml-regsol-dublin.eventbrite.com/?aff=website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>&emsp;&emsp;Ethics Fundamentals (1hr)</th>
-						<th>Dublin, Grand Canal Hotel</th>
-						<th><span class="date">20190404</span>4th Apr 2019</th>
-						<th>11:50-13:00</th>
-						<th><a href="https://ethics-regsol-dublin.eventbrite.com/?aff=website" >Book this course</a></th>
-					</tr>
-					<tr>
-						<th>&emsp;&emsp;	GDPR Essentials (2hr)</th>
-						<th>Dublin, Grand Canal Hotel</th>
-						<th><span class="date">20190404</span>4th Apr 2019</th>
-						<th>14:00-16:15</th>
-						<th><a href="https://gdpr-essentials-dublin-regsol.eventbrite.com/?aff=website" >Book this course</a></th>
-					</tr>					
-					<tr>
-						<th>IDR - Insurance Distribution Regulations (2hr) <span class="highlight"> - NEW</span></th>
-						<th>Dublin, RegSol offices</th>
-						<th><span class="date">20190425</span>25th Apr 2019</th>
-						<th>09:00-13:00</th>
-						<th><a href="https://www.eventbrite.ie/e/insurance-distribution-regulations-idr-dublin-tickets-57621075187">Book this course</a></th>
-					</tr>					
+				
 										
 										
 				</tbody>
