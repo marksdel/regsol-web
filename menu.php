@@ -29,6 +29,7 @@
 						<li><a href="training.php">Training</a></li>
 						<div class="dropdown-content">
 							<a href="training.php">Overview</a>
+							<a href="training-courses.php">Course List</a>
 							<a href="public-training-schedule.php">Public Courses</a>						
 						</div>
 					</div>
@@ -41,7 +42,9 @@
 							<a href="consulting.php#GDPR">GDPR</a>							
 						</div>
 					</div>
-							
+					<div class="dropdown nav navbar-left">
+						<li><a href="blog.php">Blog</a></li>
+					</div>		
                     
 					<div class="dropdown nav navbar-left">
 						<li><a href="about.php">About Us</a></li>

@@ -73,13 +73,7 @@
 				</thead>
 				<tbody>
 
-					<tr>
-						<th>Risk-Based Compliance (Half day) <span class="highlight"> - NEW</span></th>
-						<th>Galway, Harbour Hotel</th>
-						<th><span class="date">20190314</span>14th Mar 2019</th>
-						<th>09:00-13:00</th>
-						<th><a href="https://www.eventbrite.com/e/risk-based-compliance-workshop-galway-tickets-55856598590?aff=Website" >Book this course</a></th>
-					</tr>
+					
 					<tr>
 						<th>Anti-Money Laundering Update (2hr)</th>
 						<th>Galway, Harbour Hotel</th>

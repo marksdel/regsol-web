@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
-    <meta name="keywords" content="regulatory brexit compliance authorisation training Ireland">
+    <meta name="keywords" content="reg sol aml gdpr regulatory brexit compliance authorisation training Ireland">
     <meta name="author" content="RegSol">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
