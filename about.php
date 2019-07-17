@@ -241,8 +241,8 @@
 						<b>Telephone :</b> <a href="tel:+35315394884">+353 1 539 4884</a><br>
 						<b>Email : </b><a href="mailto:info@regsol.ie">info@regsol.ie</a> 						
 						<br><br>
-						<b>Dublin Office : </b> <br>Unit 23, <br>Trinity Technology & Enterprise Campus, <br>Pearse Street, <br>Dublin 2, <br>D02 WR66<br><br>
-						<b>Regional Office : </b> <br>Unit J1A, <br>Naas Enterprise Park, <br>Naas, <br>Co. Kildare
+						<b>Address : </b> <br>Unit 23, <br>Trinity Technology & Enterprise Campus, <br>Pearse Street, <br>Dublin 2, <br>D02 WR66<br><br>
+						
 
 					</div>					
 				</div>

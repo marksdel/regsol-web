@@ -4,6 +4,6 @@
 
 			</div>
 			<div class="col-sm-3 col-sm-3 text-right">
-				<br>&copy; 2018 RegSol
+				<br>&copy; 2019 RegSol
 			</div>
 		</div>	

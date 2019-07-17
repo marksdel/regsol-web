@@ -41,7 +41,8 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 		</div>
-		<h2> Training</h2>
+		
+		<h1> Training - Delivery Formats</h1>
 		<div class="container grey-insert">
 			<div class="col-sm-12 text-left grey-insert">						
 				Whether you require flexible online training or face-to-face delivery, we have the content and the format to suit your needs. We have developed a range of courses to meet annual AML training requirements for Designated Persons and the regular training needs of Data Controllers and Processors. Every module on our <a href="training-courses.php">course list</a> is adaptable to in-house delivery and can be tailored to meet your firm's specific needs.				

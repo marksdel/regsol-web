@@ -52,9 +52,10 @@
 		<h2> Upcoming Courses</h2>
 		<div class="container white-insert">
 			<div class="col-sm-12 text-left">						
-				Please see below our timetable of upcoming courses which are open to the public. If you cannot make any of these dates or would like to discuss custom, in-house training please <a href="about.php#contact">contact us</a> and we will be happy to accommodate you.
+				Please see below our timetable of upcoming courses which are open to the public. Descriptions of each course can be found on our <a href="training-courses.php">Course Descriptions</a> page or by clicking on the booking link. If you cannot make any of these dates or would like to discuss custom, in-house training please <a href="about.php#contact">contact us</a> and we will be happy to accommodate you. 
 				<br><br>
-				<b>NOTE : </b>We are currently in the process of arranging our 2019 public training schedule, feel free to <a href="about.php#contact">contact us</a> with any suggestions/queries.
+				We can also tailor content specifically for other areas, if your required topics are not below please don't hesitate to get in touch to discuss. 
+				
 			</div>
 		</div>
 		<br>
@@ -121,13 +122,7 @@
 					}
 
 				?>
-					<tr>
-						<th>Anti-Money Laundering Update (2hr)</th>
-						<th>Galway, Harbour Hotel</th>
-						<th><span class="date">20190314</span>14th Mar 2019</th>
-						<th>14:15-16:15</th>
-						<th><a href="https://www.eventbrite.com/e/anti-money-laundering-updates-training-course-galway-tickets-54653449940?aff=Website" >Book this course</a></th>
-					</tr>
+					
 				
 										
 										

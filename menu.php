@@ -26,11 +26,11 @@
 						<li><a href="index.php">Home</a></li>
 					</div>
 					<div class="dropdown nav navbar-left">
-						<li><a href="training.php">Training</a></li>
-						<div class="dropdown-content">
-							<a href="training.php">Overview</a>
-							<a href="training-courses.php">Course List</a>
-							<a href="public-training-schedule.php">Public Courses</a>						
+						<li><a href="training-courses.php">Training</a></li>
+						<div class="dropdown-content">							
+							<a href="training-courses.php">Course Descriptions</a>
+							<a href="public-training-schedule.php">Training Timetable</a>	
+							<a href="training.php">Delivery Formats</a>
 						</div>
 					</div>
 						
@@ -43,7 +43,7 @@
 						</div>
 					</div>
 					<div class="dropdown nav navbar-left">
-						<li><a href="blog.php">Blog</a></li>
+						<li><a href="blog.php">News</a></li>
 					</div>		
                     
 					<div class="dropdown nav navbar-left">
