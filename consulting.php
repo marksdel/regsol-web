@@ -43,9 +43,7 @@
 				<br><br>
 				<h2>Consulting</h2>				
 			</div>
-			<div class="col-sm-2 centered-column centered-column demo">
-				<p><a href="about.php#contact">Contact Us</a></p>					
-			</div>
+			
 		</div>		
 		<div class="container consulting-body">
 			<div class="col-sm-12 col-xs-12 text-left" >
