@@ -44,7 +44,7 @@ $tabledit->primary_key = 'ID';
 
 # the fields you want to see in "list view"
 # Always add the primary key
-$tabledit->fields_in_list_view = array('ID','Title','Location','Date','Time','BookingText','BookingLink','Visible');
+$tabledit->fields_in_list_view = array('ID','Title','DescriptionLink','Location','Date','Time','BookingText','BookingLink','Visible');
 
 
 
@@ -66,7 +66,7 @@ $tabledit->num_rows_list_view = 100;
 
 
 # required fields in edit or add record: 
-$tabledit->fields_required = array('Title','Location','Date','Time','BookingText','BookingLink', 'Visible');
+$tabledit->fields_required = array('Title','DescriptionLink','Location','Date','Time','BookingText','BookingLink', 'Visible');
 
 
 # Fields you want to edit (remove this to edit all the fields).
@@ -77,6 +77,7 @@ $tabledit->fields_required = array('Title','Location','Date','Time','BookingText
 $tabledit->help_text = array(
 	'ID' => "Don't edit this field",
 	'Title' => 'Use standard title from course list',
+	'DescriptionLink' => 'Use full link e.g. https://www.regsol.ie/training-courses.php#GDPR',
 	'Location' => 'City first (helps for sorting)',
 	'Date' => 'e.g. 2019-02-28',
 	'Time' => 'e.g. 09:00 - 11:00',

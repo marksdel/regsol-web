@@ -38,160 +38,257 @@
             }, 500)
         </script>
 
-		<div class="container centered-column consulting-landing">
+		<div class="row centered-column consulting-landing">
 			<div class="col-sm-12 col-xs-12">			
-				<br><br>
-				<h2>Consulting</h2>				
+				<br><br><br><br><br>
+				<h1>Consulting</h1>	
+				<br>
 			</div>
 			
 		</div>		
 		<div class="container consulting-body">
 			<div class="col-sm-12 col-xs-12 text-left" >
-				Our consultancy services cover a wide range of compliance needs and are designed to offer practical solutions to your regulatory compliance problems. We can also offer assistance with additional areas, please <a href="about.php#contact">contact us</a> with any enquiries.
+				From inception right through to on-going monitoring, our consultants provide tailored assistance to help you meet your regulatory obligations. Whether dealing with various regulators/supervisors or providing transparency to clients/shareholders about compliance, RegSol will work with you to deliver the highest quality at very competitive rates. See below descriptions of various services that we offer, amongst others. 
+				<br><br>
+				Please <a href="about.php#contact">contact us</a> if you wish to discuss your requirements.			
 				<br><br><br>
 			</div>
-			<div class="col-sm-6">
-				<div align="center">
-					<b>Areas of Expertise</b><br><br>
-				</div>
-				<ul>				
-					<li>Central Bank of Ireland Codes and Regulations</li>
-					<li>Anti-Money Laundering Legislation </li>
-					<li>Data Protection Legislation and Audits</li>
-					<li>Various Authorisations (e.g. CBI)</li>
-					<li>Interaction with Regulators and Supervisory Authorities</li>
-					<li>Inspections (AML, PRISM, etc)</li>
-					<li>Responding to RMPs</li>
-					<li> Data Protection Officer (DPO) Services</li>
+			<div class="col-sm-8 col-xs-8 text-left" id="Services">
+				<b>Services Offered</b>
+				<br><br>
+				<ul><li><a href='#authorisations'><b>Authorisation assistance :</b></a> Whether you wish to become a retail intermediary or a regulated entity under MiFID we can help. Our process follows from engagement to submission, through to authorisation.</li>
+					<br>
+					<li><a href='#policy'><b>Policies/Procedures : </b></a> Our consultants can author, design or review your policy documentation and processes depending on what is required.</li>
+					<br>
+					<li><a href='#CAAS'><b>Compliance-as-a-Service : </b></a>We take the pain out of on-going compliance by being available to answer your queries and give you a steer on any regulatory topics/questions that may arise. Monthly and quarterly subscriptions available.</li>
+					<br>
+					<li><a href='#Audit'><b>Compliance Audit : </b></a> This is particularly beneficial both for entities which are starting out and those which have spent a lot of effort establishing compliance procedures and processes. We identify gaps and suggest remediation plans in an efficient manner.</li>
+					<br>
+					<li><a href='#DPO'><b>Data Protection Officer (DPO) : </b></a>The vast majority of SMEs don’t require a full-time DPO. We can fulfil that role for you on a part-time basis, whereby you benefit from our broad experience in discussing potential breaches, legitimate basis questions, etc.</li>					
+					
 				</ul>
+
 			</div>
-			<div class="col-sm-6">
-				<div align="center">
-					<b>Industries Covered</b><br><br>
+			<div class="col-sm-4 col-xs-4 text-left hidden-xs" >
+				<img src="images/Consultants.png">
+			</div>
+		</div>
+	</section>
+
+	<!-- SECTION -->
+	<section id="Industries" class="bg-green">	
+		<div class="container consulting-body">
+			<div class="col-sm-12">
+				<div align="left">
+					<h1>Industries Covered</h1><br><br>
 				</div>
 			</div>
-			<div class="col-sm-3">
+			Please see below a list of the most common industries that we service in Ireland and across the European Union, if your industry is not listed we would still be very happy to discuss how we can help with your requirements.
+			<br><br>
+			<div class="col-sm-4">
 				<ul>
+					<li>Financial Services</li>
 					<li>Insurance</li>
 					<li>Retail</li>
-					<li>Technology</li>
-					<li>Financial Services</li>
+					<li>Technology</li>					
 					<li>Construction</li>
 					<li>Education</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">									
 					<li>Healthcare</li>
 					<li>Estate Agent</li>
 					<li>Recruitment Agent</li>
-				</ul>				
-			</div>
-			<div class="col-sm-3">				
-				<ul>
 					<li>Telecommunication</li>
 					<li>Hospitality</li>
 					<li>Manufacturing</li>
+				</ul>				
+			</div>
+			<div class="col-sm-4">				
+				<ul>
+					
 					<li>Food</li>
 					<li>Agricultural</li>
 					<li>Transport</li>
 					<li>Aerospace</li>
 					<li>Pharmaceutical</li>
+					<li>Miscellaneous</li>
 				</ul>				
 			</div>
-		</div>		        
-		<div class="container">
-            <div class="col-md-4 box-item">
-				<p><a href="#AML">Anti-Money <br>Laundering</a>   </p>           						
-			</div>
-			
-			<div class="col-md-4 box-item">                    
-                <p><a href="#authorisations">Authorisations</a><br>&nbsp;</p>
-            </div>			
-			    <div class="col-md-4 box-item">
-				<p><a href="#GDPR">General Data<br>Protection Regulation</a><br></p>                						
-			</div>				
-		</div>	
+		</div>
 	</section>
 	
 	
 	<!-- SECTION -->
-	<section id="AML" class="pale-gray">
-		<<br><br>&nbsp;
-		<div class="container centered-column aml">
-			<div class="col-sm-12 col-xs-12">				
-				<h2>Anti-Money Laundering</h2>				
+	<section id="Expertise">	
+	
+		<div class="container consulting-body">
+		
+			<h2>Areas of Expertise</h2>
+			<br><br>
+			<div class="col-sm-7">
+				<ul>				
+					<li>Central Bank of Ireland Codes and Regulations</li>
+					<li><a href="#AML">Anti-Money Laundering Legislation </a></li>
+					<li><a href="#GDPR">Data Protection Legislation and Audits</a></li>
+					<li><a href="#DPO">Data Protection Officer (DPO) Services</a></li>
+					<li><a href="#authorisations">Various Authorisations (e.g. CBI)</a></li>
+					<li><a href="#Audit">Inspections (AML, PRISM, etc)</a></li>
+					<li>Interaction with Regulators and Supervisory Authorities</li>					
+					<li>Responding to RMPs</li>
+					
+				</ul>
+				
+				
 			</div>
-			<div class="col-sm-2 centered-column centered-column demo">
-				<p><a href="about.php#contact">Contact Us</a></p>				
-			</div>							
-		</div>		
-		<div class="container centered-column">
-			<div class="col-sm-12 col-xs-12 centered-column" >
-				<p><br>With agreement on the content of a 5th EU AML Directive, Anti-Money laundering remains a constantly developing area of regulatory compliance for Designated Persons. As experts in AML compliance in Ireland, we provide a large range of compliance services to ensure your AML/CFT & Financial Sanctions processes are up to date.    </p>
-			</div>			
-		</div>
-		        
-		<div class="container">
-            <div class="col-md-3 box-item">
-				<p>Drafting and Reviewing Policies and Procedures<br></p>                						
-			</div>
-			
-			<div class="col-md-3 box-item">                    
-                <p>Compliance plans, on site sample reviews</p>
-            </div>			
-			    <div class="col-md-3 box-item">
-				<p>AML/CFT, FS and RMP Responses<br></p>                						
+			<div class="col-sm-4 hidden-xs">
+				<img src="images/gold_badge.png" height="220px">
 			</div>
 			
-			<div class="col-md-3 box-item">                    
-                <p>Completion of REQ's, etc.<br><br></p>
-            </div>		
-		</div>	
+		</div>		        
+		
 	</section>
 	
-		<!-- SECTION -->
+	<!-- SECTION -->
 	<section id="authorisations" class="lower-section blue-scale">		
 			<br><br>&nbsp;
 		
-		<div class="container centered-column">
+		<div class="container centered-column consulting-body">
 			<div class="col-sm-12 col-xs-12">				
 				<h2>Broker Authorisations</h2>				
 			</div>
-			<div class="col-sm-2 centered-column centered-column demo">
-				<p><a href="about.php#contact">Contact Us</a></p>				
-			</div>
+			<div class="col-sm-12 col-xs-12 centered-column text-left">
+				<br>If you wish to trade as a retail intermediary in Ireland (insurance, mortgage, etc) you will need to be authorised by the Central Bank of Ireland. As specialists in Broker authorisations, we have developed an efficient client-centred process that takes you from initial introductory meeting to authorisation decision stage. 
+				Whether you wish to provide Insurance, Investment and/or Mortgage intermediary services, we can advise you on every aspect of your application and ease the burden of meeting application requirements. 
+				<br><br>				
+				This includes providing template structures for necessary documents and assist in drafting tailored content while project managing the process from beginning to end. Having completed a signifcant number of successful authorisations, we have developed a full understanding of Central Bank expectations which means we can help you meet them. With our transparent fee structure you will also have certainty of costs from the outset.   
+				
+			</div>	
 			<div class="col-sm-12 col-xs-12 centered-column">
 				<video controls autoplay="autoplay" muted>
 					<source src="video/RegSol_Broker_Authorisation_Oct_2018.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
-			</div>
-			<div class="col-sm-12 col-xs-12 centered-column">
-				<p><br>If you wish to trade as a retail intermediary in Ireland (insurance, mortgage, etc) you will need to be authorised by the Central Bank of Ireland. As specialists in Broker authorisations, we have developed an efficient client-centred process that takes you from initial introductory meeting to authorisation decision stage. 
-						Whether you wish to provide Insurance, Investment and/or Mortgage intermediary services, we can advise you on every aspect of your application and ease the burden of meeting application requirements. 
-				</p>
-				<p>
-					This includes providing template structures for necessary documents and assist in drafting tailored content while project managing the process from beginning to end. Having completed a signifcant number of successful authorisations, we have developed a full understanding of Central Bank expectations which means we can help you meet them. With our transparent fee structure you will also have certainty of costs from the outset.   
-				</p>
 			</div>		
-			
 		</div>				
 			
 	</section>	
 	
+	<!-- SECTION -->
+	<section id="policy" class="lower-section white-scale">	
+		<div class="container centered-column consulting-body">
+			<div class="col-sm-12 col-xs-12">				
+				<h2>Policies/Procedures Services</h2>	
+				
+				Our consultants have a vast amount of experience in authoring, amending and reviewing compliance policy documentation across a wide range of industries. In addition, we can help to design and validate processes/procedures to ensure the highest levels of compliance with various regulations. Examples of such policies/procedures include (but are not limited to) the following –
+				<br><br>
+				<ul>
+					<li>Client On-boarding</li>
+					<li>Anti-Money Laundering/Counter-Terrorist Financing</li>
+					<ul><li>General Policy</li>
+						<li>Suspicious Transaction Reporting</li>
+						<li>Financial Sanctions </li>
+						<li>Screening measures</li>
+						<li>Customer Due Diligence checklist</li>
+						<li>Business-wide Risk Assessment</li>
+					</ul>
+					<li>Training</li>
+					<li>Management Information/Reporting</li>
+					<li>Record-keeping, both electronic and physical</li>
+					<li>Data Protection</li>
+					<ul><li>Access Service Request</li>
+						<li>Breach Reporting</li>
+						<li>Record processing</li>
+						<li>Consent management/tracking</li>
+						<li>Data retention schedules</li>
+						<li>Privacy notice</li>
+					</ul>
+					<li>Technical Organisation measures: security programme/information security policy to safeguard personal and company data, physical and electronic</li>
+					<li>Third parties/processor relationship management/oversight/breach reporting</li>
+				</ul>
+
+	</section>
+	
 	
 	<!-- SECTION -->
-	<section id="GDPR" class="pale-gray">	
-		<br><br>
-		<div class="container centered-column gdpr">
-			<div class="col-sm-12 col-xs-12">
-				
-				<h2>General Data Protection Regulation</h2>				
+	<section id="CAAS" class="bg-pale-blue">	
+		<div class="container centered-column consulting-body">
+			<div class="col-sm-12 col-xs-12">				
+				<h2>Compliance As A Service (CAAS)</h2>				
+			
+				It can often be difficult to get a quick answer to a compliance query. Whether or not you have an in-house compliance officer, it can be very beneficial to have an independent opinion which is backed by substantial cross-industry experience. A CAAS subscription covers the following -
+				<br><br>
+				<ul>
+					<li>RegSol Quarterly compliance update – detailing changes in applicable regulations, etc.</li>
+					<li>Access to compliance consultancy via email/phone for short compliance queries (<15 mins)</li>
+					<li>Periodic review of processes and procedures wrt AML/GDPR (onsite and remote options avaialable)</li>
+				</ul>
+				<br><br>
+				Monthly/Quarterly/Annual subscriptions available, please <a href="about.php#contact">contact us</a> if you would like additional information.
 			</div>
-			<div class="col-sm-2 centered-column centered-column demo">
-				<p><a href="mailto:info@regsol.ie?subject=GDPR Info">Request Info</a></p>	
-			</div>							
-		</div>				
-		<div class="container centered-column">		 
-			<div class="col-sm-12 col-xs-12">
-				<h2> **Try our <a href="gdpr-questionnaire.php" target="_new">GDPR Questionnaire</a> to assess your readiness**</a></h2>
+		</div>
+	</section>
+	
+	<!-- SECTION -->
+	<section id="Audit" class="white-scale">	
+		<div class="container centered-column consulting-body">
+			<div class="col-sm-12 col-xs-12">				
+				<h2>Compliance Audits/On-site Reviews	</h2>				
+			
+				In order to assess current levels of compliance or to assist in preparing for a CBI or DPC inspection we undertake on-site reviews in areas of Anti-Money Laundering, Data Protection and Consumer Protection.
+				<br><br>
+				The practical steps involved include:
+				<br><br>
+				<ul>
+					
+					<li>High Level review of existing Policies and Procedures</li>
+					<li>Interviewing relevant personnel</li>
+					<li>Reviewing relevant documents e.g. ToB’s, Suitability Statements, Privacy Notice, etc.</li>
+					<li>Undertaking a sampling exercise of client files</li>
+					<li>Comprehensive Report detailing Review Findings & Recommended Actions</li>
+					<ul>
+						<li>Serves as a roadmap for required actions going forward</li>
+						<li>Can be provided to the CBI on request</li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<!-- SECTION -->
+	<section id="AML" class="bg-dark-blue">
+		
+		<div class="container consulting-body">
+			<div class="col-sm-12 col-xs-12">				
+				<h2>Anti-Money Laundering</h2>
+				<br>
+				
+				With agreement on the content of a 5th EU AML Directive, Anti-Money laundering remains a constantly developing area of regulatory compliance for Designated Persons and people in positions of responsibility. As experts in AML compliance in Ireland, we provide a large range of compliance services to ensure your AML, Counter-Terrorist Financing (CTF) & Financial Sanctions (FS) processes are up to date.    
+				<br><br>
+				Specific services that we offer include -
+				<br><br>
+				<ul><li>Drafting and Reviewing Policies and Procedures</li>
+					<li>Compliance plans, on site sample reviews</li>
+					<li>AML/CFT, FS and RMP Responses</li>
+					<li>Completion of REQ's, etc.</li>
+				</ul>
+				
+			</div>						
+		</div>		      
+
+	</section>
+	
+
+	
+
+	
+	<!-- SECTION -->
+	<section id="GDPR" class="lower-section">	
+		<div class="container centered-column consulting-body">
+			<div class="col-sm-12 col-xs-12">				
+				<h2>General Data Protection Regulation</h2>				
+
+				**Try our <a href="gdpr-questionnaire.php" target="_new">GDPR Questionnaire</a> to assess your readiness**</a>
 				<h2>What is the GDPR?</h2> 
 				<p class="text-left">The GDPR is the <a href="https://www.eugdpr.org/">European Union&rsquo;s General Data Protection Regulation</a>. Its purpose is to &ldquo;harmonize data privacy laws across Europe, to protect and empower all EU residents&rsquo; data privacy, and to reshape the way organizations across the region approach data privacy for EU residents wherever they work in the world.&rdquo;</p> 
 				
@@ -199,7 +296,7 @@
 				<p class="text-left">The law applies to any organization conducting business in the EU as well as to organizations outside the EU that collect, process, or store information on EU citizens as well as on non-citizens while they reside in the EU.</p> <ul> <li>Non-EU companies that employ EU citizens (regardless of location)</li> <li>Non-EU companies that collect, process, or store data on EU citizens and/or residents (even, for example, an IP address for a single individual)</li> </ul> 
 				
 				<h2>What should you do?</h2>
-				<p class="text-left">With the impending effective date of GDPR, it is important to be ready. GDPR requires an ability not just to comply but for Data Controllers and Data Processors to be able to demonstrate that compliance. </p>
+				<p class="text-left">GDPR requires an ability not just to comply but for Data Controllers and Data Processors to be able to demonstrate that compliance. </p>
 				
 				<p class="text-left">Our range of Data Protection services are designed to help you do that through onsite audits, roadmaps for required actions, updated procedures and ongoing advice and training. If you are not sure where to start or what assistance you require, <a href="about.php#contact">contact us</a> today to setup a consultation via phone or in person.  </p>
 			</div>

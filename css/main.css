@@ -16,6 +16,21 @@
 	width: 100%;
 }
 
+.bg-green {
+	background-color : #3dbb8b;
+	color: white;
+}
+
+.bg-dark-blue {
+	background-color: #22283c;
+	color : white;
+}
+
+.bg-pale-blue {
+	background-color: #56a6ed;
+	color : white;
+}
+
 .blog-item {
 	border-top: 1px solid gray;
 	padding : 15px;
@@ -371,6 +386,8 @@
 	background-image: linear-gradient(#E6E6FA, #F8F8FF),
 					linear-gradient(black, black);
 }
+
+
 
 
 

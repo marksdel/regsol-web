@@ -37,6 +37,7 @@
 					<div class="dropdown nav navbar-left">
 						<li><a href="consulting.php">Consulting</a></li>
 						<div class="dropdown-content">
+							<a href="consulting.php#Services">Services</a>
 							<a href="consulting.php#AML">AML</a>
 							<a href="consulting.php#authorisations">Authorisations</a>		
 							<a href="consulting.php#GDPR">GDPR</a>							

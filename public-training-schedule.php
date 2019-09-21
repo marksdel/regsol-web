@@ -88,7 +88,7 @@
 						if (mysqli_connect_errno()){
 						  echo "Failed to connect to MySQL: " . mysqli_connect_error();				  
 						}
-						$result = mysqli_query($con1,"select Title, Location, Date, DATE_FORMAT(Date,'%a %D %b %Y') Date, Time, BookingText, BookingLink from PublicTrainingSchedule order by Date asc");										
+						$result = mysqli_query($con1,"select Title, DescriptionLink, Location, Date, DATE_FORMAT(Date,'%a %D %b %Y') Date, Time, BookingText, BookingLink from PublicTrainingSchedule order by Date asc");										
 						if (!$result) {
 							echo 'Could not run query: ' . mysql_error();
 							exit;
@@ -97,11 +97,11 @@
 					    /* fetch object array */
 						while ($row = $result->fetch_row()) {
 							echo "<tr>\n";
-							echo "<th>".$row[0]."</th>\n";
-							echo "<th>".$row[1]."</th>\n";
-							echo "<th><span class='date'>".$row[2]."</span>".$row[3]."</th>\n";
-							echo "<th>".$row[4]."</th>\n";
-							echo "<th><a target='_NEW' href='".$row[6]."'>".$row[5]."</a></th>";
+							echo "<th><a target='_NEW' href='".$row[1]."'>".$row[0]."</a></th>";
+							echo "<th>".$row[2]."</th>\n";
+							echo "<th><span class='date'>".$row[3]."</span>".$row[4]."</th>\n";
+							echo "<th>".$row[5]."</th>\n";
+							echo "<th><a target='_NEW' href='".$row[7]."'>".$row[6]."</a></th>";
 							echo "</tr>\n";
 							
 						}
