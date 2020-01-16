@@ -54,7 +54,7 @@
 			<div class="col-sm-12 col-xs-12" >
 				<a class="text-left" href="blog.php"><< Back to Blog</a>
 			</div>
-			<div class="col-sm-7 col-xs-7" >
+			<div class="col-sm-7 col-xs-12" >
 					<?php
 					$postId = $_GET['id'];
 					$url = 'https://www.googleapis.com/blogger/v3/blogs/569641560437060827/posts/'.$postId.'?key=AIzaSyDC-RUAeH6350oK0l7m9DmO-gx7IrWSRuc';
@@ -82,10 +82,10 @@
 				?>				
 				
 			</div>	
-			<div class="col-sm-1 col-xs-1">	
+			<div class="col-sm-1 hidden-xs">	
 				&nbsp;
 			</div>
-			<div class="col-sm-4 col-xs-4 twitter-feed">		
+			<div class="col-sm-4 hidden-xs twitter-feed">		
 				<a class="twitter-timeline" data-height="3000" href="https://twitter.com/regsolireland?ref_src=twsrc%5Etfw">Tweets by regsolireland</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 			<div class="col-sm-7 col-xs-7" >
