@@ -47,59 +47,72 @@
 		</div>		
 		<br>
 		<div class="container white-insert">
-			<div class="col-sm-7 col-xs-7" >
+			<div class="col-sm-7 col-xs-12" >
 				<h3>RegSol Blog Posts</h3>
 				<?php
-					$ch = curl_init();
-					curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-					curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-					curl_setopt($ch, CURLOPT_URL, 'https://www.googleapis.com/blogger/v3/blogs/569641560437060827/posts?key=AIzaSyDC-RUAeH6350oK0l7m9DmO-gx7IrWSRuc');
-					$result = curl_exec($ch);
-					curl_close($ch);
-					$obj = json_decode($result);
-					$num_posts = sizeof($obj->items);
-					 for ($i=0;$i<$num_posts; $i++) {						 
-						 echo '<div class="blog-item">';
-						 $id = $obj->items[$i]->id;
-						 $title = $obj->items[$i]->title;
-						 $summary = substr($obj->items[$i]->content, 0, 100);
-						 $author = $obj->items[$i]->author->displayName;
-						 echo "<b><a href='blogpost.php?id=$id' class='blog-title'>$title</a></b>";
-						 echo "<br>";
-						 $publishedStr = $obj->items[$i]->published;
-						 $published = strtotime($publishedStr);
-						 $published = date("F Y",$published);
-						 echo "<i>$published</i>";
-						 echo "<br><br>";
-						 echo $obj->items[$i]->content;
-						 echo"</div>";
-						 echo"<div class='text-right' width='100%'><a href='blogpost.php?id=$id' class='blog-title' >Read more here...</a></div>";
-						 
-					 }
+					function displayPage($obj) {
+						$num_posts = sizeof($obj->items);
+						 for ($i=0;$i<$num_posts; $i++) {						 
+							 echo '<div class="blog-item">';
+							 $id = $obj->items[$i]->id;
+							 $title = $obj->items[$i]->title;
+							 $summary = substr($obj->items[$i]->content, 0, 100);
+							 $author = $obj->items[$i]->author->displayName;
+							 echo "<b><a href='blogpost.php?id=$id' class='blog-title'>$title</a></b>";
+							 echo "<br>";
+							 $publishedStr = $obj->items[$i]->published;
+							 $published = strtotime($publishedStr);
+							 $published = date("F Y",$published);
+							 echo "<i>$published</i>";
+							 echo "<br><br>";
+							 echo $obj->items[$i]->content;
+							 echo"</div>";
+							 echo"<div class='text-right' width='100%'><a href='blogpost.php?id=$id' class='blog-title' >Read more here...</a></div>";
+						}
+					}
+					
+					function getPosts($page) {						
+						$ch = curl_init();
+						curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+						curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+						curl_setopt($ch, CURLOPT_URL, $page);
+						$result = curl_exec($ch);
+						curl_close($ch);
+						$obj = json_decode($result);
+						return $obj;
+					}
+					
+					$pageRoot = 'https://www.googleapis.com/blogger/v3/blogs/569641560437060827/posts?key=AIzaSyDC-RUAeH6350oK0l7m9DmO-gx7IrWSRuc';
+					
+					
+					//page 1
+					$page = $pageRoot;
+					$obj = getPosts($page);
+					displayPage($obj);
+										
+					//page 2
+					$page = $pageRoot.'&pageToken='.$obj->nextPageToken;
+					$obj = getPosts($page);
+					displayPage($obj);
+					
+					//page 3
+					$page = $pageRoot.'&pageToken='.$obj->nextPageToken;
+					$obj = getPosts($page);
+					displayPage($obj);
+					
+					//page 4
+					$page = $pageRoot.'&pageToken='.$obj->nextPageToken;
+					$obj = getPosts($page);
+					displayPage($obj);
+					
+					
 				?>				
-				<table>
-					<tr>						
-						<td  class="blog-item">
-							<b><a href="https://www.linkedin.com/pulse/impact-idr-price-comparison-websites-introduction-ancillary-whelan/" target="_new" class="blog-title">The Impact of IDR on Price Comparison Websites and introduction of Ancillary Insurance Intermediaries</a></b><br>
-							<i>November 2018</i><br><br>
-							The European Union (Insurance Distribution) Regulations 2018 ('IDR') transposed the Insurance Distribution Directive into Irish law. Replacing the European Union (Insurance Mediation) Regulations 2005 ('IMR'), IDR took effect on 30th September 2018.
-							<a href="https://www.linkedin.com/pulse/impact-idr-price-comparison-websites-introduction-ancillary-whelan/" target="_new"> Read more here</a>
-						</td>
-					</tr>
-					<tr>						
-						<td class="blog-item">
-							<b><a href="https://www.linkedin.com/pulse/high-cyber-security-spend-ineffective-reducing-data-breach-whelan/?published=t" target="_new" class="blog-title">High Cyber-Security Spend ineffective in reducing Data Breach Risk without Training and Cultural changes too</a></b><br>
-							<i>November 2018</i><br><br>
-							The recent General Data Protection Regulation has changed the face of data protection in the EU. Data protection complaints are soaring. By the end of July 2018, just two months after the GDPR came into effect, 1,184 complaints had been made to the Data Protection Commission an average of nearly 600 per month. This figure is significantly up from the 2017 average of 230 per month. This sharp increase in complaints underscores the new era in which companies operate.		
-							<a href="https://www.linkedin.com/pulse/high-cyber-security-spend-ineffective-reducing-data-breach-whelan/?published=t" target="_new"> Read more here</a>
-						<td>
-					</tr>
-				</table>
+
 			</div>	
-			<div class="col-sm-1 col-xs-1">	
+			<div class="col-sm-1 hidden-xs">	
 				&nbsp;
 			</div>
-			<div class="col-sm-4 col-xs-4 twitter-feed">		
+			<div class="col-sm-4 hidden-xs twitter-feed">		
 				<a class="twitter-timeline twitter-feed" data-height="2000" href="https://twitter.com/regsolireland?ref_src=twsrc%5Etfw">Tweets by regsolireland</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 		</div>
