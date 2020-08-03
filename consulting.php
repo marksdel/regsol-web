@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="RegSol Compliance Consulting Solutions">
-    <meta name="keywords" content="reg sol regulatory brexit compliance authorisation gdpr aml Ireland">
+    <meta name="keywords" content="reg sol regulatory brexit compliance authorisation gdpr aml Ireland consultants consultancy anti money laundering data protection">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 

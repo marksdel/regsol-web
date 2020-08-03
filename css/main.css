@@ -148,6 +148,15 @@
 	width: 100%;
 }
 
+.home-landing {
+	background-image: url("../images/dublin-skyline-dark.jpg");
+	background-repeat: no-repeat;
+	background-attachment: cover;	
+	background-size: 100% ;	
+	font-size: 45px;
+	color: white;
+}
+
 .white-insert{
 	background-color:white;
 	opacity: 0.9;
@@ -175,13 +184,51 @@
 	text-align:center;
 	line-height:100px;
 	position:absolute;
-	top:360px;
+	top:400px;
 	min-width: 300px;
 }
+
+.home-blurb{
+
+	background-color:white;
+	opacity: 0.9;
+	font-size: 21px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align:left;
+	position:absolute;
+	top:250px;
+	min-width:300px;
+	display: inline;
+}
+
+.notice {
+
+	background-color:white;
+	opacity: 0.9;
+	font-size: 21px;
+	color:red;
+}
+
+.home-blurb a {display: inline;}
 
 .home-training a { color:black; text-decoration:none }
 .home-training a:hover { 
 	color:white; 
+	text-decoration:none;
+	background-image: linear-gradient(#F8F8FF, gray),
+					linear-gradient(black, black);
+	
+	}
+
+.home-spotlight {
+	text-align : center;
+}
+	
+.home-spotlight a { color:black; text-decoration:none }
+.home-spotlight a:hover { 
+	color:black; 
 	text-decoration:none;
 	background-image: linear-gradient(#F8F8FF, gray),
 					linear-gradient(black, black);
@@ -198,7 +245,7 @@
 	text-align:center;
 	line-height:100px;
 	position:absolute;
-	top:500px;
+	top:540px;
 	min-width:300px;
 }
 

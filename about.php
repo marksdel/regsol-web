@@ -146,27 +146,40 @@
 									
 				</div>
 			</div>
+			
+			<div class="container centered-column">
+				<div class="col-sm-10 centered-column content-relative">
+					Our Consultants
+					<p class="text-left ">RegSol consultants are highly-qualified practitioners with extensive legal and compliance experience.  They are a mix of qualified solicitors, barristers and finance professionals who are very comfortable providing regulatory and business advice. Each of our consultants have vast experience in providing training, consultancy and audit services. Collectively, they cover a diverse range of industries with experience in criminal law, financial services, technology, education and medical science. </p>
+				</div>
+				
+			</div>
+			
 			<div class="container">
 				<div class="col-sm-1 hidden-xs">
 					&nbsp;
 				</div>
-				<div class="col-sm-6 text-left">
-					<p class="text-left content-relative">Combining over twenty years of regulatory, compliance, IT, and financial services experience, our consultants excel at finding workable solutions for your compliance needs. Our training and consultancy services are specifically designed to ease the burden of constantly expanding compliance requirements. We take the stress out of meeting compliance and regulatory obligations, allowing you to focus on building your business.<br><br><br></p>
+				<!--div class="col-sm-6 text-left">
+					<p class="text-left content-relative">Combining over twenty years of regulatory, compliance, IT, and financial services experience, our consultants excel at finding workable solutions for your compliance needs. Our training and consultancy services are specifically designed to ease the burden of constantly expanding compliance requirements. We take the stress out of meeting compliance and regulatory obligations, allowing you to focus on building your business.</p>
 					
-				</div>
+				</div-->
 				
-				<div class="col-md-4 hidden-xs">
+				<div class="col-md-10 hidden-xs">
 					<div>
 						<p class="quote"> 
-							"If you think compliance is expensive <br>- try non-compliance"
+							"If you think compliance is expensive, try non-compliance"
 						</p>
 					</div>
 					
-					-Former US Deputy Attorney General Paul McNulty
+					<div class = "text-right"> -Former US Deputy Attorney General Paul McNulty</div>
+				</div>
+				<div class="col-sm-1 hidden-xs">
+					&nbsp;
 				</div>
 			</div>
+				
 			<div class="col-md-12 hidden-xs">
-				<br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br>
 			</div>
 		</div>
 		
@@ -241,7 +254,7 @@
 						<b>Telephone :</b> <a href="tel:+35315394884">+353 1 539 4884</a><br>
 						<b>Email : </b><a href="mailto:info@regsol.ie">info@regsol.ie</a> 						
 						<br><br>
-						<b>Address : </b> <br>Unit 23, <br>Trinity Technology & Enterprise Campus, <br>Pearse Street, <br>Dublin 2, <br>D02 WR66<br><br>
+						<b>Address : </b> <br>20 Harcourt Street <br>Dublin 2, <br>D02 NP26<br><br>
 						
 
 					</div>					

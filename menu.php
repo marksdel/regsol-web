@@ -49,8 +49,8 @@
                     
 					<div class="dropdown nav navbar-left">
 						<li><a href="about.php">About Us</a></li>
-						<div class="dropdown-content">
-							<a href="about.php#our_story">Our Story</a>
+						<div class="dropdown-content">	
+							<a href="about.php">Our Consultants</a>	
 							<a href="about.php#contact">Contact Us</a>	
 							<a href="careers.php">Careers</a>	
 							<a href="about.php#privacy">Privacy</a>

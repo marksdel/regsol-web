@@ -49,27 +49,27 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 		</div>
-		<h2> Careers @ RegSol</h2>
+		<h1> Careers @ RegSol</h1>
 		<div class="container white-insert">
 			<div class="col-sm-12 text-left">						
 				<!--Please see our current job vacancies below. If you don't see a relevant role below but believe you would be a good fit for RegSol please feel to <a href="about.php#contact">contact us</a>. We are always interested in speaking with dynamic candidates about potential roles.-->
-				We currently have no open roles but if you believe that you may be able to offer value to RegSol please do please email your CV and cover letter to <a href="mailto:hr@regsol.ie">hr@regsol.ie</a>
+				We currently have no open roles but if you believe that you may be able to offer value to RegSol please do please email your CV and cover letter to <a href="mailto:hr@regsol.ie">hr@regsol.ie</a>. We are always interested in speaking to potential candidates.
 				<br><br>
 			
 			</div>
 		</div>
 		<br>
 
-		<div class="container white-insert" >
+		<!--div class="container white-insert" >
 			<div class="col-sm-12 text-left centered-column">
 				
-				<!--h2>Title: Regulatory Compliance Consultant - Part Time (3 Days p.w.) </h2>
+				<h2>Title: Regulatory Compliance Consultant - Part Time (3 Days p.w.) - Galway </h2>
 
 				<b>About RegSol:</b><br>
 				RegSol is a key provider of regulatory compliance services to small and medium-sized firms primarily in Ireland. Our consulting business carries out external audits, prepares and reviews policies, and designs processes in conjunction with clients, along with providing additional services in a consultancy capacity. We offer in-house, public and online training in numerous areas relating to compliance regulations such as anti-money laundering legislation, GDPR, etc.
 				<br><br>
 				<b>Description:</b><br>
-				RegSol is looking for a talented, ambitious and driven consultant with experience in regulatory compliance (may suit individual returning to work after extended leave or individuals with other commitments such as study).
+				RegSol is looking for a talented, ambitious and driven consultant with experience in regulatory compliance (may suit individual returning to work after extended leave or individuals with other commitments such as study). RegSol is a Dublin-based company and we are seeking someone based in Galway who can cover regional engagements.
 				<br><br>
 
 				<b>Role and Responsibilities:</b>
@@ -111,16 +111,15 @@
 				<br>
 				<b>Working Arrangements:</b>
 				<ul>
-					<li>Primary place of work is RegSol’s Dublin Office.</li>
-					<li>Some work performed onsite at client locations and some training delivered outside of Dublin.</li>
-					<li>Some flexibility for working from home.</li>
+					<li>Primary place of work is candidate's home office or shared work space in Galway</li>
+					<li>Some work performed onsite at client locations and some training delivered outside of Galway.</li>
 				</ul>
 				<br>
-				<p>To apply for this role please email your CV and cover letter to <a href="mailto:hr@regsol.ie">hr@regsol.ie</a></p-->
+				<p>To apply for this role please email your CV and cover letter to <a href="mailto:hr@regsol.ie">hr@regsol.ie</a></p>
 
 			
 			
-			</div>
+			</div-->
 		</div>
 		
 		

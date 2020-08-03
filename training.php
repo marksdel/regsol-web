@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory Compliance Training Solutions">
-    <meta name="keywords" content="regulatory compliance ireland dublin training e-learning gdpr aml">
+    <meta name="keywords" content="regulatory compliance ireland dublin training e-learning gdpr aml anti money laundering data protection">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">

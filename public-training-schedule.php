@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
-    <meta name="keywords" content="regulatory training courses dublin galway ireland compliance aml gdpr">
+    <meta name="keywords" content="regulatory training courses dublin galway ireland compliance aml gdpr mlro course ctf cpc">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">
@@ -51,17 +51,24 @@
 		</div>
 		<h2> Upcoming Courses</h2>
 		<div class="container white-insert">
-			<div class="col-sm-12 text-left">						
+			<!--div class="col-sm-12 text-left">						
 				Please see below our timetable of upcoming courses which are open to the public. Descriptions of each course can be found on our <a href="training-courses.php">Course Descriptions</a> page or by clicking on the booking link. If you cannot make any of these dates or would like to discuss custom, in-house training please <a href="about.php#contact">contact us</a> and we will be happy to accommodate you. 
 				<br><br>
 				We can also tailor content specifically for other areas, if your required topics are not below please don't hesitate to get in touch to discuss. 
+				
+			</div-->
+			
+			<div class="col-sm-12 text-left ">				
+				
+				<br>Please be advised that all public training sessions are currently being re-scheduled as webinar format in light of the global pandemic. You will find the currently scheduled courses below. We have a range of courses (<a href="training-courses.php">descriptions available here</a>), so if you don't see the course you're looking for (either in the timetable below or on the descriptions page), please <a href="about.php#contact">contact us</a> and we will do our best to accommodate your requirements.
+				<br><br>
 				
 			</div>
 		</div>
 		<br>
 
 		<div class="container" >
-			
+			*Click on title for course description
 			<table id="public_training" class="table-striped" width="100%" data-page-length='25'>
 				<thead>
 					<tr class="title-row">
@@ -94,14 +101,45 @@
 							exit;
 						}					
 					
-					    /* fetch object array */
+					    /* print courses */
 						while ($row = $result->fetch_row()) {
+							$yyyymmdd_date = $row[3];
+							$display_date = $row[4];
+							if ($yyyymmdd_date == '2050-01-01') {
+								$display_date = 'TBC';
+							}
 							echo "<tr>\n";
-							echo "<th><a target='_NEW' href='".$row[1]."'>".$row[0]."</a></th>";
+							echo "<th><a target='_NEW' data-toggle='tooltip' data-placement='top' title='Click for course description' href='".$row[1]."'>".$row[0]."</a></th>";
 							echo "<th>".$row[2]."</th>\n";
-							echo "<th><span class='date'>".$row[3]."</span>".$row[4]."</th>\n";
+							echo "<th><span class='date'>".$yyyymmdd_date."</span>".$display_date."</th>\n";
 							echo "<th>".$row[5]."</th>\n";
 							echo "<th><a target='_NEW' href='".$row[7]."'>".$row[6]."</a></th>";
+							
+							/* eventbrite embedded
+							echo '<th>
+							<!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.ie/e/insurance-distribution-regulation-idr-dublin-tickets-54652648543" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-54652648543" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
+
+<script src="https://www.eventbrite.ie/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log("Order complete!");
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: "checkout",
+        eventId: "54652648543",
+        modal: true,
+        modalTriggerElementId: "eventbrite-widget-modal-trigger-54652648543",
+        onOrderComplete: exampleCallback
+    });
+</script> </th>';
+
+*/
 							echo "</tr>\n";
 							
 						}

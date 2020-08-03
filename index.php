@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Regulatory and compliance solutions for European firms">
-    <meta name="keywords" content="reg sol aml gdpr regulatory brexit compliance authorisation training Ireland">
+    <meta name="keywords" content="reg sol aml gdpr regulatory brexit compliance authorisation training Ireland dublin consultancy training anti money laundering data protection">
     <meta name="author" content="RegSol">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -31,6 +31,7 @@
 
     <!--SECTION-->
     <section id="home" class="medium-gray">
+		
         <div class="container centered-column home-text">	
 		
 			<!--PLACEHOLDER FOR EVENTS SPLASH-->
@@ -49,9 +50,22 @@
 				<a class="white-link-text mobile-text" href="https://aml-seminar-galway-regsol-dec18.eventbrite.ie">Click here for info and tickets</a>
 			</div-->
 			
-			<div class="centered-column col-sm-3 home-training"><a href="training.php">TRAINING</a></div>
+			<!--div class="centered-column col-sm-6 home-blurb">Welcome to the home of RegSol, leading provider of regulatory and compliance solutions in Ireland and across Europe. Primarily focused on SMEs, we can provide compliance assistance from <a href='consulting.php#authorisations'>authorisations</a> through to on-going support. Feel free to explore our services on this site or <a href="about.php#contact">contact us</a> to discuss your requirements.</div-->
 			
-			<div class="centered-column col-sm-3 home-consulting"><a href="consulting.php">CONSULTING</a></div>
+			<div class="centered-column col-sm-8 home-blurb">
+				<div class="col-sm-12 text-left">
+					<h1>Notice</h1>
+					<br>Please be advised that all public training sessions are currently being re-scheduled in webinar format. Please check the <a  style="display: inline" href="public-training-schedule.php">timetable</a> and <a href="about.php#contact">let us know</a> if there are any other courses you would like to see scheduled. 
+					<br><br>
+					Note that consultancy will remain in full operation (via phone, email and video-conferencing). Again, please  <a href="about.php#contact">contact us</a> if you would like to discuss your requirements.
+					<br><br>
+					Kind regards,<br>
+					The RegSol team<br><br>
+				</div>
+			</div>
+			<!--div class="centered-column col-sm-3 home-training"><a href="training-courses.php">TRAINING</a></div>
+			
+			<div class="centered-column col-sm-3 home-consulting"><a href="consulting.php">CONSULTING</a></div-->
 			
         </div>
 		

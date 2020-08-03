@@ -20,8 +20,8 @@
 			  echo "Failed to connect to MySQL: " . mysqli_connect_error();				  
 			}		
 			
-			$query='select Location, DATE_FORMAT(Date,"%a %D %b %Y") Date, Time, BookingLink from PublicTrainingSchedule where Title = "'.$courseName.'" order by Date asc';
-			$text = '<br><br><b>Upcoming Sessions : </b><br>';
+			$query='select Location, DATE_FORMAT(Date,"%a %D %b %Y") TextDate, Time, BookingLink from PublicTrainingSchedule where Title = "'.$courseName.'" order by Date asc';
+			$text = '<br><br><b>Upcoming Sessions (click to book) : </b><br>';
 			$text = $text.'<table class="table-striped-small" width="100%" >';
 			$result = mysqli_query($con1,$query);										
 			if (!$result) {
@@ -31,7 +31,7 @@
 						
 			/* fetch object array */
 			while ($row = $result->fetch_row()) {
-				$text = $text."<tr><td><a href='".$row[3]."'>";
+				$text = $text."<tr><td><a href='".$row[3]."' target='_new'>";
 				$text = $text.$row[0]." -- ".$row[1]."</a></td></tr>";
 			
 			}
@@ -64,7 +64,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="In-person courses delivered either in-house or at our public events">
-    <meta name="keywords" content="regulatory training courses dublin ireland compliance aml gdpr">
+    <meta name="keywords" content="regulatory training courses dublin ireland compliance aml gdpr course galway ctf mlro cpc fitness probity anti money laundering">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol - Training Courses Overview">
@@ -100,7 +100,7 @@
 		
 		<div class="container white-insert">	
 			<div class="col-sm-12 text-left">	
-				<h2> Training Courses</h2>			
+				<h1> Training Courses</h1>			
 				Please see below the courses that we provide via either <a href="public-training-schedule.php">public courses</a>, in-house delivery or e-learning modules. All content is tailored for the Irish market, for example Central Bank of Ireland implementation and interpretation.
 				<br><br>	
 				If you would like to discuss custom <a href="training.php">training solutions</a> (either online or in-person) please <a href="about.php#contact">contact us</a> and we will be happy to work with you regarding your requirements.
@@ -119,10 +119,11 @@
 				<ul>
 					<li><a href="#AMLF">Anti-Money Laundering / Counter-Terrorist Financing</a></li>
 					<li><a href="#AMLU">Anti-Money Laundering Updates</a></li>
-					<li><a href="#GDPRF">Data Protection (GDPR + Practical Concerns)</a></li>
-					<li><a href="#GDPR">Data Protection Essentials (incl GDPR)</a></li>
+					<li><a href="#GDPRF">Data Protection Full Day</a></li>
+					<li><a href="#GDPR">Data Protection Essentials (2hr)</a></li>
 					<li><a href="#Ethics">Ethics for Financial Services</a></li>
-					<li><a href="#IDR">Insurance Distribution Regulations (IDR)</a></li> 
+					<li><a href="#IDR">Insurance Distribution Regulations (IDR)</a></li>
+					<li><a href="#RBC">Risk-Based Compliance</a></li>
 					<li><a href="#CPC">Consumer Protection Code</a></li>
 					<li><a href="#Dir">Directors' Duties</a></li>
 					<li><a href="#FAP">Fitness & Probity</a></li>
@@ -142,7 +143,7 @@
 		<!--AML Full Day-->
 		<div id="AMLF" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
-				<h2 class="text-left">Anti-Money Laundering / Counter-Terrorist Financing</h2>
+				<h2 class="text-left">Anti-Money Laundering / Counter-Terrorist Financing (AML/CTF)</h2>
 				We are offering a full day in depth Anti-Money Laundering / Counter Terrorist Financing course.  With this course, we aim to give you a full breakdown of the Irish AML/CTF and Financial Sanctions Regime.  You will come away with the ability to understand the relevant concepts, put in place a robust AML/CTF framework and highlight the potential consequences of non-compliance.
 				<br><br>
 				
@@ -210,7 +211,7 @@
 		<!--AML Update-->
 		<div id="AMLU" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
-				<h2 class="text-left">Anti-Money Laundering Updates</h2>
+				<h2 class="text-left">Anti-Money Laundering (AML) Updates</h2>
 				The 4th EU AML Directive having been transposed into Irish Law in November 2018, we are now faced with transposing the 5 th EU AML Directive by January 2020 while agreement has already been reached on a 6th Directive.
 				<br><br>
 				It is important to stay updated on this ever-evolving area and with an expectation from competent authorities to undertake annual AML training our training course is updated for each delivery.
@@ -260,7 +261,7 @@
 				<b>Typical duration :</b> 2 hours
 				<br>
 				<?php
-					echo courseDates("Anti-Money Laundering Update");
+					echo courseDates("Anti-Money Laundering Updates");
 				?>
 			</div>
 		</div>
@@ -278,7 +279,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="GDPRF-content" class="collapse panel-body-regsol">
-						Our Full Day Data Protection (GDPR) course aims to provide an indepth look at the requirements and relevant updates. It includes: 
+						Our Full Day Data Protection course aims to provide an indepth look at the requirements and relevant updates. It includes: 
 						<ul>
 							<li>The need for legislation?<li>
 							<li>The Law – What does GDPR entail?</li>
@@ -329,7 +330,7 @@
 				<b>Typical duration :</b> Full Day
 				<br>
 				<?php
-					echo courseDates("Data Protection");
+					echo courseDates("Data Protection Full Day");
 				?>
 			</div>
 		</div>
@@ -338,8 +339,8 @@
 		<!--GDPR Essentials-->
 		<div id="GDPR" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
-				<h2 class="text-left">Data Protection Essentials (GDPR)</h2>
-				The General Data Protection Regulations became law on 25 th May 2018, as did the Irish Data Protection Amendment Act 2018. Since then the Data Protection Commission has produced its first report highlighting significant increases in Data Breach notifications and Complaints. 
+				<h2 class="text-left">Data Protection Essentials (2hr)</h2>
+				The General Data Protection Regulations (GDPR) became law on 25 th May 2018, as did the Irish Data Protection Amendment Act 2018. Since then the Data Protection Commission has produced its first report highlighting significant increases in Data Breach notifications and Complaints. 
 				<br><br>
 				The French Data Protection Authority has also presented one to the first large fines post-GDPR by fining Google €50 million.
 				<br><br>
@@ -388,7 +389,7 @@
 				<b>Typical duration :</b> 2 hours
 				<br>
 				<?php
-					echo courseDates("GDPR Essentials");
+					echo courseDates("Data Protection Essentials (2Hr)");
 				?>
 			</div>
 		</div>
@@ -749,7 +750,7 @@
 				<b>Typical duration :</b> Half day
 				<br>
 				<?php
-					echo courseDates("Fitness & Probity Including MCC");
+					echo courseDates("Fitness & Probity (inc MCC)");
 				?>
 			</div>
 		</div>
