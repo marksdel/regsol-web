@@ -2,16 +2,16 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<?php include 'js/gtag.js'; ?>
     <title>RegSol - Public Training Courses</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Regulatory and compliance solutions for European firms">
+    <meta name="description" content="RegSol Public Training Timetable">
     <meta name="keywords" content="regulatory training courses dublin galway ireland compliance aml gdpr mlro course ctf cpc">
     <meta name="author" content="DW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">
-	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
+	<meta property="og:description" content="RegSol Public Training Timetable">
+	<meta property='og:image' content='/images/regsol_logo_black_yellow.png'/>
 	
     <?php include 'header-common.php';?>
 	<script type= "text/javascript">
@@ -51,19 +51,19 @@
 		</div>
 		<h2> Upcoming Courses</h2>
 		<div class="container white-insert">
-			<!--div class="col-sm-12 text-left">						
-				Please see below our timetable of upcoming courses which are open to the public. Descriptions of each course can be found on our <a href="training-courses.php">Course Descriptions</a> page or by clicking on the booking link. If you cannot make any of these dates or would like to discuss custom, in-house training please <a href="about.php#contact">contact us</a> and we will be happy to accommodate you. 
+			<div class="col-sm-12 text-left">						
+				Please see below our timetable of upcoming courses which are open to the public. Descriptions of each course can be found on our <a href="training-courses.php">Course Descriptions</a> page or by clicking on the booking link. If you cannot make any of these dates or would like to discuss custom training for your organisation please <a href="about.php#contact">contact us</a> and we will be happy to accommodate you. 
 				<br><br>
 				We can also tailor content specifically for other areas, if your required topics are not below please don't hesitate to get in touch to discuss. 
 				
-			</div-->
+			</div>
 			
-			<div class="col-sm-12 text-left ">				
+			<!--div class="col-sm-12 text-left ">				
 				
 				<br>Please be advised that all public training sessions are currently being re-scheduled as webinar format in light of the global pandemic. You will find the currently scheduled courses below. We have a range of courses (<a href="training-courses.php">descriptions available here</a>), so if you don't see the course you're looking for (either in the timetable below or on the descriptions page), please <a href="about.php#contact">contact us</a> and we will do our best to accommodate your requirements.
 				<br><br>
 				
-			</div>
+			</div-->
 		</div>
 		<br>
 

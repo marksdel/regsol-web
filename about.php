@@ -1,100 +1,6 @@
-   <?php
-		
-		require_once "recaptcha/src/autoload.php";
-		
-		// your secret key
-		$secret = "6LfFHoIUAAAAAOIWZNYB_OEz7fmnz_fM8AKl50Kf";
- 
-		// empty response
-		$response = null;
- 
-		// check secret key
-		$reCaptcha = new \ReCaptcha\ReCaptcha($secret);
-		
-		//setup variables
-		$name='';
-		$email='';
-		$message = '';
-		$errMessage='';
-		$errName='';
-		$errEmail='';
-		$errRecaptcha='need to check';
-		$result='';
-		$resp='';
-		
-	if (isset($_POST["submit"])) {
-			
-		// if submitted check recaptcha
-		
-		
-		
-		if ($_POST["g-recaptcha-response"]) {
-			$resp = $reCaptcha->setExpectedHostname($_SERVER['SERVER_NAME'])
-                      ->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
-			if ($resp->isSuccess()) {
-				$errRecaptcha = '';
-			} else {
-				$errRecaptcha = 'Problem verifying, please retry';
-			}		
-		}
-		
-		/*
-		echo '<p><strong>' . $response .':</strong> '.'</p>';
-		if ($response != null && $response->success) {
-				//do nothing
-		} else {
-			$errRecaptcha = 'Problem verifying, please retry';
-		}
-		*/		
-		$name=preg_replace('/[^a-zA-Z0-9\ ]/','',$_POST['name']);
-		$name=htmlspecialchars($name);
-		
-		$email=filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-				
-		$message=preg_replace('/[^a-zA-Z0-9\ ]/','',$_POST['message']);
-		$message=htmlspecialchars($message);
-		
-		$from = 'info@regsol.ie'; 
-		$to = 'info@regsol.ie'; 
-		$subject = 'Message from ' . $name;
-		
-		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
-		// Check if name has been entered
-		if (!$_POST['name']) {
-			$errName = 'Please enter your name';
-		}
-		
-		// Check if email has been entered and is valid
-		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-			$errEmail = 'Please enter a valid email address';
-		}
-		
-		//Check if message has been entered
-		if (!$_POST['message']) {
-			$errMessage = 'Please enter your message';
-		}
-				
-		
-		// If there are no errors, send the email
-		if (!$errName && !$errEmail && !$errMessage && !$errRecaptcha) {
-			if (mail ($to, $subject, $body, $from)) {
-				$result='<div class="alert alert-success">Thank You! One of our consultants will contact you shortly</div>';
-			} else {
-				$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again</div>';
-			}
-		}
-	} 
-		
-	
-?>	
-
-
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<?php include 'js/gtag.js'; ?>
     <title>RegSol - About Us</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -104,9 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:title" content="RegSol">
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
-	
-    <?php include 'header-common.php';?>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>
+		
+    <?php include 'header-common.php';?>    
 </head>
 <body>
     <div id="loading-screen" class="centered-column">
@@ -119,7 +24,7 @@
     <?php include 'menu.php';?>
 
 	<!-- SECTION -->
-	<section id="our_story">
+	<section id="our_story" class="about-landing" >
 		<script>
             $('#first-splash-image').on('load', function() {
                 $('#loading-screen').addClass('loading-slide-up');
@@ -129,139 +34,126 @@
             }, 500)
         </script>
 		
-		<video autoplay muted loop id="myVideo">
+		<!--video autoplay muted loop id="myVideo">
 			<source src="video/dublin_traffic.mp4" type="video/mp4">
-		</video>
-		<div class="content">
+		</video-->
+		
+		<div>
 			<div class="container centered-column ">
 				<div class="col-sm-10 text-left centered-column">	
 					<div class="hidden-xs">
-						<br><br>
+						<br><br><br><br><br>
 					</div>
-					<h2>Welcome to RegSol - Your Regulatory Advisors</h2>
+					
 					<br>
 				</div>
-				<div class="col-sm-10 text-left centered-column white-insert hidden-xs">
-					<h3> <b>Mission Statement - </b>We aim to help take the pain out of regulatory compliance for our clients.</h3>
-									
+				<br><br><br><br><br>
+				<div class="col-sm-10 text-left centered-column content-relative hidden-xs">
+					<h1> Taking the pain out of regulatory compliance</h1>
 				</div>
+				
 			</div>
-			
+			<br><br><br><br><br><br><br><br><br>
 			<div class="container centered-column">
-				<div class="col-sm-10 centered-column content-relative">
-					Our Consultants
-					<p class="text-left ">RegSol consultants are highly-qualified practitioners with extensive legal and compliance experience.  They are a mix of qualified solicitors, barristers and finance professionals who are very comfortable providing regulatory and business advice. Each of our consultants have vast experience in providing training, consultancy and audit services. Collectively, they cover a diverse range of industries with experience in criminal law, financial services, technology, education and medical science. </p>
+				<div class="col-sm-10 centered-column mission-statement">
+					<h2>Mission Statement</h2>
+					<p class="text-left ">At RegSol our mission is to provide tailored and scalable services enabling you to comply with your regulatory obligations. Our range of practical solutions, across training and consultancy, is constantly evolving to ensure that we are on top of the ever-changing regulatory landscape. We always strive to find the most effective means of compliance for our clients regardless of their size and are proud to be a leading provider to SME’s.  </p>
 				</div>
 				
-			</div>
+			</div>								
 			
-			<div class="container">
-				<div class="col-sm-1 hidden-xs">
-					&nbsp;
-				</div>
-				<!--div class="col-sm-6 text-left">
-					<p class="text-left content-relative">Combining over twenty years of regulatory, compliance, IT, and financial services experience, our consultants excel at finding workable solutions for your compliance needs. Our training and consultancy services are specifically designed to ease the burden of constantly expanding compliance requirements. We take the stress out of meeting compliance and regulatory obligations, allowing you to focus on building your business.</p>
-					
-				</div-->
-				
-				<div class="col-md-10 hidden-xs">
-					<div>
-						<p class="quote"> 
-							"If you think compliance is expensive, try non-compliance"
-						</p>
-					</div>
-					
-					<div class = "text-right"> -Former US Deputy Attorney General Paul McNulty</div>
-				</div>
-				<div class="col-sm-1 hidden-xs">
-					&nbsp;
-				</div>
-			</div>
-				
-			<div class="col-md-12 hidden-xs">
-				<br><br><br><br><br><br><br><br><br>
-			</div>
-		</div>
-		
+		</div>		
 		
 	</section>
 
+	<!-- TEAM SECTION -->	
+	<section id="our_team">
+		<div class="container centered-column">
+			<div class="col-sm-8 centered-column">
+				<h2>Our Team</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/about/annemarie_square.jpg" width="180px">
+				</div>
+				<div class="col-sm-10">
+					<b>AnneMarie Whelan BL</b><br>
+					<i>Lead Regulatory Consultant & CEO</i><br>
+					<p class="text-left bios">As a qualified Barrister, AnneMarie spent 9 years at the Bar of Ireland before switching to financial services regulation in 2014. Since then she has developed expertise in Anti-Money Laundering, Consumer Protection and Data Protection. She regularly presents at different industry events on these topics. 
+					AnneMarie has extensive experience in drafting compliant policies and procedures, conducting onsite compliance reviews and has developed a streamlined CBI Authorisation application process for intermediaries. She currently holds a Central Bank of Ireland approved PCF-12 Head of Compliance role with a Retail Intermediary and is a named MLRO for a Credit Union on an outsourced part-time basis. </p>								
+				</div>	
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/about/blank_profile.png" width="180px">
+				</div>
+				<div class="col-sm-10">
+					<b>Judy de Castro BA (HONS), MSc, LCOI</b><br>
+					<i>Regulatory Consultant</i><br>
+					<p class="text-left bios">As an internationally qualified Compliance Officer (2018) and Data Protection Officer (2019), Judy has over 10 years experience in Anti-Money Laundering & Counter Terrorist Financing, Audit & Risk Management, Business Continuity Planning and Data Protection in the financial services and pharmaceutical industries. Judy regularly presents on these topics.  </p>
+				</div>					
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/about/blank_profile.png" width="180px">
+				</div>
+				<div class="col-sm-10">
+					<b>Éilish Larkin BA (Hons), QFA</b><br>
+					<i>Regulatory Consultant (West of Ireland Lead)</i><br>
+					<p class="text-left bios">Éilish has an extensive history working in the financial services industry across Corporate Trust (Transaction Manager, External Reporting Analyst, Transaction Compliance), Retail Banking and Fund Accounting in both Fund and Trustee Administration roles.  Éilish is currently studying for the LCOI designation having completed the  Professional Certificate in Compliance in 2020.  In addition, Éilish is a QFA and holds a BA in Law and Accounting from University of Limerick. </p>
+				</div>					
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/about/blank_profile.png" width="180px">
+				</div>
+				<div class="col-sm-10">
+					<b>Aisling Folens</b><br>
+					<i>Operations Manager</i><br>
+					<p class="text-left bios">Aisling is responsible for the smooth running of the RegSol business. She deals with office administration, scheduling, event management, client queries and project co-ordination. In addition, she is lead instructional designer for our e-learning courses, working with our consultants and clients to turn content into interactive, online modules. With over 10 years experience in financial and compliance industries, she brings a wealth of knowledge to all aspects of the business. </p>
+				</div>					
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/about/blank_profile.png" width="180px">
+				</div>
+				<div class="col-sm-10">
+					<b>Derek Whelan BSc (HONS)</b><br>
+					<i>Director</i><br>
+					<p class="text-left bios">With a financial services and technology background, Derek oversees IT, software, and business development. Having completed his computer science degree at UCD, Derek started his professional career as a software developer, he progressed through various engineering and business roles in the financial services industry. Throughout 15+ years in the industry, he has gained broad knowledge of risk, compliance, legal and operational aspects of running a business. He is passionate about fintech and growing the RegSol business sustainably.  </p>
+				</div>					
+			</div>
+			<br><br>
+		</div>
+	</section>
+	
 	<!-- SECTION -->	
 	<section id="contact" class="contact">
-		<div class="container">
-			<div class="col-sm-6 col-sm-6 text-left ">	
+		<div class="container">			
+			<div class="col-sm-5 text-left ">
+				<br><br>
+				<?php include 'contact_details.php';?>		
+			</div>
+			<div class="col-sm-5 text-left ">	
+				
 				<div class="centered-column">
-					<h2>Contact Form</h2>
+					<br><br>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.4038967966717!2d-6.265797283884467!3d53.33602577997681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670f3505d1aa7f%3A0xb47950ba643c429f!2sRegSol%20Compliance!5e0!3m2!1sen!2sie!4v1596473048881!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			
 				</div>
 				<br><br>
-				<form class="form-horizontal" role="form" method="post" action="about.php#contact">
-					<div class="form-group">
-						<label for="name" class="col-sm-3 control-label">Name *</label>
-						<div class="col-sm-9">			
-							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($name); ?>">
-							<?php echo "<p class='text-danger'>$errName</p>";?>	
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="email" class="col-sm-3 control-label">Email *</label>
-						<div class="col-sm-9">
-							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($email); ?>">
-							<?php echo "<p class='text-danger'>$errEmail</p>";?>
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="message" class="col-sm-3 control-label">Message *</label>
-						<div class="col-sm-9">
-							<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($message);?></textarea>
-							<?php echo "<p class='text-danger'>$errMessage</p>";?>
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="message" class="col-sm-3 control-label">Verification</label>
-						<div class="col-sm-9 centered-column g-recaptcha" data-sitekey="6LfFHoIUAAAAAITuM_uCD4ZABFc3TDlP9YpujrCP"></div>
-						<?php echo "<p class='text-danger'>$errRecaptcha</p>";?>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-9 col-sm-offset-3">
-							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-9 col-sm-offset-3">
-							<?php echo $result; ?>	
-						</div>
-					</div>					
-				</form> 
 				
-			</div>
-			<div class="col-sm-1 col-sm-1 text-left ">	
-				<div class="centered-column">
-					&nbsp;
-					
-				</div>				
-			</div>
-			<div class="col-sm-5 col-sm-5 text-left ">	
-				<div class="text-left">
-					<h2 class="text-left">Contact Details</h2>
-					<div class="container">
-						<a href="https://twitter.com/regsolireland?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @regsolireland</a>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						&nbsp;
-						<script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-						<script type="IN/FollowCompany" data-id="11508145"></script>
-						<br><br>
-						<b>Telephone :</b> <a href="tel:+35315394884">+353 1 539 4884</a><br>
-						<b>Email : </b><a href="mailto:info@regsol.ie">info@regsol.ie</a> 						
-						<br><br>
-						<b>Address : </b> <br>20 Harcourt Street <br>Dublin 2, <br>D02 NP26<br><br>
-						
-
-					</div>					
-				</div>
+				<div class="col-sm-2 col-sm-2 text-left ">	
+					<div class="centered-column">
+						&nbsp;						
+					</div>				
+				</div>			
 				
-			</div>
-			
+			</div>			
 		</div>		
 
 		<div class="hidden-sm">
@@ -324,12 +216,7 @@
 					We do not transfer personal data of our clients or subscribers to destinations outside of the European Union.				
 					
 				</p>
-				<h2 class="text-left">3. Cookie Policy</h2>
-				<p class="text-left">
-					By using this website, you are consenting to the use of cookies from third-party partners such as Google to analyze user activity in order to help improve the website. For example, 
-					if we notice that a certain section of our website is not being accessed regularly we may try to make it more prominent. We use these analytics to help improve 
-					the functionality and user experience of the website.
-				</p>
+				
 				<h2 class="text-left">4. Your Rights</h2>
 				<p class="text-left">
 				
@@ -348,8 +235,50 @@
 				</p>
 			</div>
 		</div>
-		<?php include 'footer.php';?>
+		
 	</section>		
+	
+	<section id="cookie_policy">
+		<div class="container centered-column">
+			<div class="col-sm-12 text-left centered-column">
+				<h1 class="text-left">Cookie Policy</h2>
+				<p class="text-left">
+					In order to make this site work properly, we  place small data files called cookies on your device.  The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission. You can at any time change or withdraw your consent by clicking <a href="about.php?changeCookiePreferences=true">here</a>.
+				</p>
+				
+				<h2 class="text-left">What are Cookies?</h2>
+				<p class="text-left">
+					Cookies are small data files placed on your computer or internet enabled device by websites to add functionality. Cookies help to improve the usage and effectiveness of the Website and the Portal, for example, by remembering your actions and preferences (such as login, language, font size and other display preferences) over a period of time, so you don't have to keep re-entering them whenever you come back to the site or browse from one page to another. Other cookies, from third parties, could also be used to track you when you navigate to other sites that also use services from these third parties.
+				</p>
+
+				<h2 class="text-left">What kind of information do we track?</h2>
+				<p class="text-left">
+					We automatically receive information from your web browser or mobile device. This information includes the name of the website from which you entered our website, if any, as well as the name of the website you’ll visit when you leave our website. This information may also include the IP address of your computer/the proxy server you use to access the Internet, your Internet service provider’s name, your web browser type, the type of mobile device, your computer operating system, and data about your browsing activity when using our website. We use all this information to analyze trends among our users to help improve our website (See Google Analytics information below).
+				</p>
+				
+				<h3 class="text-left">Strictly Necessary Cookies</h2>
+				<p class="text-left">
+					These cookies are necessary for proper functioning of the website, such as displaying content, logging in, validating your session, responding to your request for services, and other functions. Most web browsers can be set to disable the use of cookies. However, if you disable these cookies, you may not be able to access features on our website correctly or at all.
+				</p>
+				
+				<h3 class="text-left">Analytics Cookies</h2>
+				<p class="text-left">
+					We use Google Analytics to collect information about the use of the website, such as pages visited, traffic sources, users’ interests, content management, and other website measurements. Enabling this cookie allows us to use Google Analytics.
+				</p>
+				
+				<h3 class="text-left">Analytics Cookies</h2>
+				<p class="text-left">
+					These cookies enable the website to remember a user’s choices – such as their language, user name, and other personal choices – while using the website. They can also be used to deliver services, such as letting a user make a blog post, listen to audio, or watch videos on the website.
+				</p>
+			</div>
+			<?php include 'footer.php';?>
+		</div>
+		
+
+		 
+
+	
+	</section>
 
 	<?php include 'resize-menu.php';?>
 

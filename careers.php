@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<?php include 'js/gtag.js'; ?>
     <title>RegSol - Public Training Courses</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -16,8 +16,79 @@
 	width: 100%;
 }
 
+.wrapper {
+    display: flex;
+    align-items: stretch;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	overflow-x: hidden;
+	transition: 0.5s;
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+
+#sidebar {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+#sidebar.active {
+    margin-left: -300px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+	/*show beside sidebar */
+	margin-top:80px;
+	margin-left:300px;
+	
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.7);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+
 .bg-green {
 	background-color : #3dbb8b;
+	color: white;
+}
+
+.bg-dark-grey {
+	background-color : #282828;
+	color: white;
+}
+
+
+.bg-green a:link {
 	color: white;
 }
 
@@ -157,6 +228,14 @@
 	color: white;
 }
 
+.about-landing {
+	background-image: url("../images/people_in_square.png");
+	background-repeat: no-repeat;
+	background-attachment: cover;	
+	background-size: 100% ;		
+	color: white;
+}
+
 .white-insert{
 	background-color:white;
 	opacity: 0.9;
@@ -222,6 +301,26 @@
 	
 	}
 
+.services-block {
+	color:black;
+	height : 230px;
+	padding : 15px;
+	text-align:center;
+	vertical-align: center;
+	box-shadow: 5px 5px #888888;
+}
+
+.services-block a { color:black; text-decoration:none }
+.services-block a:hover { 
+	color:black; 
+	text-decoration:none;
+}	
+.services-block b { 
+	color:black; 
+	text-align: center;
+
+}
+	
 .home-spotlight {
 	text-align : center;
 }
@@ -230,10 +329,7 @@
 .home-spotlight a:hover { 
 	color:black; 
 	text-decoration:none;
-	background-image: linear-gradient(#F8F8FF, gray),
-					linear-gradient(black, black);
-	
-	}
+}
 
 .home-consulting{
 	background-image: linear-gradient(#F8F8FF, 	#480000 ),
@@ -262,6 +358,11 @@
 }
 .white-link-text a {
 	color:white!important;
+}
+
+.eLearning {
+	color:white;
+	font-size: 18px;
 }
 
 /* Centered text */
@@ -407,6 +508,15 @@
 	border: 1px solid gray; 
 	
 }
+
+.mission-statement {
+	color:black;
+}
+
+.bios {
+	font-size:15px;
+}
+
 
 .content {
   position: absolute;
@@ -556,4 +666,67 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 26px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 0px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 26px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

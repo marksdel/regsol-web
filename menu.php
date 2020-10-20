@@ -15,6 +15,7 @@
 			<div class="menu-contact" >
 						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Tel : <a href="tel:+35315394664">+353 1 539 4884</a>
 						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Email : <a href="mailto:info@regsol.ie">info@regsol.ie</a>
+						<span class="xs-only">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <!--add this to fix menu on phones-->
 			</div>
 				
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,37 +27,50 @@
 						<li><a href="index.php">Home</a></li>
 					</div>
 					<div class="dropdown nav navbar-left">
-						<li><a href="training-courses.php">Training</a></li>
+						<li><a href="about.php">About Us</a></li>
+						<div class="dropdown-content">	
+							<a href="about.php">Vision</a>	
+							<a href="about.php#our_team">Our Team</a>	
+						</div>	
+					</div>
+					<div class="dropdown nav navbar-left">
+						<li><a href="public-training-schedule.php">Training</a></li>
 						<div class="dropdown-content">							
 							<a href="training-courses.php">Course Descriptions</a>
 							<a href="public-training-schedule.php">Training Timetable</a>	
-							<a href="training.php">Delivery Formats</a>
+							<a href="elearning.php">e-Learning</a>
+							<a href="https://training.regsol.ie" target="new">Online Portal</a>
 						</div>
 					</div>
 						
 					<div class="dropdown nav navbar-left">
 						<li><a href="consulting.php">Consulting</a></li>
 						<div class="dropdown-content">
-							<a href="consulting.php#Services">Services</a>
+							<a href="consulting.php">Compliance Services</a>
+							<a href="consulting.php#authorisations">Authorisations</a>	
 							<a href="consulting.php#AML">AML</a>
-							<a href="consulting.php#authorisations">Authorisations</a>		
-							<a href="consulting.php#GDPR">GDPR</a>							
+							<a href="consulting.php#GDPR">GDPR</a>		
+							<a href="consulting.php#Industry">Industries</a>
 						</div>
 					</div>
 					<div class="dropdown nav navbar-left">
-						<li><a href="blog.php">News</a></li>
-					</div>		
-                    
-					<div class="dropdown nav navbar-left">
-						<li><a href="about.php">About Us</a></li>
-						<div class="dropdown-content">	
-							<a href="about.php">Our Consultants</a>	
-							<a href="about.php#contact">Contact Us</a>	
+						<li><a href="blog.php">Resources</a></li>
+						<div class="dropdown-content">
+							<a href="blog.php">News</a>
 							<a href="careers.php">Careers</a>	
 							<a href="about.php#privacy">Privacy</a>
+							<a href="about.php#cookie_policy">Cookie Policy</a>
 						</div>
-					</div>							
+					</div>	
+
+					<div class="dropdown nav navbar-left">
+						<li><a href="about.php#contact">Contact</a></li>
+                    </div>
+						
                 </ul>
             </div>			
         </div>
     </nav>
+	
+	<!-- COOKIE PREFERENCES -->
+	<?php include 'cookie-preferences.php';?>

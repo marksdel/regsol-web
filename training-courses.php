@@ -59,7 +59,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<?php include 'js/gtag.js'; ?>
     <title>RegSol - Training Courses Overview</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -124,10 +123,12 @@
 					<li><a href="#Ethics">Ethics for Financial Services</a></li>
 					<li><a href="#IDR">Insurance Distribution Regulations (IDR)</a></li>
 					<li><a href="#RBC">Risk-Based Compliance</a></li>
-					<li><a href="#CPC">Consumer Protection Code</a></li>
+					<li><a href="#CPC">Consumer Protection Code (CPC)</a></li>
 					<li><a href="#Dir">Directors' Duties</a></li>
 					<li><a href="#FAP">Fitness & Probity</a></li>
 					<li><a href="#MLRO">Duties of a Money Laundering Reporting Officer (MLRO)</a></li>	
+					<li><a href="#CCMA">Code of Conduct on Mortgage Arrears (CCMA)</a></li>
+					<li><a href="#CICA">Consumer Insurance Contracts Act (CICA)</a></li>
 						
 				</ul>
 				<br>
@@ -812,6 +813,131 @@
 		</div>
 		<br>
 		<!--END COURSE SECTION-->
+		
+		<!--CCMA-->
+		<div id="CCMA" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Code of Conduct on Mortgage Arrears</h2>
+				The Covid-19 Pandemic has impacted on the ability of countless families to be able to pay their household bills. Despite temporary payment breaks for Mortgages, there will be numerous mortgage holders facing into arrears at the latter end of 2020 and the CCMA is very likely to come into sharper focus again.  
+				<br><br>
+				This half day course will serve to refresh the minds of those familiar with mortgage business while also giving attendees new to the area a full understanding of the Code. 
+
+				<br><br>
+				
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#CCMA-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="CCMA-content" class="collapse panel-body-regsol">			
+						<br>
+		
+						<ul><li>Mortgage Arrears Resolution Process (MARP)</li>
+							<li>The role of the Arrears Support Unit (ASU)</li>								
+							<li>Alternative Repayment Arrangements</li>							
+							<li>Meaning of ‘Not Co-operating’</li>
+							<li>Provision of Information</li>
+							<li>Complaints resolution</li>
+							<li>Records and Compliance</li>
+							
+						</ul>
+						<br>
+					</div>
+				</div>			
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#CCMA-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="CCMA-attendees" class="collapse panel-body-regsol">
+						This module is recommended for staff and management working in arrears handling roles or functions within Firms that provide or service mortgages to individuals in Ireland.
+						<br><br>
+						Relevant Firms: Credit institutions, mortgage intermediaries, retail credit firms, debt management firms and credit servicers.
+
+						<br><br>						
+					</div>
+				</div>		
+				<br>&emsp;<a href="#INDEX">Back to Index</a>				
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/MLRO.jpg">
+				<br><br>
+				<b>Typical duration :</b> Half day
+				<br>
+				<?php
+					echo courseDates("Code of Conduct on Mortgage Arrears");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
+		<!--CICA-->
+		<div id="CICA" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Consumer Insurance Contracts Act</h2>
+				On the 2nd September 2020, certain provisions of the Consumer Insurance Contracts Act came into effect with more to take effect on 1st September 2021.
+				<br><br>
+				This 2hr course will provide attendees with an understanding of the key changes the provisions brought in and what steps are required to implement them.
+
+				<br><br>
+				
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#CICA-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="CICA-content" class="collapse panel-body-regsol">			
+						<br>
+
+						<ul><li>Provisions effective 2020</li>
+							<ul><li>Insurable Interest</li>
+								<li>Cooling Off periods</li>
+								<li>Alteration of Risk Clauses</li>
+								<li>Claims Handling</li>
+								<li>Suspensive Conditions</li>
+								<li>Third Party Rights</li>								
+							</ul>
+							<li>Provisions effective 2021</li>	
+							<ul><li>Material facts replaced</li>
+								<li>Remedies for Misrepresentation</li>
+								<li>Information and Duties at Renewal</li>								
+							</ul>							
+						</ul>
+						<br>
+					</div>
+				</div>			
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#CICA-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="CICA-attendees" class="collapse panel-body-regsol">
+						This module is recommended for staff and management working in arrears handling roles or functions within Firms that provide or service mortgages to individuals in Ireland.
+						<br><br>
+						Relevant Firms: Credit institutions, mortgage intermediaries, retail credit firms, debt management firms and credit servicers.
+
+						<br><br>						
+					</div>
+				</div>		
+				<br>&emsp;<a href="#INDEX">Back to Index</a>				
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/MLRO.jpg">
+				<br><br>
+				<b>Typical duration :</b> Half day
+				<br>
+				<?php
+					echo courseDates("Consumer Insurance Contracts Act");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
+		
 		<br><br><br><br><br><br><br><br>
 		
 		

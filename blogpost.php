@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<?php include 'js/gtag.js'; ?>
     <title>RegSol - Blog</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,6 @@
 	<meta property="og:description" content="Regulatory and compliance solutions for European firms">
 	
     <?php include 'header-common.php';?>
-	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>
 
     
 </head>
@@ -28,6 +26,11 @@
     <!-- NAVBAR -->
     <?php include 'menu.php';?>
 
+	
+	<!-- COOKIE PREFERENCES -->
+	<?php include 'cookie-preferences.php';?>
+
+	
 	<!-- SECTION -->
 	<section id="Posts" class="pale-gray" >
 		<script>
@@ -85,9 +88,32 @@
 			<div class="col-sm-1 hidden-xs">	
 				&nbsp;
 			</div>
-			<div class="col-sm-4 hidden-xs twitter-feed">		
-				<a class="twitter-timeline" data-height="3000" href="https://twitter.com/regsolireland?ref_src=twsrc%5Etfw">Tweets by regsolireland</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
+			<?php 
+				function showEnableTwitterMessage() { 
+					$url = "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."?changeCookiePreferences=true"; ?>
+					<div class="col-sm-4 hidden-xs ">
+							<p>Enable Twitter feed in cookie preferences to see RegSol tweets here</p>
+							<p>Click <a href="<?php echo $url; ?>">here</a> to change cookie preferences</p>
+						</div>
+				<?php } ?>
+			
+			<?php 
+				if (isset	($_COOKIE["RegSolTwitterAllow"])) {		
+				
+					if ($_COOKIE["RegSolTwitterAllow"] == "true") {	?>
+					
+						<div class="col-sm-4 hidden-xs twitter-feed">					
+							<a class="twitter-timeline" data-dnt="true" data-height="2000" href="https://twitter.com/regsolireland?ref_src=twsrc%5Etfw">Tweets by regsolireland</a> <script type="text/javascript"  data-dnt="true" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+			
+					<?php 					
+					} else {
+						showEnableTwitterMessage();
+					} 
+				} else {
+					showEnableTwitterMessage();					
+				}					
+			?>				
 			<div class="col-sm-7 col-xs-7" >
 				<br><br><a class="text-left" href="blog.php"><< Back to Blog</a>
 			</div>

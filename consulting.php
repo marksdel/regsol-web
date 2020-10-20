@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<?php include 'js/gtag.js'; ?>
     <title>RegSol - Consulting</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +12,6 @@
 
 	
     <?php include 'header-common.php';?>
-	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/550517faeafaf001b97a16724/e9ca002511238c462b2f1e6f1.js");</script>
-
     
 </head>
 <body>
@@ -52,26 +49,36 @@
 				<br><br>
 				Please <a href="about.php#contact">contact us</a> if you wish to discuss your requirements.			
 				<br><br><br>
+				
 			</div>
-			<div class="col-sm-8 col-xs-8 text-left" id="Services">
-				<b>Services Offered</b>
-				<br><br>
-				<ul><li><a href='#authorisations'><b>Authorisation assistance :</b></a> Whether you wish to become a retail intermediary or a regulated entity under MiFID we can help. Our process follows from engagement to submission, through to authorisation.</li>
-					<br>
-					<li><a href='#policy'><b>Policies/Procedures : </b></a> Our consultants can author, design or review your policy documentation and processes depending on what is required.</li>
-					<br>
-					<li><a href='#CAAS'><b>Compliance-as-a-Service : </b></a>We take the pain out of on-going compliance by being available to answer your queries and give you a steer on any regulatory topics/questions that may arise. Monthly and quarterly subscriptions available.</li>
-					<br>
-					<li><a href='#Audit'><b>Compliance Audit : </b></a> This is particularly beneficial both for entities which are starting out and those which have spent a lot of effort establishing compliance procedures and processes. We identify gaps and suggest remediation plans in an efficient manner.</li>
-					<br>
-					<li><a href='#DPO'><b>Data Protection Officer (DPO) : </b></a>The vast majority of SMEs don’t require a full-time DPO. We can fulfil that role for you on a part-time basis, whereby you benefit from our broad experience in discussing potential breaches, legitimate basis questions, etc.</li>					
-					
-				</ul>
-
+			<div class="col-sm-4 services-block" style="background-color:powderblue;"> 
+				<a href='#authorisations'><b>Authorisation assistance</b>
+					<p>Whether you wish to become a retail intermediary or a regulated entity under MiFID we can help. Our process follows from engagement to submission, through to authorisation.</p>
+				</a>
 			</div>
-			<div class="col-sm-4 col-xs-4 text-left hidden-xs" >
-				<img src="images/Consultants.png">
+			<div class="col-sm-4 services-block" style="background-color:#e1f7d5;"> 
+				<a href='#policy'><b>Policies/Procedures : </b>
+					<p>Our consultants can author, design or review your policy documentation and processes depending on what is required.<br><br></p>
+				</a>
 			</div>
+			<div class="col-sm-4 services-block" style="background-color:#ffbdbd;"> 
+				<a href='#CAAS'><b>Compliance-as-a-Service : </b>
+					<p>We take the pain out of on-going compliance by being available to answer your queries and give you a steer on any regulatory topics/questions that may arise. Monthly and quarterly subscriptions available.</p>
+				</a>	
+			</div>
+			<div class="col-sm-4 services-block" style="background-color:#c9c9ff;"> 
+				<a href='#Audit'><b>Compliance Audit : </b>
+					<p>This is particularly beneficial both for entities which are starting out and those which have spent a lot of effort establishing compliance procedures and processes. We identify gaps and suggest remediation plans in an efficient manner.</p>
+				</a>
+			</div>
+			<div class="col-sm-4 services-block" style="background-color:#f1cbff;"> 
+				<a href='#DPO'><b>Data Protection Officer (DPO) : </b>
+					<p>The vast majority of SMEs don’t require a full-time DPO. We can fulfil that role for you on a part-time basis, whereby you benefit from our broad experience in discussing potential breaches, legitimate basis questions, etc.</p>
+				</a>
+			</div>
+			<div class="col-sm-4 services-block" style="background-color:#f5d2d3;"> 
+				TBC
+			</div>		
 		</div>
 	</section>
 
@@ -119,35 +126,7 @@
 	</section>
 	
 	
-	<!-- SECTION -->
-	<section id="Expertise">	
 	
-		<div class="container consulting-body">
-		
-			<h2>Areas of Expertise</h2>
-			<br><br>
-			<div class="col-sm-7">
-				<ul>				
-					<li>Central Bank of Ireland Codes and Regulations</li>
-					<li><a href="#AML">Anti-Money Laundering Legislation </a></li>
-					<li><a href="#GDPR">Data Protection Legislation and Audits</a></li>
-					<li><a href="#DPO">Data Protection Officer (DPO) Services</a></li>
-					<li><a href="#authorisations">Various Authorisations (e.g. CBI)</a></li>
-					<li><a href="#Audit">Inspections (AML, PRISM, etc)</a></li>
-					<li>Interaction with Regulators and Supervisory Authorities</li>					
-					<li>Responding to RMPs</li>
-					
-				</ul>
-				
-				
-			</div>
-			<div class="col-sm-4 hidden-xs">
-				<img src="images/gold_badge.png" height="220px">
-			</div>
-			
-		</div>		        
-		
-	</section>
 	
 	<!-- SECTION -->
 	<section id="authorisations" class="lower-section blue-scale">		
@@ -285,10 +264,8 @@
 	<!-- SECTION -->
 	<section id="GDPR" class="lower-section">	
 		<div class="container centered-column consulting-body">
-			<div class="col-sm-12 col-xs-12">				
-				<h2>General Data Protection Regulation</h2>				
-
-				**Try our <a href="gdpr-questionnaire.php" target="_new">GDPR Questionnaire</a> to assess your readiness**</a>
+			<div class="col-sm-12 col-xs-12">							
+				
 				<h2>What is the GDPR?</h2> 
 				<p class="text-left">The GDPR is the <a href="https://www.eugdpr.org/">European Union&rsquo;s General Data Protection Regulation</a>. Its purpose is to &ldquo;harmonize data privacy laws across Europe, to protect and empower all EU residents&rsquo; data privacy, and to reshape the way organizations across the region approach data privacy for EU residents wherever they work in the world.&rdquo;</p> 
 				
