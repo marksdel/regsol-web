@@ -131,6 +131,13 @@ a[data-toggle="collapse"] {
 	font-size: 18px;
 }
 
+.hiring-homepage{
+	font-size: 28px;
+	font-weight: bold;
+	text-align : center;
+	
+}
+
 .gdpr{
 	background-image: url("../images/pexels-photo-glasses-computers.jpeg");
 	background-color: pale-gray;
@@ -239,6 +246,15 @@ a[data-toggle="collapse"] {
 .white-insert{
 	background-color:white;
 	opacity: 0.9;
+	font-size: 17px;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+	
+.careers-insert{
+	background-color:white;
+	opacity: 0.95;
 	font-size: 17px;
 	color: black;
 	margin-top: 0px;

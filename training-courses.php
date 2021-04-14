@@ -21,7 +21,7 @@
 			}		
 			
 			$query='select Location, DATE_FORMAT(Date,"%a %D %b %Y") TextDate, Time, BookingLink from PublicTrainingSchedule where Title = "'.$courseName.'" order by Date asc';
-			$text = '<br><br><b>Upcoming Sessions (click to book) : </b><br>';
+			$text = '<br><br class="'. $courseName . '"><b>Upcoming Sessions (click to book) : </b><br>';
 			$text = $text.'<table class="table-striped-small" width="100%" >';
 			$result = mysqli_query($con1,$query);										
 			if (!$result) {
@@ -145,7 +145,9 @@
 		<div id="AMLF" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Anti-Money Laundering / Counter-Terrorist Financing (AML/CTF)</h2>
-				We are offering a full day in depth Anti-Money Laundering / Counter Terrorist Financing course.  With this course, we aim to give you a full breakdown of the Irish AML/CTF and Financial Sanctions Regime.  You will come away with the ability to understand the relevant concepts, put in place a robust AML/CTF framework and highlight the potential consequences of non-compliance.
+				The legal obligations imposed on designated persons (obliged entities) continue to evolve at a rapid pace, with the 6th EU AML Directive having now passed its transposition date and a European level Action Plan to be put in place in 2021. It is important that those entrusted with AML/CFT responsibilities have adequate and regular training to ensure knowledge is kept up to date and those new to functions have a broad understanding of the full AML/CFT regime. 
+				<br><br>
+				With this course, we aim to give you a full breakdown of the AML/CTF and Financial Sanctions Regime in Ireland.  This full day course should enable you to understand the relevant concepts, put in place a robust AML/CTF framework and highlight the potential consequences of non-compliance.
 				<br><br>
 				
 				<div class="panel panel-default">
@@ -179,19 +181,10 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="AMLF-attendees" class="collapse panel-body-regsol">
-						This module is suitable for all Staff and Management with AML/CTF responsibilities in obliged entities/designated persons including (but not limited to)  : 
+						Staff, Management and Directors with AML/CTF responsibilities such as front line or customer service staff, MLROs, AML Officers, etc. in obliged entities/designated persons who require an in depth look at Irish AML requirements as derived from European Union Directives. 
 						<br><br>
-						<ul>
-							<li>Credit and financial institutions</li>
-							<li>Credit unions</li>
-							<li>Money lenders</li>
-							<li>Insurance undertakings and intermediaries</li>
-							<li>Fund managers and administrators</li>
-							<li>Trust or company service providers</li>
-							<li>Estate agents</li>
-							<li>Legal professionals</li>		
-						</ul>
-						<br>
+						<b>Relevant Firms:</b> credit and financial institutions, credit unions, money lenders, insurance undertakings and intermediaries, investment firms (IIA and MiFID), fund managers and administrators, trust or company service providers, estate agents, legal professionals, virtual asset services providers or those working with cryptocurrencies, leasing companies, etc.
+
 					</div>
 				</div>	
 				<br>&emsp;<a href="#INDEX">Back to Index</a>
@@ -213,9 +206,10 @@
 		<div id="AMLU" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Anti-Money Laundering (AML) Updates</h2>
-				The 4th EU AML Directive having been transposed into Irish Law in November 2018, we are now faced with transposing the 5 th EU AML Directive by January 2020 while agreement has already been reached on a 6th Directive.
+				While legislation to transpose the 5th EU AML Directive was approved by Dáil Éireann in December 2020, the 6th EU AML Directive remains to be transposed and a European Level Action Plan is expected to be put in place in 2021.
 				<br><br>
-				It is important to stay updated on this ever-evolving area and with an expectation from competent authorities to undertake annual AML training our training course is updated for each delivery.
+				It is important to stay updated on this ever-evolving area. With an expectation from competent authorities that staff and directors of all Designated Persons undertake annual AML training, our AML Updates training course is updated for each delivery to ensure it is up to date on relevant requirements.  
+
 				<br><br>
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#AMLU-content" aria-expanded="false">
@@ -225,11 +219,16 @@
 					<div id="AMLU-content" class="collapse panel-body-regsol">
 						<br>Our 2 hour Anti Money Laundering (AML) session includes:
 						<ul>
-							<li>Key changes with the Criminal Justice (ML&amp;TF)(Amendment) Act 2018</li>
-							<li>Updates on the 5th and 6th AML Directives</li>
-							<li>Counter Terrorist Financing</li>
+							<li>Regulatory Update:</li>
+							<ul><li>Transposition of the 5th and 6th AML Directives</li>
+								<li>European Commission Action Plan</li>
+							</ul>
+							<li>Overview/refresher on Designated Persons Obligations</li>
 							<li>Practical points for compliance</li>
+							<li>Relevant Enforcement Actions/ Competent Authority Activity</li>
+							
 						</ul>
+												
 						<br>
 					</div>
 				</div>
@@ -240,16 +239,10 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="AMLU-attendees" class="collapse panel-body-regsol">
-						This module is suitable for most roles at firms which have AML obligations. It is recommended for -
-						<br><br>
-						<ul>
-							<li>Compliance Officers</li>
-							<li>Individual Intermediaries/Brokers</li>
-							<li>PCF Role Holders</li>
-							<li>Solicitors</li>
-							<li>Estate Agents</li>
-							<li>Risk management and other professionals	</li>			
-						</ul>
+						This module is suitable for most roles at firms which have AML obligations. It is recommended for Compliance Officers, Individual Intermediaries/Brokers, PCF Role Holders, Solicitors, Estate Agents, risk management personnel and others.
+						<br><br>	
+						<b>Relevant Firms:</b> credit and financial institutions, credit unions, money lenders, insurance undertakings and intermediaries, investment firms (IIA and MiFID), fund managers and administrators, trust or company service providers, estate agents, legal professionals, virtual asset services providers or those working with cryptocurrencies, leasing companies, etc.
+
 						<br>
 					</div>
 				</div>	
@@ -272,7 +265,10 @@
 		<div id="GDPRF" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Full Day Data Protection (GDPR + practical concerns)</h2>
-				The General Data Protection Regulations became law on 25th May 2018, as did the Irish Data Protection Amendment Act 2018. Since then the Data Protection Commission has produced its first report highlighting significant increases in Data Breach notifications and Complaints. The French Data Protection Authority has also presented one to the first large fines post-GDPR by fining Google €50 million. 
+				The General Data Protection Regulations became law on 25th May 2018, as did the Irish Data Protection Amendment Act 2018. Since then, the Data Protection Commission has produced its Annual Reports highlighting significant increases in Data Breach notifications and Complaints. A number of large fines have also been issued by the Irish DPC and other member state Competent Authorities in this area. 
+				<br><br>
+				Our Full Day Data Protection (GDPR) course aims to provide an in depth look at data protection requirements within Ireland and to provide relevant updates. 
+
 				<br><br>				
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#GDPRF-content" aria-expanded="false">
@@ -280,9 +276,9 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="GDPRF-content" class="collapse panel-body-regsol">
-						Our Full Day Data Protection course aims to provide an indepth look at the requirements and relevant updates. It includes: 
+						<b>Topics covered : </b>
 						<ul>
-							<li>The need for legislation?<li>
+							<li>The need for legislation?</li>
 							<li>The Law – What does GDPR entail?</li>
 								<ul><li>Data Protection Principles</li>
 									<li>Rights of Data Subjects</li>
@@ -310,16 +306,10 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="GDPRF-attendees" class="collapse panel-body-regsol">
-						This module is suitable for most roles at most firms, whether data controllers or data processors, but particularly those roles which involve data protection obligations. It is recommended for the following -
+						This module is suitable for most roles at most firms, whether data controllers or data processors, but particularly those roles which involve data protection obligations. It is recommended for Compliance Officers, Individual Intermediaries/Brokers, Principals, risk management personnel and others tasked with data protection roles particularly within financial services firms.
 						<br><br>
-						<ul>
-							<li>Compliance Officers</li>
-							<li>Individual Intermediaries/Brokers</li>
-							<li>Principals</li>
-							<li>Risk management personnel</li>
-							<li>Others tasked with data protection roles</li>
-						</ul>
-						<br>
+
+
 					</div>
 				</div>	
 				<br>&emsp;<a href="#INDEX">Back to Index</a>
@@ -341,9 +331,9 @@
 		<div id="GDPR" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Data Protection Essentials (2hr)</h2>
-				The General Data Protection Regulations (GDPR) became law on 25 th May 2018, as did the Irish Data Protection Amendment Act 2018. Since then the Data Protection Commission has produced its first report highlighting significant increases in Data Breach notifications and Complaints. 
+				The General Data Protection Regulations became law on 25th May 2018, as did the Irish Data Protection Amendment Act 2018. The Data Protection Commission has since produced 3 annual reports. 2020 presented the first fine imposed by the DPC and multiple warnings around data security in the midst of a pandemic. 
 				<br><br>
-				The French Data Protection Authority has also presented one to the first large fines post-GDPR by fining Google €50 million.
+				Our 2 hour Data Protection (GDPR) session aims to provide an overview of the requirements and relevant updates in this area. 
 				<br><br>
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#gdpr-content" aria-expanded="false">
@@ -351,8 +341,8 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="gdpr-content" class="collapse panel-body-regsol">
-				
-						<br>Our 2 hour Data Protection (GDPR) session aims to provide an overview of the requirements and relevant updates. It includes: 
+										
+						<b>Topics covered :</b>
 						<ul>
 							<li>Overview of GDPR</li>
 							<li>Updates on GDPR implementation</li>
@@ -369,14 +359,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="gdpr-attendees" class="collapse panel-body-regsol">
-						This module is suitable for most roles at firms which have AML obligations. It is recommended for -
-						<br><br>
-						<ul>
-							<li>Compliance Officers</li>
-							<li>Individual Intermediaries/Brokers</li>
-							<li>Principals</li>
-							<li>Solicitors</li>
-							<li>Risk management and other professionals	</li>			
+						This module is suitable for most roles at firms which involve data protection obligations. It is recommended for Compliance Officers, Individual Intermediaries/Brokers, Principals, risk management personnel and others who require a general understanding of Irish Data Protection requirements.			
 						</ul>
 						<br>
 					</div>
@@ -400,7 +383,10 @@
 		<div id="Ethics" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Ethics for Financial Services</h2>
-				Ethics is a broad topic in the general sense, and has become extremely topical in the financial services industry.				
+				While persons working within regulated sectors are often inundated with requirements and rules, ethical approaches to business often offers a buffer to prevent non-compliance. As such, many regulators and industry bodies require that persons operating within certain sectors to undertake mandatory ethics training on an annual basis.
+				<br><br>
+				This 1 hour module is primarily designed for Financial Services personnel to comply with Minimum Competency Code and Regulations requirements as set by the Central Bank of Ireland.  
+
 				<br><br>
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#ethics-content" aria-expanded="false">
@@ -408,14 +394,15 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="ethics-content" class="collapse panel-body-regsol">			
-						<br>Our 1 hour Ethics session includes:  
+						
+						<b>Topics covered : </b>
 						<ul>
 							<li>What is Ethics?</li>
 							<li>Universal Ethical Principles</li>
 							<li>Case Studies – Good and Bad Examples</li>
 							<li>Central Bank of Ireland approach to Ethics:
 								<ul><li>Fitness and Probity</li>
-									<li>Whistleblowing</li>
+									<li>Whistle-blowing</li>
 								</ul>
 							</li>
 						</ul>
@@ -428,15 +415,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="ethics-attendees" class="collapse panel-body-regsol">
-						This module is primarily designed for Financial Services personnel to comply with Minimum Competency requirements but may suit others with an Ethics module requirement. It is recommended for - 						
-						<br><br>
-						<ul>
-							<li>Compliance Officers</li>
-							<li>Individual Intermediaries/Brokers</li>
-							<li>Principals</li>
-							<li>PCF Role Holders</li>
-							<li>Other professionals	</li>			
-						</ul>
+						This module is recommended for Individual Intermediaries/Brokers, Principals, PCF Role Holders, and others who have a CPD requirement to complete an Ethics module as part of their overall CPD requirements.
 						<br>
 					</div>
 				</div>
@@ -459,7 +438,10 @@
 		<div id="IDR" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Insurance Distribution Regulations (IDR)</h2>
-				The Insurance Distribution Regulations became law on 1 st October 2018. The regulations repealed the Insurance Mediation Regulations and transposed the Insurance Distribution Directive into Irish law.				
+				The Insurance Distribution Regulations became law on 1st October 2018. The regulations repealed the Insurance Mediation Regulations and transposed the Insurance Distribution Directive into Irish law. 
+				<br><br>
+				This half day course is designed to explore the provisions of IDR and facilitate greater understanding of the interplay of these regulations with other requirements in the context of pre-existing regulatory requirements.   
+
 				<br><br>
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#IDR-content" aria-expanded="false">
@@ -467,16 +449,15 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="IDR-content" class="collapse panel-body-regsol">			
-						<br>Topics Covered:
-						<ul><li>Expanded definition of Insurance Distribution vs Insurance Mediation</li>
-							<li>Knowledge and Competency requirements for Insurance Distributors and interaction with the Minimum Competency Code and Regulations</li>
-							<li>New or amended procedures:
+						<b>Topics Covered:</b>
+						<ul><li>Knowledge and Competency requirements for Insurance Distributors and interaction with the Minimum Competency Code and Regulations</li>
+							<li>Required procedures:
 								<ul><li>Requirement for Due Diligence process for Employees and the appointment of other Intermediaries</li>
 									<li>Premium Account control procedures</li>
 									<li>Complaints Handling procedures</li>
 									<li>Requirement for Remuneration Policy</li>
 								</ul>
-							</li>
+							</li>							
 							<li>Provision of Information:
 								<ul><li>Compliant Terms of Business</li>
 									<li>Statement of Demands and Needs</li>
@@ -494,7 +475,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="IDR-attendees" class="collapse panel-body-regsol">
-						This half day course is designed for Compliance Officers and individual Insurance Brokers to get to grips with the requirements of the Regulations.
+						The course is designed primarily for persons working in the Insurance Sector in Ireland such as Compliance Officers and individual Insurance Brokers, it will also provide insight for those interested to understand how insurance intermediary services are regulated in Ireland by the Central Bank of Ireland.  
 						<br>
 					</div>
 				</div>	
@@ -517,9 +498,10 @@
 		<div id="RBC" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Risk-Based Compliance</h2>
-				Risk Based compliance is a framework that ensures resources are spread proportionately relative to your compliance risk - the higher the risk, the greater the levels of monitoring and action.
+				Risk Based Compliance is an approach that ensures resources are spread proportionately relative to your company’s compliance risk - the higher the risk, the greater the levels of monitoring and action.  For regulated entities in Ireland, use of this framework is a fundamental Central Bank expectation.  
 				<br><br>
-				For regulated entities in Ireland it is a fundamental Central Bank expectation.				
+				Our half day workshop provides Compliance Officers in particular with the tools to enable you to establish, document and implement a risk-based approach in your firm.
+
 				<br><br>
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#RBC-content" aria-expanded="false">
@@ -528,12 +510,18 @@
 					</div>
 					<div id="RBC-content" class="collapse panel-body-regsol">			
 						<br>
-						Our half day workshop provides Compliance Officers in particular with the tools to enable you to implement a risk based approach in your firm and includes:
+						<b>Topics covered : </b>
 						<ul><li>Central Bank of Ireland expectations</li>
 							<li>The Regulatory Context</li>
 							<li>How to create a Compliance Risk Universe</li>
 							<li>The benefits of a Risk Based approach</li>
-							<li>Practical points for compliance</li>
+							<li>Practical points for compliance
+								<ul><li>Compliance Framework</li>
+									<li>Relevant Documents</li>
+									<li>Approaches to Testing</li>
+									<li>Reporting</li>
+								</ul>
+							</li>
 						</ul>
 						<br>
 					</div>
@@ -544,14 +532,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="RBC-attendees" class="collapse panel-body-regsol">
-						This module is suitable for most roles at firms within the Financial Services sector which have regulatory compliance obligations. It is recommended for -
-						<br><br>
-						<ul>
-							<li>Compliance Officers</li>
-							<li>Individual Intermediaries/Brokers</li>
-							<li>PCF Role Holders</li>
-							<li>Risk management and other professionals	</li>			
-						</ul>
+						This module is suitable for most roles at firms within the Financial Services sector which have regulatory compliance obligations. It is recommended for Compliance Officers, Individual Intermediaries/Brokers, PCF Role Holders especially Head of Compliance (PCF12 & PCF15), Risk management and other personnel.
 					
 						<br>
 					</div>
@@ -577,7 +558,9 @@
 				<h2 class="text-left">Consumer Protection Code</h2>
 				On the 1st of January 2012 the revised Consumer Protection Code (the Code) came into effect which sets out the requirements that regulated entities must comply with when dealing with consumers.
 				<br><br>
-				A number of addendums have been made to the code since then to keep up with the changes with respect to new regulated sectors and changes in European legislation such as MiFID II.			
+				A number of addendum’s have been made to the code since then to keep up with the changes with respect to new regulated sectors, changes in European legislation (e.g. MiFID II) and Central Bank consultations (e.g. CP116).
+				<br><br>
+				This half day course will provide attendees with a full understanding of the code and how it can be implemented within their own firms.
 				<br><br>
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#CPC-content" aria-expanded="false">
@@ -585,22 +568,31 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="CPC-content" class="collapse panel-body-regsol">			
-						<br>
-						This half day course will provide attendees with a full understanding of the code and how it can be implemented within their own firms. Topics covered :
-						<ul><li>General Requirements</li>
-							<ul>
-								<li>Restrictions</li>
-								<li>Conflicts of Interest</li>
-								<li>Contact with Customers</li>
-								<li>Premium Handling</li>
-								<li>Product producer responsibilities</li>
-							</ul>
+						<b>Topics covered :</b>
+						<ul>
+							<li>General Principles & Governance</li>
+							<li>General Requirements
+								<ul>
+									<li>Restrictions</li>
+									<li>Conflicts of Interest</li>
+									<li>Contact with Customers</li>
+									<li>Premium Handling</li>
+									<li>Product producer responsibilities</li>
+								</ul>
 							</li>
-							<li>The Regulatory Context</li>
-							<li>How to create a Compliance Risk Universe</li>
-							<li>The benefits of a Risk Based approach</li>
-							<li>Practical points for compliance</li>
+							<li>Provision of Information</li>
+							<li>Knowing the consumer and suitability requirements</li>
+							<li>Post-sale information</li>
+							<li>Rebates and Claims processing</li>
+							<li>Arrears</li>
+							<li>Advertising</li>
+							<li>Errors and Complaints resolution</li>
+							<li>Records and Compliance</li>	
 						</ul>
+						
+						
+
+						
 						<br>
 					</div>
 				</div>			
@@ -610,14 +602,10 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="CPC-attendees" class="collapse panel-body-regsol">
-						This module is suitable for most roles at firms within the Financial Services sector which have regulatory compliance obligations. It is recommended for -
+						Staff and management working in customer facing, compliance, product development, premium handling, claims management and marketing roles within CBI regulated firms who deal with customers in the state that fall within the definition of consumer.
 						<br><br>
-						<ul>
-							<li>Compliance Officers</li>
-							<li>Individual Intermediaries/Brokers</li>
-							<li>PCF Role Holders</li>
-							<li>Risk management and other professionals	</li>			
-						</ul>					
+						<b>Relevant Firms:</b> Credit institutions, insurance undertakings, investment business firms, investment intermediaries, insurance intermediaries, mortgage intermediaries, payment institutions, electronic money institutions, debt management firms and credit servicers.
+				
 						<br>
 					</div>
 				</div>		
@@ -630,7 +618,7 @@
 				<b>Typical duration :</b> Half day
 				<br>
 				<?php
-					echo courseDates("Risk-Based Compliance");
+					echo courseDates("Consumer Protection Code");
 				?>
 			</div>
 		</div>
@@ -641,7 +629,10 @@
 		<div id="Dir" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Directors' Duties</h2>
-				The Companies Act 2014 not only consolidated existing company law legislation but also represented the first time in Irish Law that Directors’ Duties were set out in one place. Incorporating a number of long-established fiduciary duties, its important that any person taking up or fulfilling a directorship in an Irish established entity is familiar with these duties. 
+				The Companies Act 2014 not only consolidated existing company law legislation but also represented the first time in Irish Law that Directors’ Duties were set out in one place. The Act incorporates a number of long-established fiduciary duties.  It is important that any person taking up or fulfilling a directorship in an Irish established entity is familiar with these duties. 
+				<br><br>
+				Our half day Directors’ Duties course aims to give you an understanding of the range of duties covered and enable you to comply with your obligations. 
+
 				<br><br>
 				
 				<div class="panel panel-default">
@@ -650,8 +641,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="Dir-content" class="collapse panel-body-regsol">			
-						<br>
-						Our half day Directors’ Duties course aims to give you an understanding of the range of duties covered and enable you to comply with your obligations. It includes: 
+						<b>Topics covered :</b>
 						<ul><li>Overview of the Companies Act 2014</li>
 							<li>Directors' Duties</li>
 							<ul>
@@ -674,7 +664,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="Dir-attendees" class="collapse panel-body-regsol">
-						This course is recommended for any person taking up or currently performing a Director role in an Irish company or considering same. It may also be suitable for Company Secretaries or those tasked with advising or assessing Directors in their roles.  
+						Any person taking up or currently performing a Director role in an Irish company or considering same. It may also be suitable for Company Secretaries or those tasked with advising or assessing Directors in their roles.   
 						<br><br>						
 					</div>
 				</div>		
@@ -698,8 +688,9 @@
 		<div id="FAP" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Fitness and Probity</h2>
-				The core function of the Fitness and Probity Regime is to ensure that persons in senior positions within RFSPs are competent and capable, honest, ethical and of integrity and also financially sound.
+				In this module we examine the Central Bank of Ireland's Fitness and Probity requirements including Minimum Competency.  This is a very topical and ever evolving area.  In 2020 there were further additions to the list of Pre-Approval Function (PCF roles) and a second Dear CEO letter from the Central Bank of Ireland, in November 2020, highlighting weaknesses in firms’ compliance with the regime.    
 				<br><br>
+				It is important that all regulated entities have robust Fitness and Probity frameworks in place. This half day course is designed to assist relevant personnel in establishing, improving and implementing processes that effectively address the fitness and probity requirements of the Central Bank of Ireland.
 				
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#FAP-content" aria-expanded="false">
@@ -707,8 +698,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="FAP-content" class="collapse panel-body-regsol">			
-						<br>
-						Our Half Day session on the Central Bank of Ireland's Fitness and Probity requirements includes :
+						<b>Topics covered : </b>
 						<ul><li>Sources of Obligations</li>
 							<li>The Fitness and Probity Requirement</li>
 							<li>Controlled Functions and PCF’s</li>
@@ -733,12 +723,10 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="FAP-attendees" class="collapse panel-body-regsol">
-						This module is primarily designed for Financial Services personnel to comply with Fitness and Probity and Minimum Competency requirements but may suit others with an Ethics module requirement. Amongst others, it is recommended for - 
-						<ul>
-							<li>Individual Intermediaries/Brokers</li>
-							<li>Principals</li>
-							<li>PCF Role Holders, and others</li>
-						</ul>
+						This module is primarily designed for Financial Services personnel to comply with Fitness and Probity and Minimum Competency requirements as set by the Central Bank of Ireland. 
+						<br><br>
+						It is recommended for Individual Intermediaries/Brokers, Principals/ Directors, PCF Role Holders, Compliance and Risk officers, HR personnel, company secretaries, and others.
+
 						<br><br>						
 					</div>
 				</div>		
@@ -861,7 +849,7 @@
 			</div>
 			<div class="col-sm-4 col-sm-4 centered-column">
 				<br>
-				<img width="295px" src="images/training/MLRO.jpg">
+				<img width="295px" src="images/training/CCMA.jpg">
 				<br><br>
 				<b>Typical duration :</b> Half day
 				<br>

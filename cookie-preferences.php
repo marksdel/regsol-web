@@ -67,8 +67,9 @@
 	function setCookie(cname, cvalue, exdays) {
 		var d = new Date();
 		d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-		var expires = "expires="+d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		var expires = "expires="+d.toUTCString();		
+		var expiryCookie = cname + "=" + cvalue + ";" + expires + ";path=/";		
+		document.cookie = expiryCookie;
 	}
 
 	function getCookie(cname) {
@@ -92,7 +93,7 @@
 	$('#sidebar').toggleClass('active');
 	$('#overlay').toggleClass('active');					
 	//Check if RegSolCookiePreferences cookie is already set, then set checkboxes to cookie values
-	var cookiePrefsIndex = document.cookie.indexOf('RegSolCookiePreferences=');
+	var cookiePrefsIndex = document.cookie.indexOf('RegSolCookiePreferences=');		
 	var analyticsCookieIndex = document.cookie.indexOf('RegSolAnalyticsAllow=');
 	var twitterCookieIndex = document.cookie.indexOf('RegSolTwitterAllow=');
 	
@@ -118,7 +119,7 @@
 	$(document).ready(function () {
 					
 		$('#AcceptAllCookies').on('click', function () {
-			setCookie("RegSolCookiePreferences", "true");
+			setCookie("RegSolCookiePreferences", "true", 60);
 			setCookie("RegSolAnalyticsAllow", "true", 60);
 			setCookie("RegSolTwitterAllow", "true", 60);			
 			location = location.pathname;			
@@ -127,7 +128,7 @@
 		});
 		
 		$('#RejectUnnecessaryCookies').on('click', function () {
-			setCookie("RegSolCookiePreferences", "true");
+			setCookie("RegSolCookiePreferences", "true", 60);
 			setCookie("RegSolAnalyticsAllow", "false", 60);
 			setCookie("RegSolTwitterAllow", "false", 60);
 			location = location.pathname;			
@@ -136,7 +137,7 @@
 		});
 		
 		$('#SavePreferencesCookies').on('click', function () {
-			setCookie("RegSolCookiePreferences", "true");
+			setCookie("RegSolCookiePreferences", "true", 60);
 			var analyticsToggle = document.getElementById("analyticsToggle");
 			setCookie("RegSolAnalyticsAllow", analyticsToggle.checked, 60);
 			var twitterToggle = document.getElementById("twitterToggle");

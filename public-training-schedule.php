@@ -50,23 +50,8 @@
 			<p>&nbsp;</p>
 		</div>
 		<h2> Upcoming Courses</h2>
-		<div class="container white-insert">
-			<div class="col-sm-12 text-left">						
-				Please see below our timetable of upcoming courses which are open to the public. Descriptions of each course can be found on our <a href="training-courses.php">Course Descriptions</a> page or by clicking on the booking link. If you cannot make any of these dates or would like to discuss custom training for your organisation please <a href="about.php#contact">contact us</a> and we will be happy to accommodate you. 
-				<br><br>
-				We can also tailor content specifically for other areas, if your required topics are not below please don't hesitate to get in touch to discuss. 
-				
-			</div>
-			
-			<!--div class="col-sm-12 text-left ">				
-				
-				<br>Please be advised that all public training sessions are currently being re-scheduled as webinar format in light of the global pandemic. You will find the currently scheduled courses below. We have a range of courses (<a href="training-courses.php">descriptions available here</a>), so if you don't see the course you're looking for (either in the timetable below or on the descriptions page), please <a href="about.php#contact">contact us</a> and we will do our best to accommodate your requirements.
-				<br><br>
-				
-			</div-->
-		</div>
-		<br>
-
+		
+		
 		<div class="container" >
 			*Click on title for course description
 			<table id="public_training" class="table-striped" width="100%" data-page-length='25'>
@@ -95,7 +80,7 @@
 						if (mysqli_connect_errno()){
 						  echo "Failed to connect to MySQL: " . mysqli_connect_error();				  
 						}
-						$result = mysqli_query($con1,"select Title, DescriptionLink, Location, Date, DATE_FORMAT(Date,'%a %D %b %Y') Date, Time, BookingText, BookingLink from PublicTrainingSchedule order by Date asc");										
+						$result = mysqli_query($con1,"select Title, DescriptionLink, Location, Date, DATE_FORMAT(Date,'%a %D %b %Y') ReadDate, Time, BookingText, BookingLink from PublicTrainingSchedule order by Date asc");										
 						if (!$result) {
 							echo 'Could not run query: ' . mysql_error();
 							exit;
@@ -109,7 +94,7 @@
 								$display_date = 'TBC';
 							}
 							echo "<tr>\n";
-							echo "<th><a target='_NEW' data-toggle='tooltip' data-placement='top' title='Click for course description' href='".$row[1]."'>".$row[0]."</a></th>";
+							echo "<th><a target='_NEW' data-toggle='tooltip' data-placement='top' title='Click for course description' href='".$row[1]."'><b>".$row[0]."<b></a></th>";
 							echo "<th>".$row[2]."</th>\n";
 							echo "<th><span class='date'>".$yyyymmdd_date."</span>".$display_date."</th>\n";
 							echo "<th>".$row[5]."</th>\n";
@@ -166,8 +151,33 @@
 										
 				</tbody>
 			</table>
+			
+			
 		</div>
-		
+		<div class="container white-insert">
+			<div class="col-sm-12 text-left">	
+				<ul><li>Our public training timetable runs from February to June and September to December.</li>
+					<li>We seek CPD Accreditation for all of our courses from the IoB, III, LIA and other relevant bodies.</li>
+					<li>We can tailor all of our courses for in-house delivery.</li>
+				</ul>
+				<br>
+				&emsp;Please <a href="about.php#contact">contact us</a> if you would like information on future training dates or to enquire about tailored sessions for your company.
+				<br><br>
+				&emsp;Don't see your course or topic listed? Please let us know, we always try to ensure relevant courses are available. 
+				
+					
+				<!--Please note that if you cannot make any of these dates or would like to discuss custom training for your organisation please <a href="about.php#contact">contact us</a> and we will be happy to accommodate you. 
+				We can also tailor content specifically for other areas, if your required topics are not above please don't hesitate to get in touch to discuss. -->
+				
+			</div>
+			
+			<!--div class="col-sm-12 text-left ">				
+				
+				<br>Please be advised that all public training sessions are currently being re-scheduled as webinar format in light of the global pandemic. You will find the currently scheduled courses below. We have a range of courses (<a href="training-courses.php">descriptions available here</a>), so if you don't see the course you're looking for (either in the timetable below or on the descriptions page), please <a href="about.php#contact">contact us</a> and we will do our best to accommodate your requirements.
+				<br><br>
+				
+			</div-->
+		</div>
 		
 		
 		<br><br><br><br><br><br><br><br>

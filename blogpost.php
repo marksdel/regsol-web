@@ -27,9 +27,6 @@
     <?php include 'menu.php';?>
 
 	
-	<!-- COOKIE PREFERENCES -->
-	<?php include 'cookie-preferences.php';?>
-
 	
 	<!-- SECTION -->
 	<section id="Posts" class="pale-gray" >

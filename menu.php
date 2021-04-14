@@ -50,9 +50,18 @@
 							<a href="consulting.php#authorisations">Authorisations</a>	
 							<a href="consulting.php#AML">AML</a>
 							<a href="consulting.php#GDPR">GDPR</a>		
-							<a href="consulting.php#Industry">Industries</a>
 						</div>
 					</div>
+					<div class="dropdown nav navbar-left">
+						<li><a href="consulting.php">Sectors</a></li>
+						<div class="dropdown-content">
+							<a href="consulting.php">Brokers</a>
+							<a href="consulting.php#authorisations">Estate Agents</a>	
+							<a href="consulting.php#AML">Insurance</a>
+							<a href="consulting.php#GDPR">Payments</a>		
+						</div>
+					</div>
+					
 					<div class="dropdown nav navbar-left">
 						<li><a href="blog.php">Resources</a></li>
 						<div class="dropdown-content">
@@ -71,6 +80,8 @@
             </div>			
         </div>
     </nav>
+	
+	
 	
 	<!-- COOKIE PREFERENCES -->
 	<?php include 'cookie-preferences.php';?>

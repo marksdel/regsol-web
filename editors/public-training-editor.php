@@ -14,7 +14,9 @@ session_start();
 require_once("mte/mte.php");
 include '../dbdetails.php';
 include '../header-common.php';
-include '../menu.php';
+
+//remove menu for now to cut out cookie banner issues
+//include '../menu.php';
 
 #blank lines to move content below menu
 echo '<br><br>';
@@ -160,3 +162,11 @@ echo "
 
 $tabledit->database_disconnect();
 ?>
+
+<script type="text/javascript">
+
+	//Hide cookie prefs while we set it up			
+	$('#sidebar').toggleClass('active');
+	$('#overlay').toggleClass('active');
+	
+</script>

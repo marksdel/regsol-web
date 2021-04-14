@@ -97,10 +97,10 @@
 			<br><br>
 			<div class="row">
 				<div class="col-sm-2">
-					<img src="images/about/blank_profile.png" width="180px">
+					<img src="images/about/eilish.jpg" width="180px">
 				</div>
 				<div class="col-sm-10">
-					<b>Éilish Larkin BA (Hons), QFA</b><br>
+					<b>Éilish Larkin BA, QFA</b><br>
 					<i>Regulatory Consultant (West of Ireland Lead)</i><br>
 					<p class="text-left bios">Éilish has an extensive history working in the financial services industry across Corporate Trust (Transaction Manager, External Reporting Analyst, Transaction Compliance), Retail Banking and Fund Accounting in both Fund and Trustee Administration roles.  Éilish is currently studying for the LCOI designation having completed the  Professional Certificate in Compliance in 2020.  In addition, Éilish is a QFA and holds a BA in Law and Accounting from University of Limerick. </p>
 				</div>					
@@ -173,7 +173,7 @@
 				<p class="text-left">
 					Réiteach Consultancy Limited trading as RegSol and RegSol Ireland is a company limited by shares
 					registered in Ireland with CRO Number 618712.
-					In this privacy statement “we” or “our” or “RegSol’ and RegSol.ie means Réiteach Consultancy
+					In this privacy statement "we", "our", “RegSol" and "RegSol.ie" mean Réiteach Consultancy
 					Limited.
 					You can contact us by email - info@regsol.ie or Phone – 01 539 4884 or by writing to our registered
 					office.
@@ -201,7 +201,7 @@
 					We do not disclose your personal data to anyone outside of RegSol without your consent other than
 					in the situations below:
 					<ul>
-						<li>Where the proper handling of your work or provision of our services to you requires disclosure						<
+						<li>Where the proper handling of your work or provision of our services to you requires disclosure						
 						<li> on a confidential basis to auditors where they may make random checks of our files;
 						<li> to our professional indemnity insurers;
 						<li> where compelled by professional regulations (including Your regulators) or by law, such as a
@@ -230,7 +230,7 @@
 				</p>
 				<p class="text-left">	
 					If you wish to exercise any of these rights please contact us via email – info@RegSol.ie or in writing
-					to our registered office and we will endeavor to respond as soon as possible.
+					to our registered office and we will endeavour to respond as soon as possible.
 					You also have the right to complain to your national Data Protection Authority at any time.
 				</p>
 			</div>

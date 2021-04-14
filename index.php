@@ -96,37 +96,10 @@
 						</div>		
 					</div>
 					
-					<!--div class="item white-insert">
-						<div class="container consulting-body">		
-							<h2>Focus Areas / Expertise</h2>			
-							<div class="col-sm-7">
-								<ul>				
-									<li>Central Bank of Ireland Codes and Regulations</li>
-									<li><a href="consulting.php#AML">Anti-Money Laundering Legislation </a></li>
-									<li><a href="consulting.php#GDPR">Data Protection Legislation and Audits</a></li>
-									<li><a href="consulting.php#DPO">Data Protection Officer (DPO) Services</a></li>
-									<li><a href="consulting.php#authorisations">Various Authorisations (e.g. CBI)</a></li>
-									<li><a href="consulting.php#Audit">Inspections (AML, PRISM, etc)</a></li>
-									<li>Interaction with Regulators and Supervisory Authorities</li>					
-									<li>Responding to RMPs</li>					
-								</ul>
-							</div>
-							<div class="col-sm-4 hidden-xs">
-								<img src="images/gold_badge.png" height="220px">
-							</div>				
-						</div>
-					</div-->	
+					
 				</div>
 				
-				 <!-- Left and right controls -->
-				  <!--a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left">Previous</span>
-					<span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right">Next</span>
-					<span class="sr-only">Next</span>
-				  </a-->
+				
 			</div>
 		</div>				
 		
@@ -135,11 +108,12 @@
 	<!-- OVERVIEW SECTION -->
 	<section id="Services" class="white-insert"  >
 			
-		
-		
+				
 		<div class="container">		  
 		  <!--h2>Turn compliance into a competitive advantage</h2-->
 		  <div class="col-md-12">
+			 	
+			
 			 <div class="row">
 				<div class="col-md-3 home-spotlight animated " style="animation-delay: 0.2s; margin:auto">
 					<a href="elearning.php">
