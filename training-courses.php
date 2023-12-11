@@ -91,19 +91,57 @@
             setTimeout(function() {
                 $('#loading-screen').addClass('loading-slide-up');
             }, 500)
-        </script>				
-		<div class="centered-column">
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
+        </script>
+		<div class="row centered-column consulting-landing">
+			<div class="col-sm-12 col-xs-12">			
+				<br><br><br><br><br>&nbsp;
+				<h1>Compliance Training</h1>	
+				<br>
+			</div>			
+		</div>	
+		<div class="container home-spotlight">
+				<table>
+					<tr>
+						<td width="370px" class="white-insert">
+							<p style="font-size:6px"></p>
+							<a href="public-training-schedule.php">
+							   <img src="images/feature_icons/public_training_icon.png" alt="Public Training" width="150px">
+							   <h3>Public Training</h3>
+							   <p style="font-size:13px">Webinar & in-person delivery – see our <a href="public-training-schedule.php">timetable</a> for available CPD sessions. </p>					  
+							</a>	
+						</td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td width="370px" class="white-insert">
+							<p style="font-size:6px"></p>
+							<a href="#INDEX">
+							   <img src="images/feature_icons/inhouse_training_icon.png" alt="In-person Training" width="150px">
+							   <h3>In-House</h3>
+							   <p style="font-size:13px">Webinar & in-person delivery of sector specific content and/or tailored to your firm.</p>						   
+							</a>
+						</td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td width="370px" class="white-insert">
+							<p style="font-size:6px"></p>
+							<a href="elearning.php">
+							   <img src="images/feature_icons/elearning_icon.png" alt="E-Learning" width="150px">
+							   <h3>e-Learning</h3>
+							   <p style="font-size:13px">Click-through modules made available via our LMS or for internal delivery via own LMS.</p>					
+							</a>
+						</td>
+					</tr>
+				</table>					
+			
 		</div>
+			
+		
 		
 		<div class="container white-insert">	
 			<div class="col-sm-12 text-left">	
-				<h1> Training Courses</h1>			
-				Please see below the courses that we provide via either <a href="public-training-schedule.php">public courses</a>, in-house delivery or e-learning modules. All content is tailored for the Irish market, for example Central Bank of Ireland implementation and interpretation.
+					
+				Please see below the courses that we provide via either our <a href="public-training-schedule.php">public training timetable</a>, in-house delivery and/or e-learning modules. . All content is tailored for the Irish market to ensure for example Central Bank of Ireland requirements/expectations are met. CPD accreditation is sought for all courses.
 				<br><br>	
-				If you would like to discuss custom <a href="training.php">training solutions</a> (either online or in-person) please <a href="about.php#contact">contact us</a> and we will be happy to work with you regarding your requirements.
-				<br><br>				
+				If you would like to discuss custom <a href="training.php">training solutions</a> please contact us via email  at <a href="mailto:info@regsol.ie">info@regsol.ie</a> or telephone at <a href="tel:+35315394884">+353 1 539 4884</a> and we will be happy to work with you regarding your requirements.
+								
 			</div>
 		</div>
 		<br>
@@ -114,22 +152,28 @@
 				&nbsp;
 			</div>
 			<div class="col-sm-6 ">	
-				<h2 class="text-left">&emsp;Course Index</h2>
+				<h2 class="text-left">&emsp;List of Available Courses</h2>
 				<ul>
 					<li><a href="#AMLF">Anti-Money Laundering / Counter-Terrorist Financing</a></li>
 					<li><a href="#AMLU">Anti-Money Laundering Updates</a></li>
-					<li><a href="#GDPRF">Data Protection Full Day</a></li>
+					<li><a href="#AMLD">Anti-Money Laundering for Directors</a></li>
+					<!--li><a href="#GDPRF">Data Protection Full Day</a></li-->
 					<li><a href="#GDPR">Data Protection Essentials (2hr)</a></li>
 					<li><a href="#Ethics">Ethics for Financial Services</a></li>
-					<li><a href="#IDR">Insurance Distribution Regulations (IDR)</a></li>
+					<!--li><a href="#IDR">Insurance Distribution Regulations (IDR)</a></li-->
 					<li><a href="#RBC">Risk-Based Compliance</a></li>
 					<li><a href="#CPC">Consumer Protection Code (CPC)</a></li>
 					<li><a href="#Dir">Directors' Duties</a></li>
 					<li><a href="#FAP">Fitness & Probity</a></li>
 					<li><a href="#MLRO">Duties of a Money Laundering Reporting Officer (MLRO)</a></li>	
-					<li><a href="#CCMA">Code of Conduct on Mortgage Arrears (CCMA)</a></li>
-					<li><a href="#CICA">Consumer Insurance Contracts Act (CICA)</a></li>
-						
+					<!--li><a href="#CCMA">Code of Conduct on Mortgage Arrears (CCMA)</a></li-->
+					<!--li><a href="#CICA">Consumer Insurance Contracts Act (CICA)</a></li-->
+					<li><a href="#CBI">CBI Enforcement Actions and Inspections (CBI)</a></li>
+					<li><a href="#TCF">Treating Customers Fairly (TCF)</a></li>
+					<li><a href="#whistle">Whistleblowing</a></li>
+					<li><a href="#market">Market Abuse</a></li>
+					<li><a href="#ESG">Environmental, Social and Governance (ESG)</a></li>
+					
 				</ul>
 				<br>
 			</div>
@@ -145,7 +189,7 @@
 		<div id="AMLF" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Anti-Money Laundering / Counter-Terrorist Financing (AML/CTF)</h2>
-				The legal obligations imposed on designated persons (obliged entities) continue to evolve at a rapid pace, with the 6th EU AML Directive having now passed its transposition date and a European level Action Plan to be put in place in 2021. It is important that those entrusted with AML/CFT responsibilities have adequate and regular training to ensure knowledge is kept up to date and those new to functions have a broad understanding of the full AML/CFT regime. 
+				While the 5th EU AML Directive was transposed into Irish law in April 2021, we are still awaiting transposition of the revised 6th EU AML Directive and to see how the European Commission's package for change, including the establishment of AMLA, progresses. It is important that those entrusted with AML/CFT responsibilities have adequate and regular training to ensure knowledge is kept up to date and those new to functions have a broad understanding of the full AML/CFT regime. 
 				<br><br>
 				With this course, we aim to give you a full breakdown of the AML/CTF and Financial Sanctions Regime in Ireland.  This full day course should enable you to understand the relevant concepts, put in place a robust AML/CTF framework and highlight the potential consequences of non-compliance.
 				<br><br>
@@ -206,7 +250,8 @@
 		<div id="AMLU" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Anti-Money Laundering (AML) Updates</h2>
-				While legislation to transpose the 5th EU AML Directive was approved by Dáil Éireann in December 2020, the 6th EU AML Directive remains to be transposed and a European Level Action Plan is expected to be put in place in 2021.
+				While the 5th EU AML Directive was transposed into Irish law in April 2021, we are still awaiting transposition of the revised 6th EU AML Directive and to see how the European Commission's package for change, including the establishment of AMLA, progresses.
+
 				<br><br>
 				It is important to stay updated on this ever-evolving area. With an expectation from competent authorities that staff and directors of all Designated Persons undertake annual AML training, our AML Updates training course is updated for each delivery to ensure it is up to date on relevant requirements.  
 
@@ -261,7 +306,68 @@
 		</div>
 		<br>
 		
-		<!--Data Protection Full Day-->
+		<!--AML for Directors-->
+		<div id="AMLD" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Anti-Money Laundering (AML) for Directors</h2>
+				Boards of Directors remain ultimately responsible for the compliance of Designated Person entities with the Criminal Justice (Money Laundering and Terrorist Financing) Act 2010 as amended. With the 5th Eu Aml Directive having been transposed into Irish law in 2021, the 6th EU AML Directive having passed its transposition date and a European Level Action Plan to be put in place over the coming years, it is important for Directors to stay updated on this ever-evolving area
+
+				<br><br>
+				With an expectation from competent authorities that AML training is stratified and tailored to relevant roles, our training course is designed to specifically address the responsibilities of Directors in this area.  
+
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#AMLD-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="AMLD-content" class="collapse panel-body-regsol">
+						<br>Our 2 hour Anti Money Laundering (AML) session includes:
+						<ul>
+							<li>Regulatory Update:</li>
+							<ul><li>European Commission Action Plan including AMLA</li>								
+							</ul>
+							<li>Overview/refresher on Designated Persons Obligations</li>
+							<li>How to demonstrate Oversight of the AML Framework</li>
+							<ul><li>Senior Management</li>
+								<li>Approval</li>
+								<li>Reporting/Management Information</li>
+						</ul>
+									
+						<br>
+					</div>
+				</div>
+			
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#AMLD-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="AMLD-attendees" class="collapse panel-body-regsol">
+						Directors and Senior Management at firms which have AML obligations as Designated Persons (obliged entities). It is also recommended for Compliance Officers, Risk Officers and other personnel who may have a role in advising Boards on AML/CFT topics.
+						<br><br>	
+						<b>Relevant Firms:</b> credit and financial institutions, credit unions, money lenders, insurance undertakings and intermediaries, investment firms (IIA and MiFID), fund managers and administrators, trust or company service providers, estate agents, legal professionals, virtual asset services providers or those working with cryptocurrencies, leasing companies, etc.
+
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/money_drying.png">
+				<br><br>
+				<b>Typical duration :</b> 2 hours
+				<br>
+				<?php
+					echo courseDates("Anti-Money Laundering Directors");
+				?>
+			</div>
+		</div>
+		<br>
+		
+		
+		<!--Data Protection Full Day>
 		<div id="GDPRF" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Full Day Data Protection (GDPR + practical concerns)</h2>
@@ -325,7 +431,7 @@
 				?>
 			</div>
 		</div>
-		<br>
+		<br-->
 		
 		<!--GDPR Essentials-->
 		<div id="GDPR" class="container white-insert">
@@ -434,7 +540,7 @@
 		</div>
 		<br>
 		
-		<!--IDR-->
+		<!--IDR>
 		<div id="IDR" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Insurance Distribution Regulations (IDR)</h2>
@@ -492,7 +598,7 @@
 				?>
 			</div>
 		</div>
-		<br>
+		<br-->
 		
 		<!--Risk-based Compliance-->
 		<div id="RBC" class="container white-insert">
@@ -739,7 +845,7 @@
 				<b>Typical duration :</b> Half day
 				<br>
 				<?php
-					echo courseDates("Fitness & Probity (inc MCC)");
+					echo courseDates("Fitness and Probity (including MCC)");
 				?>
 			</div>
 		</div>
@@ -750,8 +856,10 @@
 		<div id="MLRO" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">MLRO Duties</h2>
-				The Money Laundering Reporting Office (MLRO) can play a critical role within designated person entities especially with respect to the reporting of suspicious transactions and activity. Sometimes the MLRO may be expected to establish, implement and monitor an effective AML/CFT system and is given significant responsibility as a result.
+				The Money Laundering Reporting Office (MLRO) can play a critical role within designated person entities especially with respect to the reporting of suspicious transactions and activity. Sometimes the MLRO may be expected to establish, implement, and monitor an effective AML/CFT system and is given significant responsibility as a result.  
 				<br><br>
+				This half day course has been created to allow attendees to gain a better understanding of the role of the MLRO, the relevant legal requirements and practical points to consider.
+
 				
 				<div class="panel panel-default">
 					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#MLRO-content" aria-expanded="false">
@@ -759,8 +867,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="MLRO-content" class="collapse panel-body-regsol">			
-						<br>
-						To gain a better understanding of the Role of the MLRO, we have created this half day training course which includes the following :
+						<b>Topics covered :</b>
 						<ul><li>What is an MLRO?</li>
 							<li>AML/CFT Duties and Obligations</li>							
 							<ul><li>Best Practice: Governance, Board Reporting, Risk Assessment, Policies and </li>
@@ -770,7 +877,9 @@
 							<ul><li>Anti-Money Laundering / Counter Terrorist Financing Laws and Trends</li>
 							</ul>
 							<li>Suspicious Activity / Transaction Reporting</li>
-							<ul><li>Identification of Red Flags, Ideal Internal reporting processes and procedures, Tipping off and key risk factors</li>
+							<ul><li>Identification of Red Flags</li>
+								<li>Ideal Internal reporting processes and procedures</li>
+								<li>Tipping off</li>
 							</ul>
 						</ul>
 						<br>
@@ -782,7 +891,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="MLRO-attendees" class="collapse panel-body-regsol">
-						This module is recommended for Money Laundering Reporting Officers, AML Staff, Compliance Staff and Senior Management that have Anti-Money Laundering / CTF duties.
+						This module is recommended for Money Laundering Reporting Officers, those wishing or about to take up such a role, or those tasked with resourcing or monitoring the MLRO role such as Directors, Managers, Heads of Function, etc..
 						<br><br>						
 					</div>
 				</div>		
@@ -802,7 +911,7 @@
 		<br>
 		<!--END COURSE SECTION-->
 		
-		<!--CCMA-->
+		<!--CCMA>
 		<div id="CCMA" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Code of Conduct on Mortgage Arrears</h2>
@@ -818,7 +927,7 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="CCMA-content" class="collapse panel-body-regsol">			
-						<br>
+						<b>Topics covered :</b>
 		
 						<ul><li>Mortgage Arrears Resolution Process (MARP)</li>
 							<li>The role of the Arrears Support Unit (ASU)</li>								
@@ -827,6 +936,7 @@
 							<li>Provision of Information</li>
 							<li>Complaints resolution</li>
 							<li>Records and Compliance</li>
+							<li>Relevant enforcement action</li>
 							
 						</ul>
 						<br>
@@ -838,9 +948,10 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="CCMA-attendees" class="collapse panel-body-regsol">
-						This module is recommended for staff and management working in arrears handling roles or functions within Firms that provide or service mortgages to individuals in Ireland.
+						Staff and management working in arrears handling roles or functions within firms that provide or service mortgages to individuals in Ireland.
 						<br><br>
-						Relevant Firms: Credit institutions, mortgage intermediaries, retail credit firms, debt management firms and credit servicers.
+						<b>Relevant Firms:</b> Credit institutions, mortgage intermediaries, retail credit firms, debt management firms and credit servicers.
+
 
 						<br><br>						
 					</div>
@@ -858,10 +969,10 @@
 				?>
 			</div>
 		</div>
-		<br>
+		<br-->
 		<!--END COURSE SECTION-->
 		
-		<!--CICA-->
+		<!--CICA>
 		<div id="CICA" class="container white-insert">
 			<div class="col-sm-8 col-sm-8 text-left ">	
 				<h2 class="text-left">Consumer Insurance Contracts Act</h2>
@@ -902,9 +1013,10 @@
 						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
 					</div>
 					<div id="CICA-attendees" class="collapse panel-body-regsol">
-						This module is recommended for staff and management working in arrears handling roles or functions within Firms that provide or service mortgages to individuals in Ireland.
+						Staff and management working in the Insurance Sector - customer facing, compliance, product development, premium handling, claims management and marketing roles within firms that deal with customers in the state that fall within the definition of consumer.
 						<br><br>
-						Relevant Firms: Credit institutions, mortgage intermediaries, retail credit firms, debt management firms and credit servicers.
+						<b>Relevant Firms:</b> Insurance undertakings, insurance intermediaries, mortgage intermediaries.
+
 
 						<br><br>						
 					</div>
@@ -922,10 +1034,300 @@
 				?>
 			</div>
 		</div>
+		<br-->
+		<!--END COURSE SECTION-->
+		
+		<!--CBI Inspections-->
+		<div id="CBI" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Central Bank of Ireland: Enforcement Actions & Inspections (CBI)</h2>
+				The Central Bank of Ireland, (CBI) as regulator and Competent Authority for regulated entities operating in the financial services sector in Ireland.  Under the Central Bank Act 1942, the Central Bank Reform Act 2010 and the Central Bank (Supervision and Enforcement) Act 2013, the CBI may take action against any regulated entity that is in breach of the obligations that are associated with its authorisation.  As the competent authority for supervision of regulated entities, the CBI will have an ongoing relationship with the entities that it regulates.  The PRISM (Probability Risk Impact SysteM) system used by the CBI ensures that the greater risk posed to the financial system by an entity, the greater the interaction that entity will have with the CBI.  This course will provide an insight into how the CBI conducts visits and what they expect and a framework or guidance for you/your firm on how to manage these interactions.
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#CBI-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="CBI-content" class="collapse panel-body-regsol">			
+						<b>Topics covered :</b>
+						<ul>
+							<li>Central Bank of Ireland</li>
+							    <ul><li>Basis for enforcement actions</li>
+								<li>Administrative Sanctions regime</li>
+								<li>Themed inspections</li>
+								<li>Day to day interactions with CBI</li>
+								<li>Dawn Raids</li>
+							    <ul>
+							<li>Review of enforcement actions and prohibition notices (sample of these)</li>
+							<li>Results of Inspections: how these are communicated</li>
+							    <ul><li>Press Releases</li>
+								<li>Dear CEO Letters</li>
+						</ul>
+						<br>
+					</div>
+				</div>			
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#CBI-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="CBI-attendees" class="collapse panel-body-regsol">
+						Management and Directors with compliance responsibilities and who may be nominated by their employer as a point of contact with the Central Bank.  Legal personnel. MLRO and any other senior management.
+						<br><br>
+						<b>Relevant Firms:</b> credit and financial institutions, credit unions, money lenders, insurance undertakings and intermediaries, investment firms (IIA and MiFID), fund managers and administrators, trust or company service providers, estate agents, legal professionals, virtual asset services providers or those working with cryptocurrencies, leasing companies, etc.
+						<br><br>						
+					</div>
+				</div>		
+				<br>&emsp;<a href="#INDEX">Back to Index</a>				
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/DD.jpg">
+				<br><br>
+				<b>Typical duration :</b> Half day
+				<br>
+				<?php
+					echo courseDates("CBI Enforcement Actions & Inspections");
+				?>
+			</div>
+		</div>
 		<br>
 		<!--END COURSE SECTION-->
 		
+		<!--Treating Customers Fairly-->
+		<div id="TCF" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Treating Customers Fairly (TCF)</h2>
+				Consumer Protection is a key area of focus for the Central Bank of Ireland.  In addition to the Central Bank, both the Competition for Consumer Protection Commission and the Financial Services and Pensions Ombudsman also have roles to play in this area.  This course focuses on the obligations imposed on individuals and firms within the financial services sector and explores relevant concepts to be able to demonstrate that your firm is treating customers fairly.  
+				<br><br>
+				
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#TCF-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="TCF-content" class="collapse panel-body-regsol">
+						<br>Topics covered :
+						<ul>
+							<li>General TCF principles</li>
+							<li>Relevant Consumer Protection Code provisions including:</li>
+							    <ul><li>Conflicts of Interest</li>
+								<li>Customer Contact</li>
+								<li>Product suitablity</li>
+								<li>Post Sales processes</li>
+								<li>Advertising</li>
+								<li>Compliants Handling</li>
+								<li>Errors Resolution</li>
+							    <ul>
+							<li>The role of the Consumer Protection Commission</li>
+							    <ul><li>Customer charter</li>
+							    <ul>
+							<li>Financial Services and Pensions Ombudsman</li>
+							    <ul><li>Complints Process</li>
+								<li>Reports</li>
+							<li>Relevant Case Studies / Enforcement Actions</li>
+						</ul>
+						<br>
+					</div>
+				</div>
+			
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#TCF-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="TCF-attendees" class="collapse panel-body-regsol">
+						This course is designed for persons working in customer facing roles and those involved in managing customer services and complaints processes. In particular, customer service/customer relationship staff, managers, complaints adjudicators (CF8), compliance staff, and others.
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/TCF_RegSol.jpg">
+				<br><br>
+				<b>Typical duration :</b> Half day
+				<br>
+				<?php
+					echo courseDates("Treating Customers Fairly");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
 		
+		<!--Whistleblowing-->
+		<div id="whistle" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Whistleblowing</h2>
+				All financial service providers are required to have a policy or channel in place that allows employees to raise issues of concern with respect to non-compliance with financial services legislation without fear of retaliation from their employer.  In addition, the Protected Disclosures Act, which applies to all commercial entities, was recently amended to transpose the European Whistleblowing Directive into Irish law.
+				<br><br>
+				This 2 hour session looks at the relevant legal and regulatory requirements while delving into some practical examples. 
+
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#whistle-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="whistle-content" class="collapse panel-body-regsol">
+						<br>Topics covered :
+						<ul>
+							<li>Central Bank (Supervision and Enforcement) Act 2013</li>
+							<li>Protected Disclosure Act 2014 as amended</li>
+							<li>Whistleblowing Directive 2019</li>
+							<li>CBI Dear CEO letter </li>
+							<li>Practical Examples of whistleblowing</li>
+							<li>Practical tips on how to comply</li>
+						</ul>
+						<br>
+					</div>
+				</div>
+			
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#whistle-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="whistle-attendees" class="collapse panel-body-regsol">
+						This course is suitable for most roles at firms within the Financial Services sector.  It is recommended for Compliance Officers, Individual Intermediaries/Brokers, PCF Role Holders, HR professionals and others. 
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/whistle.avif">
+				<br><br>
+				<b>Typical duration :</b> 2 hours
+				<br>
+				<?php
+					echo courseDates("Whistleblowing");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
+		<!--Market Abuse-->
+		<div id="market" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Market Abuse</h2>
+				Various pieces of legislation seek to ensure the orderly and fair operation of financial markets. In Europe the Market Abuse Directive and associated Market Abuse Regulations are the primary sources of rules which attempt to minimise the risk of Market Abuse. 
+				<br><br>
+				This 2 hour course, targeted at individuals working within relevant regulated sectors in Ireland, is designed to inform you as to your obligations around the management of insider information, identification of market abuse activities and the reporting of suspicions around potential market abuse. 
+
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#market-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="market-content" class="collapse panel-body-regsol">
+						<br>Topics covered :
+						<ul>
+							<li>What is Market Abuse?</li>
+							<li>Relevant Legislation, Regulation and Guidance</li>
+							<li>Prohibited behaviours such as Market Manipulation and Insider Trading / Insider Dealing</li>
+							<li>The need for Trade Surveillance systems</li>
+							<li>Reporting Obligations – Suspicious Transaction & Order Reports (STORs)</li>
+							<li>Central Bank of Ireland supervision including Dear CEO letters and Enforcement Actions  </li>
+						</ul>
+						<br>
+					</div>
+				</div>
+			
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#market-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="market-attendees" class="collapse panel-body-regsol">
+						All individuals working within the regulated financial markets – employees of all market participant firms such as MiFID firms, platform operators, and other regulated entities arranging or executing transactions in financial instruments. This course is suitable for individuals in various roles such Financial advisors, stock brokers, compliance personnel, etc.  
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/market_abuse.jpg">
+				<br><br>
+				<b>Typical duration :</b> 2 hours
+				<br>
+				<?php
+					echo courseDates("Market Abuse");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+				
+		<!--ESG-->
+		<div id="ESG" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Environmental, Social and Governance (ESG)</h2>
+				This course aims to provide a practical guide to ESG and what it means for your business.
+				<br><br>
+				ESG performance is increasingly critical for businesses that are under scrutiny from a wide range of stakeholders, including clients, investors, regulators and employees. Regulated
+				entities will have to consider changing their business models to take account of the risks and
+				opportunities posed by climate change while at the same time responding to reputational
+				and regulatory risks.
+				<br><br>
+				Participants will learn how to better understand the role of businesses in tackling
+				climate change. The course will cover a summary of key EU and industry developments in ESG matters
+				relating to the financial services sector and the Central Bank’s supervisory
+				expectations of regulated firms regarding Climate Change and ESG issues.
+
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#esg-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="esg-content" class="collapse panel-body-regsol">
+						<br>Our 2 hour (Environmental, Social and Governance) session includes :
+						<ul>							
+							<li>Overview of the EU Sustainability Legislation:</li>
+								<ul>
+									<li>EU Taxonomy</li>
+									<li>Sustainable Finance Disclosure Regulation (SFDR) Level 1 &amp; 2</li>
+									<li>Insurance Distribution Directive (IDD)</li>
+								</ul>
+							<li>Overview of Central Bank’s Expectations</li>
+							<li>How to demonstrate compliance with the Sustainability Legislation </li>
+						</ul>
+						<br>
+					</div>
+				</div>
+					
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#esg-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="esg-attendees" class="collapse panel-body-regsol">
+						This course is suitable for most roles at firms within the Financial Services sector. It is recommended for Compliance Officers, Individual Intermediaries/Brokers, PCF Role Holders and others.
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/ESG.jpg">
+				<br><br>
+				<b>Typical duration :</b> 2 hours
+				<br>
+				<?php
+					echo courseDates("ESG");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
 		<br><br><br><br><br><br><br><br>
 		
 		

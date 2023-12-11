@@ -117,9 +117,10 @@
 			 <div class="row">
 				<div class="col-md-3 home-spotlight animated " style="animation-delay: 0.2s; margin:auto">
 					<a href="elearning.php">
-					   <img src="images/feature_icons/www.png" alt="Online Training" width="150px">
-					   <h3>Online Training</h3>
-					   <p>Industry-specific, self-paced compliance e-learning courses</p>
+					   <img src="images/feature_icons/www.png" alt="e-Learning" width="150px">
+					   <h3>e-Learning</h3>
+					   <p>Industry-specific, self-paced compliance and cyber-security e-learning courses</p>
+					   <br><b>click for info</b>
 				   </a>
 				</div>
 				<div class="col-md-3 home-spotlight animated" style="animation-delay: 0.2s;" >
@@ -127,20 +128,23 @@
 					   <img src="images/feature_icons/in_person_training.png" alt="In-person Training" width="150px">
 					   <h3>In-person Training</h3>
 					   <p>Interactive training with our top-class consultants (currently webinar-based)</p>
+					   <br><b>click for info</b>
 				   </a>
 				</div>
 				<div class="col-md-3 home-spotlight animated " style="animation-delay: 0.2s; margin:auto">
 					<a href="consulting.php">
 					   <img src="images/feature_icons/professional_services.png" alt="Compliance Services" width="150px">
-					   <h3>Compliance Services</h3>
-					   <p>Compliance audits, document authoring/reviews, process design</p>
+					   <h3>Compliance Suppport</h3>
+					   <p>Compliance audits, document authoring/reviews, process design, retainers</p>
+					   <br><b>click for info</b>
 				   </a>
 				</div>
 				<div class="col-md-3 home-spotlight animated" style="animation-delay: 0.2s;" >
 					<a href="consulting.php#authorisations">
 					   <img src="images/feature_icons/broker_auth.png" alt="Broker Authorisations" width="150px">
-					   <h3>Broker Authorisations</h3>
-					   <p>Assistance from submission prepararation through to authorisation</p>
+					   <h3>Authorisations</h3>
+					   <p>Assistance with applications to Central Bank of Ireland and Department of Justice</p>
+					   <br><b>click for info</b>
 				   </a>
 				</div>
 			 </div>
@@ -176,9 +180,10 @@
 			<div class="col-sm-3 text-left">
 				<h1 class="text-left">Resources</h1>				
 				<br>
-				<a href="blog.php">Irish Compliance News</a><br>
-				<a href="careers.php">Careers Listings</a><br>	
+				<a href="blog.php">Blog</a><br>
+				<a href="careers.php">Careers</a><br>	
 				<a href="about.php#privacy">Privacy Policy</a><br>
+				<a href="about.php#cookie_policy">Cookie Policy</a>
 			</div>
 		</div>
 	</section>

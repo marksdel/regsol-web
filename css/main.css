@@ -16,6 +16,23 @@
 	width: 100%;
 }
 
+.highlight {
+	text-align:center;
+	background-color:#ABBAEA;
+	color:white;
+	text-color:white;
+	font-size: 18px;
+}
+
+.sectors-landing{
+	background-image: url("../images/sebastian-knoll-BWsHEzjBxgA-unsplash.jpg");
+	background-color: pale-gray;
+	background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	width: 100%;
+}
+
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -227,7 +244,7 @@ a[data-toggle="collapse"] {
 }
 
 .home-landing {
-	background-image: url("../images/dublin-skyline-dark.jpg");
+	background-image: url("../images/dublin-skyline-dark-2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: cover;	
 	background-size: 100% ;	
@@ -236,7 +253,7 @@ a[data-toggle="collapse"] {
 }
 
 .about-landing {
-	background-image: url("../images/people_in_square.png");
+	background-image: url("../images/people-in-square-2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: cover;	
 	background-size: 100% ;		
@@ -297,6 +314,14 @@ a[data-toggle="collapse"] {
 	min-width:300px;
 	display: inline;
 }
+
+.whyregsol {
+	font-family: calibri;
+	font-size: 21px;
+	font-weight: bold;
+	text-align: left;
+}
+	
 
 .notice {
 

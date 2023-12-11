@@ -3,6 +3,7 @@
 	
 	if (isset($_COOKIE["RegSolCookiePreferences"]) && !isset($_REQUEST['changeCookiePreferences'])) {
 		//DO NOTHING
+
 	} else {
  ?>
 
@@ -67,7 +68,7 @@
 	function setCookie(cname, cvalue, exdays) {
 		var d = new Date();
 		d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-		var expires = "expires="+d.toUTCString();		
+		var expires = "expires="+d.toUTCString();			
 		var expiryCookie = cname + "=" + cvalue + ";" + expires + ";path=/";		
 		document.cookie = expiryCookie;
 	}
@@ -80,7 +81,7 @@
 			while (c.charAt(0) == ' ') {
 			  c = c.substring(1);
 			}
-			if (c.indexOf(name) == 0) {
+			if (c.indexOf(name) == 0) {				
 			  return c.substring(name.length, c.length);
 			}
 		}
@@ -115,15 +116,28 @@
 	$('#sidebar').toggleClass('active');
 	$('#overlay').toggleClass('active');	
 	
+	
+	function loadNextUrl() {
+		//strip CookiePreferences variable but leave id if blogpost. Will need to change if more than one variable added
+		let variableString = window.location.search;
+		variableJoin = variableString.indexOf("&");
+		if (variableJoin != -1) {
+			variableString = variableString.split('&')[0];
+			location = location.pathname + variableString;
+		} else {
+			location = location.pathname + window.location.search	;
+		}
+		location.load();
+	}
 		
+			
 	$(document).ready(function () {
-					
+			
 		$('#AcceptAllCookies').on('click', function () {
 			setCookie("RegSolCookiePreferences", "true", 60);
 			setCookie("RegSolAnalyticsAllow", "true", 60);
-			setCookie("RegSolTwitterAllow", "true", 60);			
-			location = location.pathname;			
-			location.load();
+			setCookie("RegSolTwitterAllow", "true", 60);		
+			loadNextUrl();			
 			return false;				
 		});
 		
@@ -131,8 +145,7 @@
 			setCookie("RegSolCookiePreferences", "true", 60);
 			setCookie("RegSolAnalyticsAllow", "false", 60);
 			setCookie("RegSolTwitterAllow", "false", 60);
-			location = location.pathname;			
-			location.load();
+			loadNextUrl();			
 			return false;				
 		});
 		
@@ -141,9 +154,8 @@
 			var analyticsToggle = document.getElementById("analyticsToggle");
 			setCookie("RegSolAnalyticsAllow", analyticsToggle.checked, 60);
 			var twitterToggle = document.getElementById("twitterToggle");
-			setCookie("RegSolTwitterAllow", twitterToggle.checked, 60);
-			location = location.pathname;			
-			location.load();
+			setCookie("RegSolTwitterAllow", twitterToggle.checked, 60);			
+			loadNextUrl();			
 			return false;				
 		});
 	});

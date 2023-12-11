@@ -46,7 +46,17 @@
 			
 		</div>		
 		<div class="container ">
-			<div class="row">			
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 centered-column">
+					<video controls autoplay="autoplay" muted>
+						<source src="video/RegSol_eLearning_Video_Apr2023.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<br><br><br><br>
+				</div>	
+				
+			</div>
+			<div class="row">
 				<div class="col-sm-6 col-xs-12" >
 					<h2>Industry-specific, Localised Content</h2>				
 					
@@ -85,12 +95,7 @@
 					</ul>
 				</div>
 			</div>
-		</div>
-	</section>
-	
-	<!-- SECTION -->
-	<section id="Logins" class="lower-section ">
-		<div class="container">
+
 			<div class="row">
 				<div class="col-sm-6 col-xs-12" >											
 					<h2 class="text-left">Administrator Login View</h2>						

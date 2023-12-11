@@ -4,4 +4,5 @@
 			$pdo_user='root';     
 			$pdo_password='';  
 			$pdo_dbname='regsol';
+			
 ?>

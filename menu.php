@@ -15,9 +15,14 @@
 			<div class="menu-contact" >
 						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Tel : <a href="tel:+35315394664">+353 1 539 4884</a>
 						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Email : <a href="mailto:info@regsol.ie">info@regsol.ie</a>
+						
 						<span class="xs-only">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <!--add this to fix menu on phones-->
+						
 			</div>
-				
+			
+						
+					
+					
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				
@@ -53,23 +58,19 @@
 						</div>
 					</div>
 					<div class="dropdown nav navbar-left">
-						<li><a href="consulting.php">Sectors</a></li>
+						<li><a href="sectors.php">Sectors</a></li>
 						<div class="dropdown-content">
-							<a href="consulting.php">Brokers</a>
-							<a href="consulting.php#authorisations">Estate Agents</a>	
-							<a href="consulting.php#AML">Insurance</a>
-							<a href="consulting.php#GDPR">Payments</a>		
+							<a href="sectors.php#brokers">Brokers</a>
+							<a href="sectors.php#Fintech">Fintech</a>
+							<a href="sectors.php#PSP">Estate Agents</a>	
+							<a href="sectors.php#TCSP">TCSPs</a>		
 						</div>
 					</div>
 					
 					<div class="dropdown nav navbar-left">
-						<li><a href="blog.php">Resources</a></li>
-						<div class="dropdown-content">
-							<a href="blog.php">News</a>
-							<a href="careers.php">Careers</a>	
-							<a href="about.php#privacy">Privacy</a>
-							<a href="about.php#cookie_policy">Cookie Policy</a>
-						</div>
+						<li><a href="blog.php">Blog</a></li>
+						
+						
 					</div>	
 
 					<div class="dropdown nav navbar-left">
@@ -78,9 +79,18 @@
 						
                 </ul>
             </div>			
+			
+			<form class="text-center" action="https://regsol.us19.list-manage.com/subscribe/post?u=550517faeafaf001b97a16724&amp;id=8ef9e91fe2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<b>Subscribe to our newsletter</b>  <input type="email" class="text-left" value="" name="EMAIL" class="email1" size="20" id="mce-EMAIL" placeholder="email address" required>&nbsp;
+				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->															
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_550517faeafaf001b97a16724_8ef9e91fe2" tabindex="-1" value=""></div>
+				<input type="submit" value="Subscribe" name="subscribe-1" id="mc-embedded-subscribe-1" class="button">
+							
+			</form>
+			
+			
         </div>
     </nav>
-	
 	
 	
 	<!-- COOKIE PREFERENCES -->

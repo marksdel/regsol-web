@@ -49,7 +49,7 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 		</div>
-		<h2> Upcoming Courses</h2>
+		<h2> Public Training Timetable</h2>
 		
 		
 		<div class="container" >

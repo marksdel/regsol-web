@@ -84,25 +84,30 @@
 				</div>	
 			</div>
 			<br>
+			
 			<div class="row">
 				<div class="col-sm-2">
-					<img src="images/about/blank_profile.png" width="180px">
+					<img src="images/about/mella.jpg" width="180px">
 				</div>
 				<div class="col-sm-10">
-					<b>Judy de Castro BA (HONS), MSc, LCOI</b><br>
-					<i>Regulatory Consultant</i><br>
-					<p class="text-left bios">As an internationally qualified Compliance Officer (2018) and Data Protection Officer (2019), Judy has over 10 years experience in Anti-Money Laundering & Counter Terrorist Financing, Audit & Risk Management, Business Continuity Planning and Data Protection in the financial services and pharmaceutical industries. Judy regularly presents on these topics.  </p>
+					<b>Mella Kennedy BL</b><br>
+					<i>Senior Regulatory Consultant</i><br>
+					<p class="text-left bios">Mella is a former barrister with over 10 years of experience in civil, commercial and regulatory law previously advising private organisations and public bodies on regulatory requirements in relation to financial crime. Mella previously worked as an Enforcement Lawyer in the investigation and enforcement of AML/CFT cases for the Central Bank of Ireland. She also represented the Bar Council of Ireland on the Irish delegation to the FATF in the lead up to the mutual evaluation of Ireland. She holds Bachelor of Arts and Bachelor of Laws degrees from National University of Ireland, Galway and a Masters in Law from Trinity College Dublin. 
+					</p>
 				</div>					
 			</div>
 			<br><br>
 			<div class="row">
 				<div class="col-sm-2">
-					<img src="images/about/eilish.jpg" width="180px">
+					<img src="images/about/LauraK_square.jpg" width="180px">
 				</div>
 				<div class="col-sm-10">
-					<b>Éilish Larkin BA, QFA</b><br>
-					<i>Regulatory Consultant (West of Ireland Lead)</i><br>
-					<p class="text-left bios">Éilish has an extensive history working in the financial services industry across Corporate Trust (Transaction Manager, External Reporting Analyst, Transaction Compliance), Retail Banking and Fund Accounting in both Fund and Trustee Administration roles.  Éilish is currently studying for the LCOI designation having completed the  Professional Certificate in Compliance in 2020.  In addition, Éilish is a QFA and holds a BA in Law and Accounting from University of Limerick. </p>
+					<b>Laura Kilbane LCI, PC.dp, APA</b><br>
+					<i>Senior Regulatory Consultant</i><br>
+					<p class="text-left bios">Laura is a Senior Compliance Consultant with RegSol. She holds a Professional Diploma in Compliance (LCI), the Practitioner Cert in Data Protection (PC.dp) and a Professional Certificate in Financial Advice (APA). She recently completed the Diploma in Fintech Risk & Compliance.
+
+							Laura has over 10 years experience in Financial Services, 7 of which were spent in Compliance roles within the insurance industry. She has developed expertise in areas of Financial Crime, Consumer Protection, Data Protection and Fitness & Probity.
+					</p>
 				</div>					
 			</div>
 			<br><br>
@@ -124,10 +129,11 @@
 				<div class="col-sm-10">
 					<b>Derek Whelan BSc (HONS)</b><br>
 					<i>Director</i><br>
-					<p class="text-left bios">With a financial services and technology background, Derek oversees IT, software, and business development. Having completed his computer science degree at UCD, Derek started his professional career as a software developer, he progressed through various engineering and business roles in the financial services industry. Throughout 15+ years in the industry, he has gained broad knowledge of risk, compliance, legal and operational aspects of running a business. He is passionate about fintech and growing the RegSol business sustainably.  </p>
+					<p class="text-left bios">With a financial services and technology background, Derek oversees IT, software, and business development. Having completed his computer science degree at UCD, Derek started his professional career as a software developer and progressed through various engineering and business roles in the financial services industry. Throughout 20+ years in the industry, he has gained broad knowledge of risk, compliance, legal and operational aspects of running a business. He is passionate about Fintech and growing the RegSol business sustainably.  </p>
 				</div>					
 			</div>
 			<br><br>
+			
 		</div>
 	</section>
 	
