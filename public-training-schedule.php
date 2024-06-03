@@ -26,25 +26,14 @@
     
 </head>
 <body class="public-training">
-    <div id="loading-screen" class="centered-column">
-        <div class="spinner centered-column">
-            <div class="loader"></div>
-        </div>
-    </div>
+   
 	
     <!-- NAVBAR -->
     <?php include 'menu.php';?>
 
 	<!-- SECTION -->
 	<section id="Schedule">
-		<script>
-            $('#first-splash-image').on('load', function() {
-                $('#loading-screen').addClass('loading-slide-up');
-            });
-            setTimeout(function() {
-                $('#loading-screen').addClass('loading-slide-up');
-            }, 500)
-        </script>				
+			
 		<div class="centered-column">
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>

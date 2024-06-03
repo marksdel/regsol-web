@@ -15,25 +15,14 @@
     
 </head>
 <body>
-    <div id="loading-screen" class="centered-column">
-        <div class="spinner centered-column">
-            <div class="loader"></div>
-        </div>
-    </div>
+    
 	
     <!-- NAVBAR -->
     <?php include 'menu.php';?>
 
 	<!-- SECTION -->
 	<section id="Consulting" class="pale-gray" >
-		<script>
-            $('#first-splash-image').on('load', function() {
-                $('#loading-screen').addClass('loading-slide-up');
-            });
-            setTimeout(function() {
-                $('#loading-screen').addClass('loading-slide-up');
-            }, 500)
-        </script>
+		
 
 		<div class="row centered-column consulting-landing">
 			<div class="col-sm-12 col-xs-12">			
@@ -44,28 +33,28 @@
 		</div>	
 
 		<div class="container consulting-body">
-			<div class="col-sm-3 col-xs-3 text-center">
+			<div class="col-md-3 text-center">
 				<a href='#authorisations'>
 					<img src="images/feature_icons/broker_auth.png">
-					<b>Authorisations</b>
+					<br><br><b>Authorisations</b>
 				</a>
 			</div>
-			<div class="col-sm-3 col-xs-3 text-center">
+			<div class="col-md-3 text-center">
 				<a href='#policy'>
 					<img src="images/feature_icons/compliance_policies_icon.png">
-					<b>Policies and Procedures</b>
+					<br><br><b>Policies and Procedures</b>
 				</a>
 			</div>
-			<div class="col-sm-3 col-xs-3 text-center">
+			<div class="col-md-3 text-center">
 				<a href='#Audit'>
 					<img src="images/feature_icons/compliance_reviews_icon.png">
-					<b>Compliance Reviews</b>
+					<br><br><b>Compliance Reviews</b>
 				</a>
 			</div>
-			<div class="col-sm-3 col-xs-3 text-center">
+			<div class="col-md-3 text-center">
 				<a href='#Retainer'>
 					<img src="images/feature_icons/compliance_retainers_icon.png">
-					<b>Compliance Support</b>
+					<br><br><b>Compliance Support</b>
 				</a>
 			</div>
 			<div class="col-sm-12"><br><br><br></div>
@@ -104,7 +93,7 @@
 			<div class="col-sm-12 col-xs-12 centered-column text-left">
 				If you are looking to obtain a regulatory status or register for supervision in the Republic of Ireland, RegSol has experience in supporting authorisation applications to the Central Bank of Ireland and the Department of Justice for the following:
 				<br><br>
-				<ul><li>Broker Authorisations (<a href="broker_auth">click here for more detail</a>): </li>
+				<ul><li>Broker Authorisations (<a href="#broker_auth">click here for more detail</a>): </li>
 					<ul><li>Insurance Intermediaries under the EU (Insurance Distribution) Regulations 2018</li>
 						<li>Investment Intermediaries under the Investment Intermediaries Act 1995</li>
 						<li>Mortgage Intermediaries / Mortgage Credit Intermediaries under the Consumer Credit Act 1995 / EU (Mortgage Credit) Regulations 2016</li>
@@ -115,7 +104,7 @@
 					<li>Credit Servicers</li>
 					<li>Crowd Funding Service Providers</li>
 				</ul>
-				<ul><li>AML Supervision Registration (<a href="aml_supervision">click here for more detail</a>): <li>
+				<ul><li>AML Supervision Registration (<a href="#aml_supervision">click here for more detail</a>): <li>
 					<ul><li>Trust & Company Service Providers (TCSPs) – Dept. of Justice</li>
 						<li>Aviation Sector – CBI</li>
 						<li>Financial Leasing - CBI</li>

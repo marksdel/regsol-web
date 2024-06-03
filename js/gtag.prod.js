@@ -5,5 +5,6 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-119585537-1');
+  
+  gtag('config', 'UA-119585537-1', {cookie_flags: 'max-age=7200;secure;samesite=none'});
 </script>

@@ -30,7 +30,7 @@
 <url>
 <loc>https://www.regsol.ie/consulting.php</loc>
 <lastmod>2019-04-25T23:02:35+00:00</lastmod>
-<priority>0.80</priority>
+<priority>0.90</priority>
 </url>
 <url>
 <loc>https://www.regsol.ie/blog.php</loc>
@@ -47,9 +47,5 @@
 <lastmod>2019-04-25T23:02:35+00:00</lastmod>
 <priority>0.80</priority>
 </url>
-<url>
-<loc>https://www.regsol.ie/gdpr-questionnaire.php</loc>
-<lastmod>2019-04-25T23:02:35+00:00</lastmod>
-<priority>0.64</priority>
-</url>
+
 </urlset>

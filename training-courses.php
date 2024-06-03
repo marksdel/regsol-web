@@ -73,25 +73,14 @@
     
 </head>
 <body class="public-training">
-    <div id="loading-screen" class="centered-column">
-        <div class="spinner centered-column">
-            <div class="loader"></div>
-        </div>
-    </div>
+
 	
     <!-- NAVBAR -->
     <?php include 'menu.php';?>
 
 	<!-- SECTION -->
 	<section id="Courses" >
-		<script>
-            $('#first-splash-image').on('load', function() {
-                $('#loading-screen').addClass('loading-slide-up');
-            });
-            setTimeout(function() {
-                $('#loading-screen').addClass('loading-slide-up');
-            }, 500)
-        </script>
+
 		<div class="row centered-column consulting-landing">
 			<div class="col-sm-12 col-xs-12">			
 				<br><br><br><br><br>&nbsp;
@@ -173,6 +162,11 @@
 					<li><a href="#whistle">Whistleblowing</a></li>
 					<li><a href="#market">Market Abuse</a></li>
 					<li><a href="#ESG">Environmental, Social and Governance (ESG)</a></li>
+					<li><a href="#IAF">Individual Accountability Framework (IAF)</a></li>
+					<li><a href="#DORA">Digital Operations Resilience Act (DORA)</a></li>
+					<li><a href="#Crime">Financial Crime</a></li>
+					<li><a href="#Outsourcing">Outsourcing</a></li>
+					<li><a href="#Crypto">Crypto Asset Regulation in Ireland</a></li>
 					
 				</ul>
 				<br>
@@ -1328,6 +1322,300 @@
 		</div>
 		<br>
 		<!--END COURSE SECTION-->
+		
+		<!--IAF-->
+		<div id="IAF" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Individual Accountability Framework (IAF) </h2>
+				The introduction of the new Individual Accountability Framework (IAF) confers powers on the Central Bank of Ireland to strengthen and promote greater accountability, good conduct and high-quality governance and culture among regulated firms and their management/employees.
+				<br><br>
+				This course focuses primarily on the IAF reforms to the Fitness and Probity (F&P) regime and Enforcement processes as well as the introduction of Common Conduct Standards (for all individuals within the F&P regime), Additional Conduct Standards (for certain senior individuals) and Business Conduct Standards, each of which applies to all regulated firms.
+				<br><br>
+				As these reforms are applicable from 29th December 2023, time is of the essence to understand how the IAF framework should be embedded in the firm and for staff to meet legislative obligations to ensure their conduct and performance standards align with regulatory expectations.
+
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#IAF-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="IAF-content" class="collapse panel-body-regsol">
+						<br>This session includes :
+						<ul>	
+							<li>Overview of the IAF</li>
+							<li>The Legal Framework and Central Bank Guidance</li>
+							<li>The Conduct Standards including the Additional Conduct Standards and the Duty to Take Reasonable Steps</li>
+							<li>Enhancements to the Fitness & Probity (F&P) Regime</li>
+							<li>Strengthening of the Administrative Sanctions Procedure (ASP)</li>
+							<li>Next Steps to embed IAF in the Firm</li>		
+							
+						</ul>
+						<br>
+					</div>
+				</div>
+					
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#IAF-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="IAF-attendees" class="collapse panel-body-regsol">
+						This course is designed for those working in regulated financial service providers in Ireland.
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/IAF.png">
+				<br><br>
+				<b>Typical duration :</b> Half-day
+				<br>
+				<?php
+					echo courseDates("IAF");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
+		<!--DORA-->
+		<div id="DORA" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Digital Operations Resilience Act (DORA) </h2>
+				On 27 December 2022, the Digital Operations Resilience Act (DORA) was published in the Official Journal of the EU. This includes a Regulation and a Directive on digital operational resilience for the financial sector. This Regulation is now in force and will apply in full from January 2025.
+				<br><br>
+				DORA applies to a wide range of financial entities regulated by the Central Bank of Ireland. For the first time, DORA brings together provisions addressing digital operational risk in the financial sector in a consistent manner in one single legislative act.
+				
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#DORA-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="DORA-content" class="collapse panel-body-regsol">
+						<br>This session includes :
+						<ul>	
+							<li>What is DORA?</li>
+							<li>ICT Risk Management</li>
+							<li>ICT incident related incident management, classification and reporting</li>
+							<li>Digital Operational Resilience Testing</li>
+							<li>ICT Third Party Risk</li>
+							<li>Information Sharing Arrangements</li>
+							<li>Role of the Board</li>
+						</ul>
+						<br>
+					</div>
+				</div>
+					
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#DORA-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="DORA-attendees" class="collapse panel-body-regsol">
+						This module is suitable for Compliance Officers, Risk Management Personnel and IT Personnel in all Regulated Financial Service Providers.
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/Dora.png">
+				<br><br>
+				<b>Typical duration :</b> Half-day
+				<br>
+				<?php
+					echo courseDates("DORA");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
+		<!--FINANCIAL CRIME-->
+		<div id="Crime" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Financial Crime </h2>
+				Brokers who only provide General Insurance services are not captured by the definition of Designated Person within the Criminal Justice (Money Laundering &amp; Terrorist Financing) Act 2010 but that does not mean that such brokers are immune from financial crime.
+				<br><br>
+				This CPD session aims to address the risk of money laundering and other criminal offences while also looking at other sources of legal obligations with respect to financial crime that arise for brokers/financial advisors.
+
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#Crime-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="Crime-content" class="collapse panel-body-regsol">
+						<br>This session includes :
+						<ul>
+
+							<li>Ireland’s AML Regime</li>
+							<li>Conducting Due Diligence</li>
+							<li>Financial Sanctions</li>
+							<li>Anti-Bribery &amp; Corruption</li>
+							<li>Practical points for compliance</li>
+							<li>Relevant Enforcement Action</li>
+						
+							
+						</ul>
+						<br>
+					</div>
+				</div>
+					
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#Crime-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="Crime-attendees" class="collapse panel-body-regsol">
+						This module is suitable for all Financial Brokers but is directed towards those advisors who only provide general insurance products/services.
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/Crime.jpg">
+				<br><br>
+				<b>Typical duration :</b> Half-day
+				<br>
+				<?php
+					echo courseDates("Crime");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
+		<!--OUTSOURCING-->
+		<div id="Outsourcing" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Outsourcing </h2>
+				Outsourcing has long been a priority of the Central Bank of Ireland. The CBI states that it is strongly focused on outsourcing due to its increasing prevalence across the financial services sector and its potential, if not effectively managed, to threaten the operational resilience of regulated firms and the Irish financial system. The CBI expects all regulated firms to be in a position to demonstrate that they have appropriate measures in place to effectively govern and manage outsourcing risk and to ensure compliance with the sectoral legislation, regulations and guidance applicable to their business. 
+				
+				<br><br>Following the publication of the Cross-Industry Guidance on Outsourcing, this course is designed to give you an overview of this Guidance along with other relevant legislative guidance on Outsourcing across the Financial Industry.
+
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#Outsourcing-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="Outsourcing-content" class="collapse panel-body-regsol">
+						<br>This session includes :
+						<ul>
+
+							<li>Management of Outsourcing Risk</li>
+							<li>Assessment of Criticality or Importance of Outsourced Actvity</li>
+							<li>Intragroup Arrangements</li>
+							<li>Outsourcing & Delegation</li>
+							<li>Governance, Strategy & Policy</li>
+							<li>Risk Assessment and Management</li>
+							<li>Due Diligence</li>
+							<li>Contractual Arrangements</li>
+							<li>Ongoing Monitoring</li>
+							<li>Disaster Recovery & Business Continuity Management</li>
+							<li>Reporting Requirements</li>
+							<li>Outsourcing Register</li>
+						
+							
+						</ul>
+						<br>
+					</div>
+				</div>
+					
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#Outsourcing-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="Outsourcing-attendees" class="collapse panel-body-regsol">
+						The course is designed primarily for personnel in Regulated Financial Service firms who use outsourcing as part of their business model, Outsourcing Managers, Compliance Officers, Risk Management Personnel
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/Outsourcing.jpg">
+				<br><br>
+				<b>Typical duration :</b> Half-day
+				<br>
+				<?php
+					echo courseDates("Outsourcing");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
+		<!--CRYPTO-->
+		<div id="Crypto" class="container white-insert">
+			<div class="col-sm-8 col-sm-8 text-left ">	
+				<h2 class="text-left">Crypto Asset Regulation in Ireland </h2>
+				Markets in Crypto-Assets (MiCA) Regulation was published in the Official Journal of the European Union on 9th June 2023. The Central Bank has commenced its preparation for the implementation of MiCA and has established a cross-sectoral team to integrate MiCA into the Central Bank’s supervisory and authorisation processes and methodologies. 
+				
+				<br><br>
+				This 2 hour course is designed to give you an overview of the Regulation and expectations of Financial Service Providers.
+				<br><br>
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol js-rotate-if-collapsed" data-toggle="collapse" data-target="#Crypto-content" aria-expanded="false">
+						COURSE CONTENT
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="Crypto-content" class="collapse panel-body-regsol">
+						<br>This session covers the following topics :
+						<ul>
+
+							<li>What is MiCA?</li>
+							<li>Who and what does MiCA apply to?</li>
+							<li>Prudential Requirements</li>
+							<li>Governance Requirements</li>
+							<li>Conflicts of Interest and Complaints handling</li>
+							<li>Capital Requirements</li>
+							<li>Safekeeping Measures</li>
+							<li>Environmental requirements</li>
+							<li>Whitepaper Requirement</li>
+							<li>Market Abuse</li>
+							<li>Key Timelines</li>
+													
+						</ul>
+						<br>
+					</div>
+				</div>
+					
+				<div class="panel panel-default">
+					<div style="cursor: pointer" class="panel-title-regsol" data-toggle="collapse" data-target="#Crypto-attendees" aria-expanded="false">
+						WHO SHOULD ATTEND?
+						<span style="float:right" class="selectdiv js-rotate-if-collapsed"></span>						
+					</div>
+					<div id="Crypto-attendees" class="collapse panel-body-regsol">
+						The course is designed primarily for persons working in the Crypto Asset Sector in Ireland, such as Compliance and Risk Officers.  
+						<br>
+					</div>
+				</div>	
+				<br>&emsp;<a href="#INDEX">Back to Index</a>
+			</div>
+			<div class="col-sm-4 col-sm-4 centered-column">
+				<br>
+				<img width="295px" src="images/training/Crypto.jpg">
+				<br><br>
+				<b>Typical duration :</b> Half-day
+				<br>
+				<?php
+					echo courseDates("Crypto");
+				?>
+			</div>
+		</div>
+		<br>
+		<!--END COURSE SECTION-->
+		
 		<br><br><br><br><br><br><br><br>
 		
 		

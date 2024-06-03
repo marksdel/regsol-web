@@ -9,13 +9,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.php"><span><img height="700px" src="images/regsol_logo_black_yellow.png"></span></a>
+				<a class="navbar-brand" href="index.php"><span><img alt="RegSol Black and Yellow Logo" height="700px" src="images/regsol_logo_black_yellow_tiny.png"></span></a>
 				
             </div>
 			<div class="menu-contact" >
 						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Tel : <a href="tel:+35315394664">+353 1 539 4884</a>
 						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Email : <a href="mailto:info@regsol.ie">info@regsol.ie</a>
-						
+						<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<style>
+							  
+    </style>
+					<a class="libutton hidden-xs" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7173280420757774337" target="_blank">Newsletter signup</a>
+						<!--span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><b>Subscribe to our newsletter</b>  <a href="https://www.linkedin.com/pulse/march-2024-regsol-ireland-hcn2e/?trackingId=9L6U1QIKRH8RrlCOSyzjvg%3D%3D">here</a-->				
 						<span class="xs-only">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <!--add this to fix menu on phones-->
 						
 			</div>
@@ -80,13 +85,7 @@
                 </ul>
             </div>			
 			
-			<form class="text-center" action="https://regsol.us19.list-manage.com/subscribe/post?u=550517faeafaf001b97a16724&amp;id=8ef9e91fe2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<b>Subscribe to our newsletter</b>  <input type="email" class="text-left" value="" name="EMAIL" class="email1" size="20" id="mce-EMAIL" placeholder="email address" required>&nbsp;
-				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->															
-				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_550517faeafaf001b97a16724_8ef9e91fe2" tabindex="-1" value=""></div>
-				<input type="submit" value="Subscribe" name="subscribe-1" id="mc-embedded-subscribe-1" class="button">
-							
-			</form>
+			
 			
 			
         </div>

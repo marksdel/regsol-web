@@ -24,6 +24,20 @@
 	font-size: 18px;
 }
 
+.libutton {
+	justify-content: center;
+	padding: 7px;
+	text-align: center;
+	outline: none;
+	text-decoration: none !important;
+	color: #ffffff !important;
+	width: 200px;
+	height: 32px;
+	border-radius: 16px;
+	background-color: #0A66C2;
+	font-family: "SF Pro Text", Helvetica, sans-serif;
+}
+
 .sectors-landing{
 	background-image: url("../images/sebastian-knoll-BWsHEzjBxgA-unsplash.jpg");
 	background-color: pale-gray;

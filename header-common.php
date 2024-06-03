@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<!--link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"-->
 	
     <script src="js/jquery/jquery.min.js"></script>
 	<!--script src="js/jquery/jquery.cookiesdirective.js"></script>

@@ -17,11 +17,11 @@
     
 </head>
 <body >
-    <div id="loading-screen" class="centered-column">
+    <!--div id="loading-screen" class="centered-column">
         <div class="spinner centered-column">
             <div class="loader"></div>
         </div>
-    </div>
+    </div-->
 	
     <!-- NAVBAR -->
     <?php include 'menu.php';?>
@@ -34,14 +34,14 @@
 
 	<!-- SECTION -->
 	<section id="Home" class="home-landing hidden-xs" >
-		<script>
+		<!--script>
             $('#first-splash-image').on('load', function() {
                 $('#loading-screen').addClass('loading-slide-up');
             });
             setTimeout(function() {
                 $('#loading-screen').addClass('loading-slide-up');
             }, 500)
-        </script>
+        </script-->
 		<div class="container">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
 				<!-- Indicators -->
@@ -115,7 +115,7 @@
 			 	
 			
 			 <div class="row">
-				<div class="col-md-3 home-spotlight animated " style="animation-delay: 0.2s; margin:auto">
+				<div class="col-md-3 home-spotlight" style="margin:auto">
 					<a href="elearning.php">
 					   <img src="images/feature_icons/www.png" alt="e-Learning" width="150px">
 					   <h3>e-Learning</h3>
@@ -123,7 +123,7 @@
 					   <br><b>click for info</b>
 				   </a>
 				</div>
-				<div class="col-md-3 home-spotlight animated" style="animation-delay: 0.2s;" >
+				<div class="col-md-3 home-spotlight" >
 					<a href="training-courses.php">
 					   <img src="images/feature_icons/in_person_training.png" alt="In-person Training" width="150px">
 					   <h3>In-person Training</h3>
@@ -131,7 +131,7 @@
 					   <br><b>click for info</b>
 				   </a>
 				</div>
-				<div class="col-md-3 home-spotlight animated " style="animation-delay: 0.2s; margin:auto">
+				<div class="col-md-3 home-spotlight" style="margin:auto">
 					<a href="consulting.php">
 					   <img src="images/feature_icons/professional_services.png" alt="Compliance Services" width="150px">
 					   <h3>Compliance Suppport</h3>
@@ -139,7 +139,7 @@
 					   <br><b>click for info</b>
 				   </a>
 				</div>
-				<div class="col-md-3 home-spotlight animated" style="animation-delay: 0.2s;" >
+				<div class="col-md-3 home-spotlight">
 					<a href="consulting.php#authorisations">
 					   <img src="images/feature_icons/broker_auth.png" alt="Broker Authorisations" width="150px">
 					   <h3>Authorisations</h3>

@@ -51,15 +51,15 @@
 		<h1> Careers @ RegSol</h1>
 		<div class="container careers-insert">
 			<div class="col-sm-12 text-left">						
-				Please see our current job vacancies below. If you don't see a relevant role below but believe you would be a good fit for RegSol please feel to <a href="about.php#contact">contact us</a>. We are always interested in speaking with dynamic candidates about potential roles.
-				<!--We currently have no open roles but if you believe that you may be able to offer value to RegSol please do please email your CV and cover letter to <a href="mailto:hr@regsol.ie">hr@regsol.ie</a>. We are always interested in speaking to potential candidates.-->
+				<!--Please see our current job vacancies below. If you don't see a relevant role below but believe you would be a good fit for RegSol please feel to <a href="about.php#contact">contact us</a>. We are always interested in speaking with dynamic candidates about potential roles.-->
+				We currently have no open roles but if you believe that you may be able to offer value to RegSol please do please email your CV and cover letter to <a href="mailto:hr@regsol.ie">hr@regsol.ie</a>. We are always interested in speaking to potential candidates.
 				<br><br>
 			
 			</div>
 		</div>
 		<br>
 
-		<div class="container careers-insert" >
+		<!--div class="container careers-insert" >
 			<div class="col-sm-12 text-left centered-column">
 				
 				<h2 class="text-left">Title: Senior Compliance Consultant <br>

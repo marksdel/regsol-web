@@ -37,7 +37,7 @@
 		Necessary cookies enable core functionality such as security, network management, and accessibility. You may disable these by changing your browser settings, but this may affect how the website functions.
 		<hr>
 		<b>Analytics </b>
-		<label class="switch">				
+		<label for="analyticsToggle" class="switch">				
 			<input id="analyticsToggle" type="checkbox">
 			<span class="slider round"></span>
 		</label>
@@ -45,7 +45,7 @@
 		We'd like to set Google Analytics cookies to help us to improve our website by collecting and reporting information on how you use it. The cookies collect information in a way that does not directly identify anyone. 
 		<hr>
 		<b>Twitter feed </b>
-		<label class="switch">				
+		<label for="twitterToggle" class="switch">				
 			<input id="twitterToggle" type="checkbox">
 			<span class="slider round"></span>
 		</label>
